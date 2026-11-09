@@ -1,0 +1,388 @@
+{
+    "report_title": "Agentic AI Document Forensics Investigation Report",
+    "investigation_id": "INV-8B7A223D",
+    "generated_at": "2026-11-08 15:42:53 UTC",
+    "investigation_status": "Pending Human Investigation",
+    "overall_classification": "Potentially Tampered / High Risk",
+    "executive_summary": {
+        "total_documents": 2,
+        "total_pages": 2,
+        "suspicious_regions_count": 2,
+        "cross_document_mismatches_count": 1,
+        "total_evidence_items": 4,
+        "status": "Pending Human Investigation",
+        "recommendation": "Automated agents flagged one or more visual anomalies, classification thresholds, or cross-document value contradictions. Rigorous manual inspection by a forensic expert is strongly advised before accepting these documents."
+    },
+    "documents": [
+        {
+            "document_id": "DOC-A8C9673F",
+            "document_name": "DOC-A8C9673F_sample_salary_slip.pdf",
+            "page_count": 1,
+            "classification": "Potentially Tampered",
+            "tampering_score": 0.1363,
+            "threshold": 0.9000000000000001,
+            "suspicious_regions": [
+                {
+                    "box": [
+                        588.0,
+                        1123.0,
+                        733.0,
+                        1155.0
+                    ],
+                    "confidence": 0.95,
+                    "label": "Cross-Document Value Discrepancy",
+                    "page_number": 1,
+                    "overlapping_text": [
+                        "INR 50,000"
+                    ],
+                    "explanation": "Discrepancy in Salary / Credit Amount: 'DOC-A8C9673F_sample_salary_slip.pdf' reports 'INR 50,000', while 'DOC-892CF534_sample_bank_statement.pdf' reports 'INR 35,000' (variance: 15,000.00)."
+                }
+            ],
+            "annotated_pages": [
+                "D:\\Document-Forensics\\backend\\outputs\\pages\\DOC-A8C9673F\\annotated_p1_DOC-A8C9673F_sample_salary_slip_page_1.png"
+            ]
+        },
+        {
+            "document_id": "DOC-892CF534",
+            "document_name": "DOC-892CF534_sample_bank_statement.pdf",
+            "page_count": 1,
+            "classification": "Potentially Tampered",
+            "tampering_score": 0.0862,
+            "threshold": 0.9000000000000001,
+            "suspicious_regions": [
+                {
+                    "box": [
+                        587.0,
+                        887.0,
+                        735.0,
+                        925.0
+                    ],
+                    "confidence": 0.95,
+                    "label": "Cross-Document Value Discrepancy",
+                    "page_number": 1,
+                    "overlapping_text": [
+                        "INR 35,000"
+                    ],
+                    "explanation": "Discrepancy in Salary / Credit Amount: 'DOC-A8C9673F_sample_salary_slip.pdf' reports 'INR 50,000', while 'DOC-892CF534_sample_bank_statement.pdf' reports 'INR 35,000' (variance: 15,000.00)."
+                }
+            ],
+            "annotated_pages": [
+                "D:\\Document-Forensics\\backend\\outputs\\pages\\DOC-892CF534\\annotated_p1_DOC-892CF534_sample_bank_statement_page_1.png"
+            ]
+        }
+    ],
+    "visual_forensics": {
+        "results": [
+            {
+                "document_id": "DOC-A8C9673F",
+                "document_name": "sample_salary_slip.pdf",
+                "classification": "Potentially Tampered",
+                "tampering_score": 0.1363,
+                "threshold": 0.9000000000000001,
+                "is_tampered_candidate": true,
+                "suspicious_regions": [
+                    {
+                        "box": [
+                            588.0,
+                            1123.0,
+                            733.0,
+                            1155.0
+                        ],
+                        "confidence": 0.95,
+                        "label": "Cross-Document Value Discrepancy",
+                        "page_number": 1,
+                        "overlapping_text": [
+                            "INR 50,000"
+                        ],
+                        "explanation": "Discrepancy in Salary / Credit Amount: 'DOC-A8C9673F_sample_salary_slip.pdf' reports 'INR 50,000', while 'DOC-892CF534_sample_bank_statement.pdf' reports 'INR 35,000' (variance: 15,000.00)."
+                    }
+                ],
+                "page_results": [
+                    {
+                        "page_number": 1,
+                        "image_path": "D:\\Document-Forensics\\backend\\outputs\\pages\\DOC-A8C9673F\\DOC-A8C9673F_sample_salary_slip_page_1.png",
+                        "tampering_score": 0.1363,
+                        "threshold": 0.9000000000000001,
+                        "classification": "Likely Authentic",
+                        "is_tampered_candidate": false,
+                        "suspicious_regions": [
+                            {
+                                "box": [
+                                    588.0,
+                                    1123.0,
+                                    733.0,
+                                    1155.0
+                                ],
+                                "confidence": 0.95,
+                                "label": "Cross-Document Value Discrepancy",
+                                "page_number": 1,
+                                "overlapping_text": [
+                                    "INR 50,000"
+                                ],
+                                "explanation": "Discrepancy in Salary / Credit Amount: 'DOC-A8C9673F_sample_salary_slip.pdf' reports 'INR 50,000', while 'DOC-892CF534_sample_bank_statement.pdf' reports 'INR 35,000' (variance: 15,000.00)."
+                            }
+                        ],
+                        "annotated_image_path": "D:\\Document-Forensics\\backend\\outputs\\pages\\DOC-A8C9673F\\annotated_p1_DOC-A8C9673F_sample_salary_slip_page_1.png"
+                    }
+                ],
+                "annotated_pages": [
+                    "D:\\Document-Forensics\\backend\\outputs\\pages\\DOC-A8C9673F\\annotated_p1_DOC-A8C9673F_sample_salary_slip_page_1.png"
+                ],
+                "disclaimer": "Automated visual anomaly detection indicates potential statistical inconsistencies and is not proof of fraud. Final determination requires human review."
+            },
+            {
+                "document_id": "DOC-892CF534",
+                "document_name": "sample_bank_statement.pdf",
+                "classification": "Potentially Tampered",
+                "tampering_score": 0.0862,
+                "threshold": 0.9000000000000001,
+                "is_tampered_candidate": true,
+                "suspicious_regions": [
+                    {
+                        "box": [
+                            587.0,
+                            887.0,
+                            735.0,
+                            925.0
+                        ],
+                        "confidence": 0.95,
+                        "label": "Cross-Document Value Discrepancy",
+                        "page_number": 1,
+                        "overlapping_text": [
+                            "INR 35,000"
+                        ],
+                        "explanation": "Discrepancy in Salary / Credit Amount: 'DOC-A8C9673F_sample_salary_slip.pdf' reports 'INR 50,000', while 'DOC-892CF534_sample_bank_statement.pdf' reports 'INR 35,000' (variance: 15,000.00)."
+                    }
+                ],
+                "page_results": [
+                    {
+                        "page_number": 1,
+                        "image_path": "D:\\Document-Forensics\\backend\\outputs\\pages\\DOC-892CF534\\DOC-892CF534_sample_bank_statement_page_1.png",
+                        "tampering_score": 0.0862,
+                        "threshold": 0.9000000000000001,
+                        "classification": "Likely Authentic",
+                        "is_tampered_candidate": false,
+                        "suspicious_regions": [
+                            {
+                                "box": [
+                                    587.0,
+                                    887.0,
+                                    735.0,
+                                    925.0
+                                ],
+                                "confidence": 0.95,
+                                "label": "Cross-Document Value Discrepancy",
+                                "page_number": 1,
+                                "overlapping_text": [
+                                    "INR 35,000"
+                                ],
+                                "explanation": "Discrepancy in Salary / Credit Amount: 'DOC-A8C9673F_sample_salary_slip.pdf' reports 'INR 50,000', while 'DOC-892CF534_sample_bank_statement.pdf' reports 'INR 35,000' (variance: 15,000.00)."
+                            }
+                        ],
+                        "annotated_image_path": "D:\\Document-Forensics\\backend\\outputs\\pages\\DOC-892CF534\\annotated_p1_DOC-892CF534_sample_bank_statement_page_1.png"
+                    }
+                ],
+                "annotated_pages": [
+                    "D:\\Document-Forensics\\backend\\outputs\\pages\\DOC-892CF534\\annotated_p1_DOC-892CF534_sample_bank_statement_page_1.png"
+                ],
+                "disclaimer": "Automated visual anomaly detection indicates potential statistical inconsistencies and is not proof of fraud. Final determination requires human review."
+            }
+        ],
+        "summary": "Analyzed 2 document(s). Detected 2 visual regions of concern."
+    },
+    "contextual_analysis": {
+        "status": "llm_unavailable_rule_based_analysis",
+        "model_used": "Rule-based Context Engine (Factual Entity Extractor)",
+        "executive_summary": "Contextual analysis processed 2 document(s). Identified 8 factual entities, 0 potential contextual flags, and 0 missing field notices. No facts were hallucinated or assumed.",
+        "entities": [
+            {
+                "type": "Quantitative Measurement / Amount",
+                "value": "40,000",
+                "source_text": "INR 40,000",
+                "document": "DOC-A8C9673F_sample_salary_slip.pdf",
+                "page": 1
+            },
+            {
+                "type": "Quantitative Measurement / Amount",
+                "value": "15,000",
+                "source_text": "INR 15,000",
+                "document": "DOC-A8C9673F_sample_salary_slip.pdf",
+                "page": 1
+            },
+            {
+                "type": "Quantitative Measurement / Amount",
+                "value": "5,000",
+                "source_text": "INR 5,000",
+                "document": "DOC-A8C9673F_sample_salary_slip.pdf",
+                "page": 1
+            },
+            {
+                "type": "Quantitative Measurement / Amount",
+                "value": "50,000",
+                "source_text": "INR 50,000",
+                "document": "DOC-A8C9673F_sample_salary_slip.pdf",
+                "page": 1
+            },
+            {
+                "type": "Quantitative Measurement / Amount",
+                "value": "50,000",
+                "source_text": "INR 50,000",
+                "document": "DOC-A8C9673F_sample_salary_slip.pdf",
+                "page": 1
+            },
+            {
+                "type": "Quantitative Measurement / Amount",
+                "value": "35,000",
+                "source_text": "INR 35,000",
+                "document": "DOC-892CF534_sample_bank_statement.pdf",
+                "page": 1
+            },
+            {
+                "type": "Quantitative Measurement / Amount",
+                "value": "82,450",
+                "source_text": "INR 82,450",
+                "document": "DOC-892CF534_sample_bank_statement.pdf",
+                "page": 1
+            },
+            {
+                "type": "Quantitative Measurement / Amount",
+                "value": "35,000",
+                "source_text": "INR 35,000",
+                "document": "DOC-892CF534_sample_bank_statement.pdf",
+                "page": 1
+            }
+        ],
+        "anomalies": [],
+        "missing_fields": [],
+        "raw_analysis": "### Contextual and Entity Forensic Analysis\n\n#### 1. Identified Key Entities (Grounded in OCR Extracted Text)\n- **Names (0):** None clearly detected\n- **Dates (0):** None clearly detected\n- **Key Measurements / Values (8):** 5,000, 35,000, 40,000, 15,000, 50,000, 82,450\n\n#### 2. Potential Contextual Inconsistencies & Anomalies\n- No internal syntax or typography contradictions flagged in extracted text.\n\n#### 3. Missing Fields\n- All expected standard header fields detected.\n"
+    },
+    "cross_document_comparison": {
+        "total_documents": 2,
+        "total_comparisons": 1,
+        "comparisons": [
+            {
+                "document_1": "DOC-A8C9673F_sample_salary_slip.pdf",
+                "document_2": "DOC-892CF534_sample_bank_statement.pdf",
+                "similarity_score": 0.7853,
+                "status": "Strongly Related Document Pair",
+                "key_field_comparisons": [
+                    {
+                        "field": "Subject / Individual Name",
+                        "doc_a_value": "Aarav Kumar",
+                        "doc_b_value": "Aarav Kumar",
+                        "status": "Match"
+                    },
+                    {
+                        "field": "Account Reference",
+                        "doc_a_value": "XXXXXX4821",
+                        "doc_b_value": "XXXXXX4821",
+                        "status": "Match"
+                    },
+                    {
+                        "field": "Payment / Transaction Date",
+                        "doc_a_value": "31 October 2026",
+                        "doc_b_value": "31 October 2026",
+                        "status": "Match"
+                    },
+                    {
+                        "field": "Statement / Pay Period",
+                        "doc_a_value": "October 2026",
+                        "doc_b_value": "01 October 2026 ~ 31 October 2026",
+                        "status": "Match"
+                    },
+                    {
+                        "field": "Net Salary vs Credit Amount",
+                        "doc_a_value": "INR 50,000",
+                        "doc_b_value": "INR 35,000",
+                        "status": "Mismatch"
+                    },
+                    {
+                        "field": "Document ID",
+                        "doc_a_value": "SAMPLE-SAL-2026-001",
+                        "doc_b_value": "SAMPLE-BANK-2026-001",
+                        "status": "Distinct Doc IDs"
+                    },
+                    {
+                        "field": "Employer / Issuing Institution",
+                        "doc_a_value": "Northstar Design Services (Fictional)",
+                        "doc_b_value": "Example Cooperative Bank (Fictional)",
+                        "status": "Cross-Entity Relation"
+                    }
+                ],
+                "contradictions": [
+                    "Discrepancy in Salary / Credit Amount: 'DOC-A8C9673F_sample_salary_slip.pdf' reports 'INR 50,000', while 'DOC-892CF534_sample_bank_statement.pdf' reports 'INR 35,000' (variance: 15,000.00)."
+                ]
+            }
+        ],
+        "potential_contradictions": [
+            "Discrepancy in Salary / Credit Amount: 'DOC-A8C9673F_sample_salary_slip.pdf' reports 'INR 50,000', while 'DOC-892CF534_sample_bank_statement.pdf' reports 'INR 35,000' (variance: 15,000.00)."
+        ],
+        "disclaimer": "Semantic similarity indicates thematic or textual correspondence. Mismatches highlight variances requiring human investigation, not conclusive proof of tampering."
+    },
+    "evidence_items": [
+        {
+            "evidence_id": "EVIDENCE_1",
+            "document": "sample_salary_slip.pdf",
+            "page": 1,
+            "evidence_type": "Document-level classification",
+            "category": "MobileNetV2 Classifier Finding",
+            "bounding_box": null,
+            "detection_confidence": 0.1363,
+            "related_text": [],
+            "explanation": "MobileNetV2 classification assigned a score of 0.1363 (decision threshold: 0.90), classifying document as 'Likely Authentic'.",
+            "source_level": "model_prediction"
+        },
+        {
+            "evidence_id": "EVIDENCE_2",
+            "document": "sample_bank_statement.pdf",
+            "page": 1,
+            "evidence_type": "Document-level classification",
+            "category": "MobileNetV2 Classifier Finding",
+            "bounding_box": null,
+            "detection_confidence": 0.0862,
+            "related_text": [],
+            "explanation": "MobileNetV2 classification assigned a score of 0.0862 (decision threshold: 0.90), classifying document as 'Likely Authentic'.",
+            "source_level": "model_prediction"
+        },
+        {
+            "evidence_id": "EVIDENCE_3",
+            "document": "DOC-A8C9673F_sample_salary_slip.pdf",
+            "page": 1,
+            "evidence_type": "Cross-Document Value Discrepancy",
+            "category": "Relational Consistency Warning",
+            "bounding_box": [
+                588.0,
+                1123.0,
+                733.0,
+                1155.0
+            ],
+            "detection_confidence": 0.95,
+            "related_text": [
+                "INR 50,000"
+            ],
+            "explanation": "Discrepancy in Salary / Credit Amount: 'DOC-A8C9673F_sample_salary_slip.pdf' reports 'INR 50,000', while 'DOC-892CF534_sample_bank_statement.pdf' reports 'INR 35,000' (variance: 15,000.00).",
+            "source_level": "inferred_concern"
+        },
+        {
+            "evidence_id": "EVIDENCE_4",
+            "document": "DOC-892CF534_sample_bank_statement.pdf",
+            "page": 1,
+            "evidence_type": "Cross-Document Value Discrepancy",
+            "category": "Relational Consistency Warning",
+            "bounding_box": [
+                587.0,
+                887.0,
+                735.0,
+                925.0
+            ],
+            "detection_confidence": 0.95,
+            "related_text": [
+                "INR 35,000"
+            ],
+            "explanation": "Discrepancy in Salary / Credit Amount: 'DOC-A8C9673F_sample_salary_slip.pdf' reports 'INR 50,000', while 'DOC-892CF534_sample_bank_statement.pdf' reports 'INR 35,000' (variance: 15,000.00).",
+            "source_level": "inferred_concern"
+        }
+    ],
+    "review": null,
+    "disclaimer": "This report was compiled by an agentic AI forensics pipeline. Predictions from MobileNetV2, YOLOv8, and NLP models indicate potential anomalies and do NOT constitute legal proof of fraud. Final decisions must be signed by an authorized human investigator."
+}

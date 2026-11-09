@@ -1,0 +1,5882 @@
+[
+    {
+        "document_1": "kriyam_0009_C4.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.7857
+    },
+    {
+        "document_1": "kriyam_0009_C2.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.7654
+    },
+    {
+        "document_1": "kriyam_0009_C4.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.7569
+    },
+    {
+        "document_1": "kriyam_0009_C4.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.7492
+    },
+    {
+        "document_1": "kriyam_0009_C0.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.7288
+    },
+    {
+        "document_1": "kriyam_0008_C0.png",
+        "document_2": "kriyam_0009_C0.png",
+        "similarity_score": 0.7251
+    },
+    {
+        "document_1": "kriyam_0009_C2.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.7247
+    },
+    {
+        "document_1": "kriyam_0009_C2.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.7235
+    },
+    {
+        "document_1": "kriyam_0008_C2.png",
+        "document_2": "kriyam_0009_C0.png",
+        "similarity_score": 0.7216
+    },
+    {
+        "document_1": "kriyam_0009_C0.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.7211
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0002_C2.png",
+        "similarity_score": 0.7069
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.705
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.7045
+    },
+    {
+        "document_1": "kriyam_0008_C2.png",
+        "document_2": "kriyam_0009_C2.png",
+        "similarity_score": 0.7041
+    },
+    {
+        "document_1": "kriyam_0009_C0.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.7041
+    },
+    {
+        "document_1": "kriyam_0008_C0.png",
+        "document_2": "kriyam_0009_C2.png",
+        "similarity_score": 0.7031
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.7015
+    },
+    {
+        "document_1": "kriyam_0013_C4.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.7006
+    },
+    {
+        "document_1": "kriyam_0013_C2.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.6987
+    },
+    {
+        "document_1": "kriyam_0013_C2.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.6955
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.6923
+    },
+    {
+        "document_1": "kriyam_0009_C0.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.6903
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.6896
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0002_C2.png",
+        "similarity_score": 0.6875
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0002_C0.png",
+        "similarity_score": 0.6829
+    },
+    {
+        "document_1": "kriyam_0013_C0.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.6813
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0002_C2.png",
+        "similarity_score": 0.6802
+    },
+    {
+        "document_1": "kriyam_0013_C4.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.6802
+    },
+    {
+        "document_1": "kriyam_0009_C2.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.6795
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.6781
+    },
+    {
+        "document_1": "kriyam_0008_C4.png",
+        "document_2": "kriyam_0009_C2.png",
+        "similarity_score": 0.6762
+    },
+    {
+        "document_1": "kriyam_0008_C2.png",
+        "document_2": "kriyam_0010_C4.png",
+        "similarity_score": 0.6759
+    },
+    {
+        "document_1": "kriyam_0008_C4.png",
+        "document_2": "kriyam_0009_C0.png",
+        "similarity_score": 0.6743
+    },
+    {
+        "document_1": "kriyam_0009_C4.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.6715
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0008_C0.png",
+        "similarity_score": 0.6709
+    },
+    {
+        "document_1": "kriyam_0009_C0.png",
+        "document_2": "kriyam_0013_C4.png",
+        "similarity_score": 0.6683
+    },
+    {
+        "document_1": "kriyam_0009_C0.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.6678
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.6675
+    },
+    {
+        "document_1": "kriyam_0013_C0.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.6675
+    },
+    {
+        "document_1": "kriyam_0016_C2.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.6655
+    },
+    {
+        "document_1": "kriyam_0009_C0.png",
+        "document_2": "kriyam_0013_C2.png",
+        "similarity_score": 0.664
+    },
+    {
+        "document_1": "kriyam_0009_C2.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.6637
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0002_C0.png",
+        "similarity_score": 0.6613
+    },
+    {
+        "document_1": "kriyam_0016_C2.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.6603
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0009_C4.png",
+        "similarity_score": 0.6597
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0009_C0.png",
+        "similarity_score": 0.6597
+    },
+    {
+        "document_1": "kriyam_0013_C2.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.6595
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0011_C4.png",
+        "similarity_score": 0.6594
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0002_C4.png",
+        "similarity_score": 0.658
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0002_C0.png",
+        "similarity_score": 0.6571
+    },
+    {
+        "document_1": "kriyam_0008_C4.png",
+        "document_2": "kriyam_0010_C4.png",
+        "similarity_score": 0.6563
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0002_C4.png",
+        "similarity_score": 0.6561
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.6547
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0011_C4.png",
+        "similarity_score": 0.6543
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0008_C0.png",
+        "similarity_score": 0.6542
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.6527
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0011_C4.png",
+        "similarity_score": 0.6522
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0011_C2.png",
+        "similarity_score": 0.652
+    },
+    {
+        "document_1": "kriyam_0009_C0.png",
+        "document_2": "kriyam_0012_C4.png",
+        "similarity_score": 0.652
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0009_C4.png",
+        "similarity_score": 0.6518
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0009_C4.png",
+        "similarity_score": 0.6501
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0009_C2.png",
+        "similarity_score": 0.65
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0002_C4.png",
+        "similarity_score": 0.6496
+    },
+    {
+        "document_1": "kriyam_0009_C0.png",
+        "document_2": "kriyam_0012_C2.png",
+        "similarity_score": 0.6479
+    },
+    {
+        "document_1": "kriyam_0009_C0.png",
+        "document_2": "kriyam_0013_C0.png",
+        "similarity_score": 0.6474
+    },
+    {
+        "document_1": "kriyam_0009_C4.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.6474
+    },
+    {
+        "document_1": "kriyam_0016_C0.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.6474
+    },
+    {
+        "document_1": "kriyam_0004_C0.png",
+        "document_2": "kriyam_0009_C0.png",
+        "similarity_score": 0.6447
+    },
+    {
+        "document_1": "kriyam_0009_C2.png",
+        "document_2": "kriyam_0013_C2.png",
+        "similarity_score": 0.6446
+    },
+    {
+        "document_1": "kriyam_0008_C0.png",
+        "document_2": "kriyam_0009_C4.png",
+        "similarity_score": 0.6432
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0011_C0.png",
+        "similarity_score": 0.643
+    },
+    {
+        "document_1": "kriyam_0009_C4.png",
+        "document_2": "kriyam_0013_C2.png",
+        "similarity_score": 0.6414
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.6408
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0011_C2.png",
+        "similarity_score": 0.6401
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.6398
+    },
+    {
+        "document_1": "kriyam_0008_C0.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.6381
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0009_C2.png",
+        "similarity_score": 0.637
+    },
+    {
+        "document_1": "kriyam_0008_C2.png",
+        "document_2": "kriyam_0009_C4.png",
+        "similarity_score": 0.6369
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.6368
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0009_C2.png",
+        "similarity_score": 0.636
+    },
+    {
+        "document_1": "kriyam_0009_C0.png",
+        "document_2": "kriyam_0012_C0.png",
+        "similarity_score": 0.636
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0011_C2.png",
+        "similarity_score": 0.6357
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0011_C0.png",
+        "similarity_score": 0.6335
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0011_C0.png",
+        "similarity_score": 0.6331
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0009_C4.png",
+        "similarity_score": 0.6325
+    },
+    {
+        "document_1": "kriyam_0016_C0.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.6324
+    },
+    {
+        "document_1": "kriyam_0008_C0.png",
+        "document_2": "kriyam_0010_C4.png",
+        "similarity_score": 0.6314
+    },
+    {
+        "document_1": "kriyam_0005_C2.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.6311
+    },
+    {
+        "document_1": "kriyam_0016_C4.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.6307
+    },
+    {
+        "document_1": "kriyam_0009_C4.png",
+        "document_2": "kriyam_0013_C0.png",
+        "similarity_score": 0.6305
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.6304
+    },
+    {
+        "document_1": "kriyam_0013_C4.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.6302
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0009_C0.png",
+        "similarity_score": 0.6301
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0009_C2.png",
+        "similarity_score": 0.6295
+    },
+    {
+        "document_1": "kriyam_0008_C2.png",
+        "document_2": "kriyam_0010_C2.png",
+        "similarity_score": 0.6294
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0009_C4.png",
+        "similarity_score": 0.6293
+    },
+    {
+        "document_1": "kriyam_0008_C0.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.6276
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0009_C2.png",
+        "similarity_score": 0.6275
+    },
+    {
+        "document_1": "kriyam_0013_C2.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.6275
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0008_C4.png",
+        "similarity_score": 0.6273
+    },
+    {
+        "document_1": "kriyam_0005_C2.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.6273
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0008_C0.png",
+        "similarity_score": 0.627
+    },
+    {
+        "document_1": "kriyam_0015_C0.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.6267
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0009_C2.png",
+        "similarity_score": 0.6258
+    },
+    {
+        "document_1": "kriyam_0008_C0.png",
+        "document_2": "kriyam_0012_C4.png",
+        "similarity_score": 0.6255
+    },
+    {
+        "document_1": "kriyam_0013_C2.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.6239
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0008_C0.png",
+        "similarity_score": 0.6231
+    },
+    {
+        "document_1": "kriyam_0013_C0.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.6229
+    },
+    {
+        "document_1": "kriyam_0007_C0.png",
+        "document_2": "kriyam_0009_C2.png",
+        "similarity_score": 0.6226
+    },
+    {
+        "document_1": "kriyam_0009_C2.png",
+        "document_2": "kriyam_0013_C0.png",
+        "similarity_score": 0.6212
+    },
+    {
+        "document_1": "kriyam_0004_C4.png",
+        "document_2": "kriyam_0009_C0.png",
+        "similarity_score": 0.6206
+    },
+    {
+        "document_1": "kriyam_0008_C4.png",
+        "document_2": "kriyam_0009_C4.png",
+        "similarity_score": 0.6179
+    },
+    {
+        "document_1": "kriyam_0004_C4.png",
+        "document_2": "kriyam_0009_C4.png",
+        "similarity_score": 0.6174
+    },
+    {
+        "document_1": "kriyam_0008_C4.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.6172
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.617
+    },
+    {
+        "document_1": "kriyam_0009_C4.png",
+        "document_2": "kriyam_0013_C4.png",
+        "similarity_score": 0.6169
+    },
+    {
+        "document_1": "kriyam_0009_C2.png",
+        "document_2": "kriyam_0013_C4.png",
+        "similarity_score": 0.6167
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0009_C4.png",
+        "similarity_score": 0.6166
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.6138
+    },
+    {
+        "document_1": "kriyam_0008_C4.png",
+        "document_2": "kriyam_0010_C2.png",
+        "similarity_score": 0.6131
+    },
+    {
+        "document_1": "kriyam_0008_C2.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.6128
+    },
+    {
+        "document_1": "kriyam_0015_C0.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.6127
+    },
+    {
+        "document_1": "kriyam_0008_C0.png",
+        "document_2": "kriyam_0012_C0.png",
+        "similarity_score": 0.6123
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.6117
+    },
+    {
+        "document_1": "kriyam_0008_C2.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.6117
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0008_C0.png",
+        "similarity_score": 0.6107
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0009_C4.png",
+        "similarity_score": 0.6107
+    },
+    {
+        "document_1": "kriyam_0012_C4.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.61
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.6093
+    },
+    {
+        "document_1": "kriyam_0008_C0.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.609
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0009_C4.png",
+        "similarity_score": 0.6089
+    },
+    {
+        "document_1": "kriyam_0008_C2.png",
+        "document_2": "kriyam_0012_C4.png",
+        "similarity_score": 0.6089
+    },
+    {
+        "document_1": "kriyam_0013_C4.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.6085
+    },
+    {
+        "document_1": "kriyam_0007_C0.png",
+        "document_2": "kriyam_0009_C0.png",
+        "similarity_score": 0.6084
+    },
+    {
+        "document_1": "kriyam_0009_C2.png",
+        "document_2": "kriyam_0012_C4.png",
+        "similarity_score": 0.6082
+    },
+    {
+        "document_1": "kriyam_0007_C4.png",
+        "document_2": "kriyam_0009_C2.png",
+        "similarity_score": 0.6077
+    },
+    {
+        "document_1": "kriyam_0005_C0.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.607
+    },
+    {
+        "document_1": "kriyam_0008_C2.png",
+        "document_2": "kriyam_0010_C0.png",
+        "similarity_score": 0.607
+    },
+    {
+        "document_1": "kriyam_0008_C0.png",
+        "document_2": "kriyam_0012_C2.png",
+        "similarity_score": 0.6066
+    },
+    {
+        "document_1": "kriyam_0004_C2.png",
+        "document_2": "kriyam_0009_C0.png",
+        "similarity_score": 0.606
+    },
+    {
+        "document_1": "kriyam_0013_C0.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.605
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0008_C4.png",
+        "similarity_score": 0.6049
+    },
+    {
+        "document_1": "kriyam_0008_C2.png",
+        "document_2": "kriyam_0012_C0.png",
+        "similarity_score": 0.6048
+    },
+    {
+        "document_1": "kriyam_0007_C4.png",
+        "document_2": "kriyam_0010_C4.png",
+        "similarity_score": 0.604
+    },
+    {
+        "document_1": "kriyam_0009_C2.png",
+        "document_2": "kriyam_0012_C0.png",
+        "similarity_score": 0.6038
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0009_C2.png",
+        "similarity_score": 0.6033
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0008_C2.png",
+        "similarity_score": 0.603
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0013_C0.png",
+        "similarity_score": 0.6022
+    },
+    {
+        "document_1": "kriyam_0005_C2.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.602
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0009_C0.png",
+        "similarity_score": 0.6019
+    },
+    {
+        "document_1": "kriyam_0013_C4.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.6016
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.6014
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0013_C4.png",
+        "similarity_score": 0.6013
+    },
+    {
+        "document_1": "kriyam_0008_C4.png",
+        "document_2": "kriyam_0012_C4.png",
+        "similarity_score": 0.6012
+    },
+    {
+        "document_1": "kriyam_0008_C2.png",
+        "document_2": "kriyam_0012_C2.png",
+        "similarity_score": 0.6001
+    },
+    {
+        "document_1": "kriyam_0004_C0.png",
+        "document_2": "kriyam_0009_C4.png",
+        "similarity_score": 0.5995
+    },
+    {
+        "document_1": "kriyam_0008_C0.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.5991
+    },
+    {
+        "document_1": "kriyam_0007_C4.png",
+        "document_2": "kriyam_0008_C2.png",
+        "similarity_score": 0.5988
+    },
+    {
+        "document_1": "kriyam_0009_C2.png",
+        "document_2": "kriyam_0012_C2.png",
+        "similarity_score": 0.598
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0009_C0.png",
+        "similarity_score": 0.5978
+    },
+    {
+        "document_1": "kriyam_0007_C0.png",
+        "document_2": "kriyam_0008_C2.png",
+        "similarity_score": 0.5969
+    },
+    {
+        "document_1": "kriyam_0008_C4.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.5967
+    },
+    {
+        "document_1": "kriyam_0006_C2.png",
+        "document_2": "kriyam_0009_C0.png",
+        "similarity_score": 0.5965
+    },
+    {
+        "document_1": "kriyam_0015_C2.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.5963
+    },
+    {
+        "document_1": "kriyam_0015_C4.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.5962
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0013_C2.png",
+        "similarity_score": 0.5956
+    },
+    {
+        "document_1": "kriyam_0016_C4.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.5951
+    },
+    {
+        "document_1": "kriyam_0007_C4.png",
+        "document_2": "kriyam_0010_C2.png",
+        "similarity_score": 0.5945
+    },
+    {
+        "document_1": "kriyam_0008_C4.png",
+        "document_2": "kriyam_0010_C0.png",
+        "similarity_score": 0.5942
+    },
+    {
+        "document_1": "kriyam_0012_C4.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.5942
+    },
+    {
+        "document_1": "kriyam_0008_C0.png",
+        "document_2": "kriyam_0010_C2.png",
+        "similarity_score": 0.5928
+    },
+    {
+        "document_1": "kriyam_0013_C0.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.5927
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0008_C0.png",
+        "similarity_score": 0.5926
+    },
+    {
+        "document_1": "kriyam_0008_C4.png",
+        "document_2": "kriyam_0012_C0.png",
+        "similarity_score": 0.5926
+    },
+    {
+        "document_1": "kriyam_0006_C2.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.5925
+    },
+    {
+        "document_1": "kriyam_0006_C4.png",
+        "document_2": "kriyam_0009_C4.png",
+        "similarity_score": 0.5911
+    },
+    {
+        "document_1": "kriyam_0006_C2.png",
+        "document_2": "kriyam_0009_C2.png",
+        "similarity_score": 0.5905
+    },
+    {
+        "document_1": "kriyam_0012_C2.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.5904
+    },
+    {
+        "document_1": "kriyam_0006_C2.png",
+        "document_2": "kriyam_0009_C4.png",
+        "similarity_score": 0.5902
+    },
+    {
+        "document_1": "kriyam_0008_C4.png",
+        "document_2": "kriyam_0012_C2.png",
+        "similarity_score": 0.59
+    },
+    {
+        "document_1": "kriyam_0013_C2.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.5899
+    },
+    {
+        "document_1": "kriyam_0010_C4.png",
+        "document_2": "kriyam_0012_C0.png",
+        "similarity_score": 0.5897
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0013_C0.png",
+        "similarity_score": 0.5891
+    },
+    {
+        "document_1": "kriyam_0004_C2.png",
+        "document_2": "kriyam_0012_C4.png",
+        "similarity_score": 0.5889
+    },
+    {
+        "document_1": "kriyam_0015_C4.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.5889
+    },
+    {
+        "document_1": "kriyam_0010_C4.png",
+        "document_2": "kriyam_0012_C4.png",
+        "similarity_score": 0.5886
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0013_C2.png",
+        "similarity_score": 0.5869
+    },
+    {
+        "document_1": "kriyam_0008_C2.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.586
+    },
+    {
+        "document_1": "kriyam_0009_C0.png",
+        "document_2": "kriyam_0010_C2.png",
+        "similarity_score": 0.5858
+    },
+    {
+        "document_1": "kriyam_0008_C4.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.5856
+    },
+    {
+        "document_1": "kriyam_0012_C0.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.5856
+    },
+    {
+        "document_1": "kriyam_0007_C4.png",
+        "document_2": "kriyam_0010_C0.png",
+        "similarity_score": 0.5846
+    },
+    {
+        "document_1": "kriyam_0010_C4.png",
+        "document_2": "kriyam_0012_C2.png",
+        "similarity_score": 0.5843
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0013_C2.png",
+        "similarity_score": 0.5837
+    },
+    {
+        "document_1": "kriyam_0009_C0.png",
+        "document_2": "kriyam_0010_C4.png",
+        "similarity_score": 0.5837
+    },
+    {
+        "document_1": "kriyam_0005_C0.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.5836
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0009_C0.png",
+        "similarity_score": 0.5835
+    },
+    {
+        "document_1": "kriyam_0007_C4.png",
+        "document_2": "kriyam_0009_C0.png",
+        "similarity_score": 0.5834
+    },
+    {
+        "document_1": "kriyam_0004_C4.png",
+        "document_2": "kriyam_0012_C4.png",
+        "similarity_score": 0.5828
+    },
+    {
+        "document_1": "kriyam_0012_C2.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.5828
+    },
+    {
+        "document_1": "kriyam_0015_C2.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.5825
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.5823
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0003_C4.png",
+        "similarity_score": 0.5821
+    },
+    {
+        "document_1": "kriyam_0004_C0.png",
+        "document_2": "kriyam_0009_C2.png",
+        "similarity_score": 0.5817
+    },
+    {
+        "document_1": "kriyam_0004_C4.png",
+        "document_2": "kriyam_0009_C2.png",
+        "similarity_score": 0.5809
+    },
+    {
+        "document_1": "kriyam_0009_C4.png",
+        "document_2": "kriyam_0012_C0.png",
+        "similarity_score": 0.5807
+    },
+    {
+        "document_1": "kriyam_0009_C4.png",
+        "document_2": "kriyam_0012_C4.png",
+        "similarity_score": 0.5802
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0013_C2.png",
+        "similarity_score": 0.5801
+    },
+    {
+        "document_1": "kriyam_0004_C0.png",
+        "document_2": "kriyam_0012_C4.png",
+        "similarity_score": 0.5801
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0009_C2.png",
+        "similarity_score": 0.5795
+    },
+    {
+        "document_1": "kriyam_0012_C0.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.5792
+    },
+    {
+        "document_1": "kriyam_0013_C4.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.5789
+    },
+    {
+        "document_1": "kriyam_0006_C4.png",
+        "document_2": "kriyam_0009_C2.png",
+        "similarity_score": 0.5783
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.5776
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0013_C2.png",
+        "similarity_score": 0.5769
+    },
+    {
+        "document_1": "kriyam_0004_C2.png",
+        "document_2": "kriyam_0012_C2.png",
+        "similarity_score": 0.5769
+    },
+    {
+        "document_1": "kriyam_0013_C0.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.5768
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0013_C0.png",
+        "similarity_score": 0.5764
+    },
+    {
+        "document_1": "kriyam_0006_C4.png",
+        "document_2": "kriyam_0009_C0.png",
+        "similarity_score": 0.5764
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0013_C0.png",
+        "similarity_score": 0.5746
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0008_C2.png",
+        "similarity_score": 0.5744
+    },
+    {
+        "document_1": "kriyam_0005_C0.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.5742
+    },
+    {
+        "document_1": "kriyam_0010_C2.png",
+        "document_2": "kriyam_0012_C4.png",
+        "similarity_score": 0.5742
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0009_C2.png",
+        "similarity_score": 0.5741
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0003_C2.png",
+        "similarity_score": 0.574
+    },
+    {
+        "document_1": "kriyam_0010_C2.png",
+        "document_2": "kriyam_0012_C2.png",
+        "similarity_score": 0.574
+    },
+    {
+        "document_1": "kriyam_0009_C4.png",
+        "document_2": "kriyam_0012_C2.png",
+        "similarity_score": 0.5737
+    },
+    {
+        "document_1": "kriyam_0010_C2.png",
+        "document_2": "kriyam_0012_C0.png",
+        "similarity_score": 0.5735
+    },
+    {
+        "document_1": "kriyam_0009_C0.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.5731
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0008_C2.png",
+        "similarity_score": 0.573
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0009_C0.png",
+        "similarity_score": 0.5721
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0013_C4.png",
+        "similarity_score": 0.5694
+    },
+    {
+        "document_1": "kriyam_0004_C4.png",
+        "document_2": "kriyam_0012_C2.png",
+        "similarity_score": 0.5689
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0013_C0.png",
+        "similarity_score": 0.5686
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0013_C0.png",
+        "similarity_score": 0.5686
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0008_C4.png",
+        "similarity_score": 0.5685
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0008_C2.png",
+        "similarity_score": 0.5684
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0008_C4.png",
+        "similarity_score": 0.5682
+    },
+    {
+        "document_1": "kriyam_0007_C4.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.5681
+    },
+    {
+        "document_1": "kriyam_0008_C0.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.568
+    },
+    {
+        "document_1": "kriyam_0008_C0.png",
+        "document_2": "kriyam_0010_C0.png",
+        "similarity_score": 0.5677
+    },
+    {
+        "document_1": "kriyam_0007_C4.png",
+        "document_2": "kriyam_0008_C4.png",
+        "similarity_score": 0.5676
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0003_C2.png",
+        "similarity_score": 0.5669
+    },
+    {
+        "document_1": "kriyam_0006_C2.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.5667
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0003_C4.png",
+        "similarity_score": 0.5654
+    },
+    {
+        "document_1": "kriyam_0008_C2.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.5645
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0013_C0.png",
+        "similarity_score": 0.5636
+    },
+    {
+        "document_1": "kriyam_0004_C0.png",
+        "document_2": "kriyam_0012_C2.png",
+        "similarity_score": 0.5633
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0004_C4.png",
+        "similarity_score": 0.5631
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0013_C4.png",
+        "similarity_score": 0.5628
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0009_C0.png",
+        "similarity_score": 0.5622
+    },
+    {
+        "document_1": "kriyam_0009_C0.png",
+        "document_2": "kriyam_0010_C0.png",
+        "similarity_score": 0.562
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0008_C0.png",
+        "similarity_score": 0.5617
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0013_C0.png",
+        "similarity_score": 0.5615
+    },
+    {
+        "document_1": "kriyam_0007_C0.png",
+        "document_2": "kriyam_0008_C0.png",
+        "similarity_score": 0.5615
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0013_C2.png",
+        "similarity_score": 0.561
+    },
+    {
+        "document_1": "kriyam_0007_C0.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.5605
+    },
+    {
+        "document_1": "kriyam_0006_C2.png",
+        "document_2": "kriyam_0013_C0.png",
+        "similarity_score": 0.5602
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0009_C4.png",
+        "similarity_score": 0.5596
+    },
+    {
+        "document_1": "kriyam_0008_C2.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.5585
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0008_C4.png",
+        "similarity_score": 0.5578
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0008_C4.png",
+        "similarity_score": 0.5572
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.5564
+    },
+    {
+        "document_1": "kriyam_0006_C2.png",
+        "document_2": "kriyam_0013_C2.png",
+        "similarity_score": 0.5561
+    },
+    {
+        "document_1": "kriyam_0012_C2.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.5561
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0003_C4.png",
+        "similarity_score": 0.5556
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0004_C0.png",
+        "similarity_score": 0.5556
+    },
+    {
+        "document_1": "kriyam_0008_C0.png",
+        "document_2": "kriyam_0013_C4.png",
+        "similarity_score": 0.5555
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0012_C4.png",
+        "similarity_score": 0.5554
+    },
+    {
+        "document_1": "kriyam_0009_C0.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.5551
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0004_C4.png",
+        "similarity_score": 0.555
+    },
+    {
+        "document_1": "kriyam_0007_C4.png",
+        "document_2": "kriyam_0009_C4.png",
+        "similarity_score": 0.5549
+    },
+    {
+        "document_1": "kriyam_0013_C4.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.5547
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0013_C4.png",
+        "similarity_score": 0.5538
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0013_C4.png",
+        "similarity_score": 0.5534
+    },
+    {
+        "document_1": "kriyam_0008_C4.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.5534
+    },
+    {
+        "document_1": "kriyam_0007_C4.png",
+        "document_2": "kriyam_0008_C0.png",
+        "similarity_score": 0.5533
+    },
+    {
+        "document_1": "kriyam_0008_C4.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.5524
+    },
+    {
+        "document_1": "kriyam_0013_C4.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.5516
+    },
+    {
+        "document_1": "kriyam_0008_C0.png",
+        "document_2": "kriyam_0013_C2.png",
+        "similarity_score": 0.5513
+    },
+    {
+        "document_1": "kriyam_0010_C0.png",
+        "document_2": "kriyam_0012_C4.png",
+        "similarity_score": 0.5509
+    },
+    {
+        "document_1": "kriyam_0012_C2.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.5509
+    },
+    {
+        "document_1": "kriyam_0012_C0.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.5506
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0004_C0.png",
+        "similarity_score": 0.5503
+    },
+    {
+        "document_1": "kriyam_0009_C2.png",
+        "document_2": "kriyam_0010_C4.png",
+        "similarity_score": 0.5502
+    },
+    {
+        "document_1": "kriyam_0013_C2.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.5502
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.5499
+    },
+    {
+        "document_1": "kriyam_0004_C4.png",
+        "document_2": "kriyam_0012_C0.png",
+        "similarity_score": 0.5498
+    },
+    {
+        "document_1": "kriyam_0010_C0.png",
+        "document_2": "kriyam_0012_C2.png",
+        "similarity_score": 0.5498
+    },
+    {
+        "document_1": "kriyam_0004_C4.png",
+        "document_2": "kriyam_0013_C0.png",
+        "similarity_score": 0.5495
+    },
+    {
+        "document_1": "kriyam_0010_C0.png",
+        "document_2": "kriyam_0012_C0.png",
+        "similarity_score": 0.5486
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0013_C2.png",
+        "similarity_score": 0.5485
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0013_C2.png",
+        "similarity_score": 0.5481
+    },
+    {
+        "document_1": "kriyam_0010_C4.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.5479
+    },
+    {
+        "document_1": "kriyam_0004_C2.png",
+        "document_2": "kriyam_0012_C0.png",
+        "similarity_score": 0.5478
+    },
+    {
+        "document_1": "kriyam_0012_C4.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.5474
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.5469
+    },
+    {
+        "document_1": "kriyam_0009_C0.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.5466
+    },
+    {
+        "document_1": "kriyam_0013_C2.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.5462
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.546
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.5458
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.5458
+    },
+    {
+        "document_1": "kriyam_0005_C4.png",
+        "document_2": "kriyam_0013_C4.png",
+        "similarity_score": 0.5453
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0012_C4.png",
+        "similarity_score": 0.5446
+    },
+    {
+        "document_1": "kriyam_0012_C4.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.5442
+    },
+    {
+        "document_1": "kriyam_0009_C2.png",
+        "document_2": "kriyam_0010_C2.png",
+        "similarity_score": 0.5441
+    },
+    {
+        "document_1": "kriyam_0008_C2.png",
+        "document_2": "kriyam_0013_C2.png",
+        "similarity_score": 0.5438
+    },
+    {
+        "document_1": "kriyam_0008_C2.png",
+        "document_2": "kriyam_0013_C4.png",
+        "similarity_score": 0.5438
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0003_C2.png",
+        "similarity_score": 0.5435
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0013_C4.png",
+        "similarity_score": 0.5434
+    },
+    {
+        "document_1": "kriyam_0008_C0.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.5433
+    },
+    {
+        "document_1": "kriyam_0004_C2.png",
+        "document_2": "kriyam_0009_C4.png",
+        "similarity_score": 0.5429
+    },
+    {
+        "document_1": "kriyam_0005_C2.png",
+        "document_2": "kriyam_0013_C0.png",
+        "similarity_score": 0.5423
+    },
+    {
+        "document_1": "kriyam_0006_C0.png",
+        "document_2": "kriyam_0009_C4.png",
+        "similarity_score": 0.5423
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0013_C2.png",
+        "similarity_score": 0.5421
+    },
+    {
+        "document_1": "kriyam_0004_C0.png",
+        "document_2": "kriyam_0012_C0.png",
+        "similarity_score": 0.5419
+    },
+    {
+        "document_1": "kriyam_0004_C4.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.5417
+    },
+    {
+        "document_1": "kriyam_0006_C4.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.5411
+    },
+    {
+        "document_1": "kriyam_0005_C4.png",
+        "document_2": "kriyam_0013_C0.png",
+        "similarity_score": 0.5408
+    },
+    {
+        "document_1": "kriyam_0010_C4.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.5406
+    },
+    {
+        "document_1": "kriyam_0010_C2.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.5404
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0009_C0.png",
+        "similarity_score": 0.5394
+    },
+    {
+        "document_1": "kriyam_0004_C4.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.539
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0008_C2.png",
+        "similarity_score": 0.5386
+    },
+    {
+        "document_1": "kriyam_0006_C4.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.5385
+    },
+    {
+        "document_1": "kriyam_0007_C0.png",
+        "document_2": "kriyam_0010_C4.png",
+        "similarity_score": 0.5383
+    },
+    {
+        "document_1": "kriyam_0008_C0.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.5383
+    },
+    {
+        "document_1": "kriyam_0012_C0.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.5382
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.5373
+    },
+    {
+        "document_1": "kriyam_0005_C2.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.5367
+    },
+    {
+        "document_1": "kriyam_0006_C2.png",
+        "document_2": "kriyam_0013_C4.png",
+        "similarity_score": 0.5362
+    },
+    {
+        "document_1": "kriyam_0005_C2.png",
+        "document_2": "kriyam_0013_C4.png",
+        "similarity_score": 0.536
+    },
+    {
+        "document_1": "kriyam_0007_C0.png",
+        "document_2": "kriyam_0009_C4.png",
+        "similarity_score": 0.5356
+    },
+    {
+        "document_1": "kriyam_0007_C4.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.5349
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0004_C4.png",
+        "similarity_score": 0.5348
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0008_C2.png",
+        "similarity_score": 0.5345
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0008_C4.png",
+        "similarity_score": 0.5344
+    },
+    {
+        "document_1": "kriyam_0007_C0.png",
+        "document_2": "kriyam_0008_C4.png",
+        "similarity_score": 0.5344
+    },
+    {
+        "document_1": "kriyam_0010_C0.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.5338
+    },
+    {
+        "document_1": "kriyam_0005_C0.png",
+        "document_2": "kriyam_0013_C4.png",
+        "similarity_score": 0.5333
+    },
+    {
+        "document_1": "kriyam_0007_C2.png",
+        "document_2": "kriyam_0009_C2.png",
+        "similarity_score": 0.5326
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.5325
+    },
+    {
+        "document_1": "kriyam_0012_C4.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.5325
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0012_C2.png",
+        "similarity_score": 0.5324
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.5324
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0013_C4.png",
+        "similarity_score": 0.5323
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0013_C4.png",
+        "similarity_score": 0.5318
+    },
+    {
+        "document_1": "kriyam_0009_C2.png",
+        "document_2": "kriyam_0010_C0.png",
+        "similarity_score": 0.5317
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.5313
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0013_C0.png",
+        "similarity_score": 0.5306
+    },
+    {
+        "document_1": "kriyam_0005_C0.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.5305
+    },
+    {
+        "document_1": "kriyam_0005_C4.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.5295
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0008_C4.png",
+        "similarity_score": 0.5289
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.5289
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0012_C0.png",
+        "similarity_score": 0.5277
+    },
+    {
+        "document_1": "kriyam_0013_C0.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.5271
+    },
+    {
+        "document_1": "kriyam_0005_C0.png",
+        "document_2": "kriyam_0013_C0.png",
+        "similarity_score": 0.5266
+    },
+    {
+        "document_1": "kriyam_0004_C2.png",
+        "document_2": "kriyam_0009_C2.png",
+        "similarity_score": 0.5265
+    },
+    {
+        "document_1": "kriyam_0008_C0.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.5264
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0012_C2.png",
+        "similarity_score": 0.5263
+    },
+    {
+        "document_1": "kriyam_0006_C4.png",
+        "document_2": "kriyam_0013_C0.png",
+        "similarity_score": 0.5249
+    },
+    {
+        "document_1": "kriyam_0007_C0.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.5243
+    },
+    {
+        "document_1": "kriyam_0005_C4.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.5236
+    },
+    {
+        "document_1": "kriyam_0006_C0.png",
+        "document_2": "kriyam_0009_C0.png",
+        "similarity_score": 0.5236
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0012_C0.png",
+        "similarity_score": 0.5235
+    },
+    {
+        "document_1": "kriyam_0008_C0.png",
+        "document_2": "kriyam_0013_C0.png",
+        "similarity_score": 0.523
+    },
+    {
+        "document_1": "kriyam_0010_C2.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.5228
+    },
+    {
+        "document_1": "kriyam_0005_C4.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.5225
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.5224
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0008_C0.png",
+        "similarity_score": 0.5218
+    },
+    {
+        "document_1": "kriyam_0012_C4.png",
+        "document_2": "kriyam_0013_C4.png",
+        "similarity_score": 0.521
+    },
+    {
+        "document_1": "kriyam_0004_C4.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.5205
+    },
+    {
+        "document_1": "kriyam_0007_C2.png",
+        "document_2": "kriyam_0009_C0.png",
+        "similarity_score": 0.5205
+    },
+    {
+        "document_1": "kriyam_0012_C4.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.5204
+    },
+    {
+        "document_1": "kriyam_0006_C4.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.5195
+    },
+    {
+        "document_1": "kriyam_0005_C2.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.5194
+    },
+    {
+        "document_1": "kriyam_0005_C4.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.5194
+    },
+    {
+        "document_1": "kriyam_0004_C4.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.519
+    },
+    {
+        "document_1": "kriyam_0006_C0.png",
+        "document_2": "kriyam_0009_C2.png",
+        "similarity_score": 0.5186
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0004_C2.png",
+        "similarity_score": 0.5183
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0008_C2.png",
+        "similarity_score": 0.518
+    },
+    {
+        "document_1": "kriyam_0005_C0.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.518
+    },
+    {
+        "document_1": "kriyam_0004_C0.png",
+        "document_2": "kriyam_0007_C4.png",
+        "similarity_score": 0.5174
+    },
+    {
+        "document_1": "kriyam_0008_C0.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.5174
+    },
+    {
+        "document_1": "kriyam_0004_C0.png",
+        "document_2": "kriyam_0008_C0.png",
+        "similarity_score": 0.5159
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.5158
+    },
+    {
+        "document_1": "kriyam_0012_C4.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.515
+    },
+    {
+        "document_1": "kriyam_0007_C0.png",
+        "document_2": "kriyam_0010_C2.png",
+        "similarity_score": 0.5147
+    },
+    {
+        "document_1": "kriyam_0004_C0.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.5146
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0003_C4.png",
+        "similarity_score": 0.5144
+    },
+    {
+        "document_1": "kriyam_0006_C0.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.5143
+    },
+    {
+        "document_1": "kriyam_0008_C4.png",
+        "document_2": "kriyam_0013_C4.png",
+        "similarity_score": 0.5139
+    },
+    {
+        "document_1": "kriyam_0008_C4.png",
+        "document_2": "kriyam_0013_C2.png",
+        "similarity_score": 0.5134
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.5133
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.5131
+    },
+    {
+        "document_1": "kriyam_0012_C2.png",
+        "document_2": "kriyam_0013_C4.png",
+        "similarity_score": 0.512
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.5116
+    },
+    {
+        "document_1": "kriyam_0005_C4.png",
+        "document_2": "kriyam_0013_C2.png",
+        "similarity_score": 0.5114
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0004_C0.png",
+        "similarity_score": 0.5111
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0008_C2.png",
+        "similarity_score": 0.5109
+    },
+    {
+        "document_1": "kriyam_0012_C2.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.5102
+    },
+    {
+        "document_1": "kriyam_0006_C4.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.5099
+    },
+    {
+        "document_1": "kriyam_0013_C0.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.5096
+    },
+    {
+        "document_1": "kriyam_0012_C2.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.5092
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0003_C0.png",
+        "similarity_score": 0.5088
+    },
+    {
+        "document_1": "kriyam_0006_C2.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.5085
+    },
+    {
+        "document_1": "kriyam_0010_C0.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.5085
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.508
+    },
+    {
+        "document_1": "kriyam_0006_C4.png",
+        "document_2": "kriyam_0013_C2.png",
+        "similarity_score": 0.5076
+    },
+    {
+        "document_1": "kriyam_0010_C4.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.5074
+    },
+    {
+        "document_1": "kriyam_0012_C0.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.5072
+    },
+    {
+        "document_1": "kriyam_0007_C0.png",
+        "document_2": "kriyam_0010_C0.png",
+        "similarity_score": 0.5068
+    },
+    {
+        "document_1": "kriyam_0012_C4.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.5062
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0004_C2.png",
+        "similarity_score": 0.5059
+    },
+    {
+        "document_1": "kriyam_0004_C0.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.5058
+    },
+    {
+        "document_1": "kriyam_0004_C0.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.5049
+    },
+    {
+        "document_1": "kriyam_0007_C2.png",
+        "document_2": "kriyam_0010_C2.png",
+        "similarity_score": 0.504
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0003_C0.png",
+        "similarity_score": 0.5039
+    },
+    {
+        "document_1": "kriyam_0007_C2.png",
+        "document_2": "kriyam_0010_C4.png",
+        "similarity_score": 0.5039
+    },
+    {
+        "document_1": "kriyam_0008_C2.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.5035
+    },
+    {
+        "document_1": "kriyam_0010_C4.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.5032
+    },
+    {
+        "document_1": "kriyam_0005_C4.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.5031
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.503
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0003_C2.png",
+        "similarity_score": 0.5029
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.5027
+    },
+    {
+        "document_1": "kriyam_0008_C0.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.5027
+    },
+    {
+        "document_1": "kriyam_0014_C0.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.5025
+    },
+    {
+        "document_1": "kriyam_0006_C4.png",
+        "document_2": "kriyam_0013_C4.png",
+        "similarity_score": 0.5024
+    },
+    {
+        "document_1": "kriyam_0005_C2.png",
+        "document_2": "kriyam_0013_C2.png",
+        "similarity_score": 0.5022
+    },
+    {
+        "document_1": "kriyam_0008_C2.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.502
+    },
+    {
+        "document_1": "kriyam_0012_C0.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.5019
+    },
+    {
+        "document_1": "kriyam_0007_C2.png",
+        "document_2": "kriyam_0010_C0.png",
+        "similarity_score": 0.5018
+    },
+    {
+        "document_1": "kriyam_0006_C0.png",
+        "document_2": "kriyam_0013_C2.png",
+        "similarity_score": 0.5017
+    },
+    {
+        "document_1": "kriyam_0007_C4.png",
+        "document_2": "kriyam_0012_C4.png",
+        "similarity_score": 0.5014
+    },
+    {
+        "document_1": "kriyam_0004_C0.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.5011
+    },
+    {
+        "document_1": "kriyam_0004_C4.png",
+        "document_2": "kriyam_0013_C2.png",
+        "similarity_score": 0.5008
+    },
+    {
+        "document_1": "kriyam_0008_C2.png",
+        "document_2": "kriyam_0013_C0.png",
+        "similarity_score": 0.5007
+    },
+    {
+        "document_1": "kriyam_0008_C4.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.5005
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.4999
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.4994
+    },
+    {
+        "document_1": "kriyam_0007_C4.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.4992
+    },
+    {
+        "document_1": "kriyam_0004_C4.png",
+        "document_2": "kriyam_0008_C0.png",
+        "similarity_score": 0.499
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0012_C0.png",
+        "similarity_score": 0.4986
+    },
+    {
+        "document_1": "kriyam_0014_C0.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.4982
+    },
+    {
+        "document_1": "kriyam_0012_C4.png",
+        "document_2": "kriyam_0013_C0.png",
+        "similarity_score": 0.4973
+    },
+    {
+        "document_1": "kriyam_0012_C0.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.4971
+    },
+    {
+        "document_1": "kriyam_0012_C0.png",
+        "document_2": "kriyam_0013_C4.png",
+        "similarity_score": 0.4969
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0013_C4.png",
+        "similarity_score": 0.4968
+    },
+    {
+        "document_1": "kriyam_0007_C4.png",
+        "document_2": "kriyam_0012_C2.png",
+        "similarity_score": 0.4966
+    },
+    {
+        "document_1": "kriyam_0008_C4.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.4964
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0006_C2.png",
+        "similarity_score": 0.4963
+    },
+    {
+        "document_1": "kriyam_0005_C0.png",
+        "document_2": "kriyam_0013_C2.png",
+        "similarity_score": 0.496
+    },
+    {
+        "document_1": "kriyam_0012_C2.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.4958
+    },
+    {
+        "document_1": "kriyam_0006_C2.png",
+        "document_2": "kriyam_0008_C2.png",
+        "similarity_score": 0.4955
+    },
+    {
+        "document_1": "kriyam_0009_C0.png",
+        "document_2": "kriyam_0011_C4.png",
+        "similarity_score": 0.4955
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0009_C0.png",
+        "similarity_score": 0.4953
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0004_C0.png",
+        "similarity_score": 0.495
+    },
+    {
+        "document_1": "kriyam_0005_C0.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.4949
+    },
+    {
+        "document_1": "kriyam_0005_C0.png",
+        "document_2": "kriyam_0009_C0.png",
+        "similarity_score": 0.4948
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0004_C0.png",
+        "similarity_score": 0.4943
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.4941
+    },
+    {
+        "document_1": "kriyam_0015_C4.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.4941
+    },
+    {
+        "document_1": "kriyam_0010_C4.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.4933
+    },
+    {
+        "document_1": "kriyam_0006_C4.png",
+        "document_2": "kriyam_0008_C2.png",
+        "similarity_score": 0.4932
+    },
+    {
+        "document_1": "kriyam_0005_C0.png",
+        "document_2": "kriyam_0009_C4.png",
+        "similarity_score": 0.4931
+    },
+    {
+        "document_1": "kriyam_0006_C0.png",
+        "document_2": "kriyam_0013_C0.png",
+        "similarity_score": 0.4921
+    },
+    {
+        "document_1": "kriyam_0004_C0.png",
+        "document_2": "kriyam_0013_C0.png",
+        "similarity_score": 0.4919
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.4917
+    },
+    {
+        "document_1": "kriyam_0008_C4.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.4915
+    },
+    {
+        "document_1": "kriyam_0009_C0.png",
+        "document_2": "kriyam_0011_C0.png",
+        "similarity_score": 0.4915
+    },
+    {
+        "document_1": "kriyam_0004_C2.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.4909
+    },
+    {
+        "document_1": "kriyam_0007_C4.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.4909
+    },
+    {
+        "document_1": "kriyam_0008_C0.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.4908
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0004_C4.png",
+        "similarity_score": 0.4907
+    },
+    {
+        "document_1": "kriyam_0005_C0.png",
+        "document_2": "kriyam_0009_C2.png",
+        "similarity_score": 0.4907
+    },
+    {
+        "document_1": "kriyam_0006_C2.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.4905
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0003_C4.png",
+        "similarity_score": 0.4902
+    },
+    {
+        "document_1": "kriyam_0008_C2.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.4902
+    },
+    {
+        "document_1": "kriyam_0004_C4.png",
+        "document_2": "kriyam_0013_C4.png",
+        "similarity_score": 0.4901
+    },
+    {
+        "document_1": "kriyam_0012_C2.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.4901
+    },
+    {
+        "document_1": "kriyam_0006_C4.png",
+        "document_2": "kriyam_0008_C4.png",
+        "similarity_score": 0.49
+    },
+    {
+        "document_1": "kriyam_0004_C2.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.4897
+    },
+    {
+        "document_1": "kriyam_0006_C2.png",
+        "document_2": "kriyam_0008_C0.png",
+        "similarity_score": 0.4896
+    },
+    {
+        "document_1": "kriyam_0012_C0.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.4893
+    },
+    {
+        "document_1": "kriyam_0008_C4.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.4891
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0012_C4.png",
+        "similarity_score": 0.4876
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0005_C0.png",
+        "similarity_score": 0.4871
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0012_C4.png",
+        "similarity_score": 0.4866
+    },
+    {
+        "document_1": "kriyam_0004_C0.png",
+        "document_2": "kriyam_0007_C0.png",
+        "similarity_score": 0.4866
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0004_C4.png",
+        "similarity_score": 0.4864
+    },
+    {
+        "document_1": "kriyam_0014_C4.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.4864
+    },
+    {
+        "document_1": "kriyam_0009_C4.png",
+        "document_2": "kriyam_0011_C0.png",
+        "similarity_score": 0.486
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.4859
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.4858
+    },
+    {
+        "document_1": "kriyam_0008_C4.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.4858
+    },
+    {
+        "document_1": "kriyam_0005_C4.png",
+        "document_2": "kriyam_0009_C4.png",
+        "similarity_score": 0.4855
+    },
+    {
+        "document_1": "kriyam_0004_C2.png",
+        "document_2": "kriyam_0007_C2.png",
+        "similarity_score": 0.4852
+    },
+    {
+        "document_1": "kriyam_0005_C4.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.4846
+    },
+    {
+        "document_1": "kriyam_0014_C2.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.4844
+    },
+    {
+        "document_1": "kriyam_0012_C4.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.4841
+    },
+    {
+        "document_1": "kriyam_0007_C4.png",
+        "document_2": "kriyam_0012_C0.png",
+        "similarity_score": 0.4837
+    },
+    {
+        "document_1": "kriyam_0010_C2.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.4834
+    },
+    {
+        "document_1": "kriyam_0014_C2.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.4832
+    },
+    {
+        "document_1": "kriyam_0007_C4.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.483
+    },
+    {
+        "document_1": "kriyam_0004_C4.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.482
+    },
+    {
+        "document_1": "kriyam_0012_C2.png",
+        "document_2": "kriyam_0013_C0.png",
+        "similarity_score": 0.482
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0003_C0.png",
+        "similarity_score": 0.4818
+    },
+    {
+        "document_1": "kriyam_0008_C2.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.4817
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0006_C4.png",
+        "similarity_score": 0.4811
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0006_C2.png",
+        "similarity_score": 0.4808
+    },
+    {
+        "document_1": "kriyam_0010_C4.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.4808
+    },
+    {
+        "document_1": "kriyam_0015_C2.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.4808
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.4802
+    },
+    {
+        "document_1": "kriyam_0012_C4.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.4797
+    },
+    {
+        "document_1": "kriyam_0008_C2.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.4796
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.4795
+    },
+    {
+        "document_1": "kriyam_0006_C2.png",
+        "document_2": "kriyam_0008_C4.png",
+        "similarity_score": 0.4795
+    },
+    {
+        "document_1": "kriyam_0009_C4.png",
+        "document_2": "kriyam_0010_C4.png",
+        "similarity_score": 0.4792
+    },
+    {
+        "document_1": "kriyam_0012_C4.png",
+        "document_2": "kriyam_0013_C2.png",
+        "similarity_score": 0.4792
+    },
+    {
+        "document_1": "kriyam_0008_C2.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.479
+    },
+    {
+        "document_1": "kriyam_0008_C4.png",
+        "document_2": "kriyam_0013_C0.png",
+        "similarity_score": 0.4789
+    },
+    {
+        "document_1": "kriyam_0012_C0.png",
+        "document_2": "kriyam_0013_C0.png",
+        "similarity_score": 0.4789
+    },
+    {
+        "document_1": "kriyam_0014_C4.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.4789
+    },
+    {
+        "document_1": "kriyam_0014_C2.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.4787
+    },
+    {
+        "document_1": "kriyam_0014_C4.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.4787
+    },
+    {
+        "document_1": "kriyam_0007_C2.png",
+        "document_2": "kriyam_0008_C2.png",
+        "similarity_score": 0.4783
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0005_C0.png",
+        "similarity_score": 0.4782
+    },
+    {
+        "document_1": "kriyam_0015_C4.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.4778
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0012_C2.png",
+        "similarity_score": 0.4775
+    },
+    {
+        "document_1": "kriyam_0009_C4.png",
+        "document_2": "kriyam_0011_C4.png",
+        "similarity_score": 0.4773
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0003_C4.png",
+        "similarity_score": 0.4771
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.4769
+    },
+    {
+        "document_1": "kriyam_0009_C4.png",
+        "document_2": "kriyam_0010_C2.png",
+        "similarity_score": 0.4768
+    },
+    {
+        "document_1": "kriyam_0014_C0.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.4768
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0012_C0.png",
+        "similarity_score": 0.4761
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0007_C0.png",
+        "similarity_score": 0.476
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0007_C0.png",
+        "similarity_score": 0.4755
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0012_C4.png",
+        "similarity_score": 0.4752
+    },
+    {
+        "document_1": "kriyam_0007_C0.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.4752
+    },
+    {
+        "document_1": "kriyam_0006_C4.png",
+        "document_2": "kriyam_0008_C0.png",
+        "similarity_score": 0.4751
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0012_C2.png",
+        "similarity_score": 0.475
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0006_C2.png",
+        "similarity_score": 0.4745
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0003_C2.png",
+        "similarity_score": 0.4744
+    },
+    {
+        "document_1": "kriyam_0004_C0.png",
+        "document_2": "kriyam_0007_C2.png",
+        "similarity_score": 0.4741
+    },
+    {
+        "document_1": "kriyam_0010_C2.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.4738
+    },
+    {
+        "document_1": "kriyam_0014_C0.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.4733
+    },
+    {
+        "document_1": "kriyam_0009_C2.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.4732
+    },
+    {
+        "document_1": "kriyam_0006_C0.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.4731
+    },
+    {
+        "document_1": "kriyam_0014_C2.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.4731
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.473
+    },
+    {
+        "document_1": "kriyam_0004_C2.png",
+        "document_2": "kriyam_0008_C0.png",
+        "similarity_score": 0.4727
+    },
+    {
+        "document_1": "kriyam_0010_C2.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.4727
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0004_C2.png",
+        "similarity_score": 0.4726
+    },
+    {
+        "document_1": "kriyam_0005_C4.png",
+        "document_2": "kriyam_0009_C2.png",
+        "similarity_score": 0.4723
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0012_C0.png",
+        "similarity_score": 0.4722
+    },
+    {
+        "document_1": "kriyam_0005_C2.png",
+        "document_2": "kriyam_0009_C0.png",
+        "similarity_score": 0.472
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0006_C4.png",
+        "similarity_score": 0.4714
+    },
+    {
+        "document_1": "kriyam_0015_C0.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.4714
+    },
+    {
+        "document_1": "kriyam_0006_C0.png",
+        "document_2": "kriyam_0013_C4.png",
+        "similarity_score": 0.4713
+    },
+    {
+        "document_1": "kriyam_0014_C2.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.4713
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0003_C0.png",
+        "similarity_score": 0.4711
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0008_C0.png",
+        "similarity_score": 0.4711
+    },
+    {
+        "document_1": "kriyam_0005_C0.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.4692
+    },
+    {
+        "document_1": "kriyam_0004_C4.png",
+        "document_2": "kriyam_0008_C2.png",
+        "similarity_score": 0.4688
+    },
+    {
+        "document_1": "kriyam_0014_C4.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.4687
+    },
+    {
+        "document_1": "kriyam_0005_C2.png",
+        "document_2": "kriyam_0009_C2.png",
+        "similarity_score": 0.4686
+    },
+    {
+        "document_1": "kriyam_0015_C2.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.4685
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0005_C2.png",
+        "similarity_score": 0.4672
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.4667
+    },
+    {
+        "document_1": "kriyam_0006_C2.png",
+        "document_2": "kriyam_0011_C4.png",
+        "similarity_score": 0.4667
+    },
+    {
+        "document_1": "kriyam_0004_C4.png",
+        "document_2": "kriyam_0007_C4.png",
+        "similarity_score": 0.4663
+    },
+    {
+        "document_1": "kriyam_0015_C2.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.466
+    },
+    {
+        "document_1": "kriyam_0012_C2.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.4658
+    },
+    {
+        "document_1": "kriyam_0004_C0.png",
+        "document_2": "kriyam_0008_C2.png",
+        "similarity_score": 0.4655
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0003_C2.png",
+        "similarity_score": 0.4654
+    },
+    {
+        "document_1": "kriyam_0014_C0.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.4652
+    },
+    {
+        "document_1": "kriyam_0009_C4.png",
+        "document_2": "kriyam_0010_C0.png",
+        "similarity_score": 0.4647
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.4645
+    },
+    {
+        "document_1": "kriyam_0014_C4.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.4645
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0004_C4.png",
+        "similarity_score": 0.4635
+    },
+    {
+        "document_1": "kriyam_0004_C2.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.4628
+    },
+    {
+        "document_1": "kriyam_0012_C0.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.4626
+    },
+    {
+        "document_1": "kriyam_0012_C2.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.4626
+    },
+    {
+        "document_1": "kriyam_0008_C4.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.4625
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0007_C4.png",
+        "similarity_score": 0.462
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0007_C0.png",
+        "similarity_score": 0.4617
+    },
+    {
+        "document_1": "kriyam_0010_C2.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.4617
+    },
+    {
+        "document_1": "kriyam_0011_C0.png",
+        "document_2": "kriyam_0013_C4.png",
+        "similarity_score": 0.4617
+    },
+    {
+        "document_1": "kriyam_0014_C4.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.4616
+    },
+    {
+        "document_1": "kriyam_0004_C0.png",
+        "document_2": "kriyam_0008_C4.png",
+        "similarity_score": 0.4614
+    },
+    {
+        "document_1": "kriyam_0005_C2.png",
+        "document_2": "kriyam_0012_C4.png",
+        "similarity_score": 0.4612
+    },
+    {
+        "document_1": "kriyam_0004_C0.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.461
+    },
+    {
+        "document_1": "kriyam_0007_C0.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.4609
+    },
+    {
+        "document_1": "kriyam_0007_C2.png",
+        "document_2": "kriyam_0008_C0.png",
+        "similarity_score": 0.4607
+    },
+    {
+        "document_1": "kriyam_0007_C0.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.4604
+    },
+    {
+        "document_1": "kriyam_0005_C4.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.4603
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0006_C4.png",
+        "similarity_score": 0.4602
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0004_C2.png",
+        "similarity_score": 0.4601
+    },
+    {
+        "document_1": "kriyam_0006_C4.png",
+        "document_2": "kriyam_0011_C4.png",
+        "similarity_score": 0.46
+    },
+    {
+        "document_1": "kriyam_0011_C0.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.4595
+    },
+    {
+        "document_1": "kriyam_0006_C0.png",
+        "document_2": "kriyam_0008_C2.png",
+        "similarity_score": 0.4593
+    },
+    {
+        "document_1": "kriyam_0011_C2.png",
+        "document_2": "kriyam_0013_C4.png",
+        "similarity_score": 0.459
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.4589
+    },
+    {
+        "document_1": "kriyam_0012_C0.png",
+        "document_2": "kriyam_0013_C2.png",
+        "similarity_score": 0.4589
+    },
+    {
+        "document_1": "kriyam_0014_C4.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.4589
+    },
+    {
+        "document_1": "kriyam_0011_C4.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.4588
+    },
+    {
+        "document_1": "kriyam_0006_C4.png",
+        "document_2": "kriyam_0007_C0.png",
+        "similarity_score": 0.4586
+    },
+    {
+        "document_1": "kriyam_0011_C4.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.4584
+    },
+    {
+        "document_1": "kriyam_0010_C4.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.4581
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0004_C4.png",
+        "similarity_score": 0.458
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0010_C4.png",
+        "similarity_score": 0.4577
+    },
+    {
+        "document_1": "kriyam_0007_C0.png",
+        "document_2": "kriyam_0012_C4.png",
+        "similarity_score": 0.4572
+    },
+    {
+        "document_1": "kriyam_0005_C2.png",
+        "document_2": "kriyam_0009_C4.png",
+        "similarity_score": 0.4571
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0005_C0.png",
+        "similarity_score": 0.4569
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0007_C4.png",
+        "similarity_score": 0.4564
+    },
+    {
+        "document_1": "kriyam_0004_C2.png",
+        "document_2": "kriyam_0007_C4.png",
+        "similarity_score": 0.4564
+    },
+    {
+        "document_1": "kriyam_0004_C4.png",
+        "document_2": "kriyam_0008_C4.png",
+        "similarity_score": 0.4563
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0008_C4.png",
+        "similarity_score": 0.4562
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.4558
+    },
+    {
+        "document_1": "kriyam_0012_C2.png",
+        "document_2": "kriyam_0013_C2.png",
+        "similarity_score": 0.4558
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0004_C4.png",
+        "similarity_score": 0.4555
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0012_C0.png",
+        "similarity_score": 0.4553
+    },
+    {
+        "document_1": "kriyam_0005_C4.png",
+        "document_2": "kriyam_0009_C0.png",
+        "similarity_score": 0.4552
+    },
+    {
+        "document_1": "kriyam_0015_C4.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.4552
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.4551
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0008_C2.png",
+        "similarity_score": 0.4551
+    },
+    {
+        "document_1": "kriyam_0007_C2.png",
+        "document_2": "kriyam_0008_C4.png",
+        "similarity_score": 0.4545
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0012_C2.png",
+        "similarity_score": 0.454
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0006_C0.png",
+        "similarity_score": 0.4539
+    },
+    {
+        "document_1": "kriyam_0012_C0.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.4539
+    },
+    {
+        "document_1": "kriyam_0011_C0.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.4537
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0010_C4.png",
+        "similarity_score": 0.4532
+    },
+    {
+        "document_1": "kriyam_0009_C4.png",
+        "document_2": "kriyam_0011_C2.png",
+        "similarity_score": 0.453
+    },
+    {
+        "document_1": "kriyam_0011_C0.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.4525
+    },
+    {
+        "document_1": "kriyam_0005_C2.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.4524
+    },
+    {
+        "document_1": "kriyam_0008_C0.png",
+        "document_2": "kriyam_0011_C4.png",
+        "similarity_score": 0.4524
+    },
+    {
+        "document_1": "kriyam_0011_C2.png",
+        "document_2": "kriyam_0013_C0.png",
+        "similarity_score": 0.4521
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0012_C4.png",
+        "similarity_score": 0.4516
+    },
+    {
+        "document_1": "kriyam_0009_C2.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.4516
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0004_C2.png",
+        "similarity_score": 0.4513
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.4511
+    },
+    {
+        "document_1": "kriyam_0006_C4.png",
+        "document_2": "kriyam_0011_C0.png",
+        "similarity_score": 0.4509
+    },
+    {
+        "document_1": "kriyam_0005_C0.png",
+        "document_2": "kriyam_0008_C0.png",
+        "similarity_score": 0.4508
+    },
+    {
+        "document_1": "kriyam_0009_C0.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.4507
+    },
+    {
+        "document_1": "kriyam_0011_C4.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.4506
+    },
+    {
+        "document_1": "kriyam_0011_C4.png",
+        "document_2": "kriyam_0013_C4.png",
+        "similarity_score": 0.4505
+    },
+    {
+        "document_1": "kriyam_0010_C2.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.4503
+    },
+    {
+        "document_1": "kriyam_0009_C4.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.45
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0003_C0.png",
+        "similarity_score": 0.4493
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0006_C0.png",
+        "similarity_score": 0.4493
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0007_C0.png",
+        "similarity_score": 0.449
+    },
+    {
+        "document_1": "kriyam_0010_C0.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.4489
+    },
+    {
+        "document_1": "kriyam_0004_C2.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.4487
+    },
+    {
+        "document_1": "kriyam_0011_C0.png",
+        "document_2": "kriyam_0013_C2.png",
+        "similarity_score": 0.4486
+    },
+    {
+        "document_1": "kriyam_0004_C0.png",
+        "document_2": "kriyam_0013_C2.png",
+        "similarity_score": 0.4484
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0004_C0.png",
+        "similarity_score": 0.4483
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0007_C4.png",
+        "similarity_score": 0.4482
+    },
+    {
+        "document_1": "kriyam_0006_C0.png",
+        "document_2": "kriyam_0008_C0.png",
+        "similarity_score": 0.4482
+    },
+    {
+        "document_1": "kriyam_0011_C0.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.4481
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0005_C0.png",
+        "similarity_score": 0.4479
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0006_C4.png",
+        "similarity_score": 0.4478
+    },
+    {
+        "document_1": "kriyam_0008_C2.png",
+        "document_2": "kriyam_0011_C4.png",
+        "similarity_score": 0.4471
+    },
+    {
+        "document_1": "kriyam_0011_C0.png",
+        "document_2": "kriyam_0013_C0.png",
+        "similarity_score": 0.447
+    },
+    {
+        "document_1": "kriyam_0009_C2.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.4468
+    },
+    {
+        "document_1": "kriyam_0010_C0.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.4466
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.4464
+    },
+    {
+        "document_1": "kriyam_0008_C0.png",
+        "document_2": "kriyam_0011_C0.png",
+        "similarity_score": 0.4462
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0006_C2.png",
+        "similarity_score": 0.4456
+    },
+    {
+        "document_1": "kriyam_0009_C0.png",
+        "document_2": "kriyam_0011_C2.png",
+        "similarity_score": 0.445
+    },
+    {
+        "document_1": "kriyam_0004_C4.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.4448
+    },
+    {
+        "document_1": "kriyam_0007_C0.png",
+        "document_2": "kriyam_0012_C2.png",
+        "similarity_score": 0.4448
+    },
+    {
+        "document_1": "kriyam_0005_C0.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.4445
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0005_C2.png",
+        "similarity_score": 0.4442
+    },
+    {
+        "document_1": "kriyam_0008_C2.png",
+        "document_2": "kriyam_0011_C0.png",
+        "similarity_score": 0.4442
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0005_C4.png",
+        "similarity_score": 0.4441
+    },
+    {
+        "document_1": "kriyam_0009_C4.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.444
+    },
+    {
+        "document_1": "kriyam_0005_C0.png",
+        "document_2": "kriyam_0012_C4.png",
+        "similarity_score": 0.4438
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0003_C0.png",
+        "similarity_score": 0.4437
+    },
+    {
+        "document_1": "kriyam_0004_C2.png",
+        "document_2": "kriyam_0008_C2.png",
+        "similarity_score": 0.4437
+    },
+    {
+        "document_1": "kriyam_0006_C4.png",
+        "document_2": "kriyam_0011_C2.png",
+        "similarity_score": 0.4437
+    },
+    {
+        "document_1": "kriyam_0011_C0.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.4423
+    },
+    {
+        "document_1": "kriyam_0004_C2.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.4417
+    },
+    {
+        "document_1": "kriyam_0007_C2.png",
+        "document_2": "kriyam_0009_C4.png",
+        "similarity_score": 0.4417
+    },
+    {
+        "document_1": "kriyam_0011_C2.png",
+        "document_2": "kriyam_0013_C2.png",
+        "similarity_score": 0.4415
+    },
+    {
+        "document_1": "kriyam_0011_C2.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.4408
+    },
+    {
+        "document_1": "kriyam_0004_C2.png",
+        "document_2": "kriyam_0013_C0.png",
+        "similarity_score": 0.4404
+    },
+    {
+        "document_1": "kriyam_0010_C0.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.4403
+    },
+    {
+        "document_1": "kriyam_0005_C2.png",
+        "document_2": "kriyam_0012_C0.png",
+        "similarity_score": 0.4401
+    },
+    {
+        "document_1": "kriyam_0005_C2.png",
+        "document_2": "kriyam_0012_C2.png",
+        "similarity_score": 0.4398
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0005_C4.png",
+        "similarity_score": 0.4397
+    },
+    {
+        "document_1": "kriyam_0011_C4.png",
+        "document_2": "kriyam_0013_C0.png",
+        "similarity_score": 0.4397
+    },
+    {
+        "document_1": "kriyam_0005_C4.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.4395
+    },
+    {
+        "document_1": "kriyam_0007_C0.png",
+        "document_2": "kriyam_0012_C0.png",
+        "similarity_score": 0.4391
+    },
+    {
+        "document_1": "kriyam_0008_C0.png",
+        "document_2": "kriyam_0011_C2.png",
+        "similarity_score": 0.4391
+    },
+    {
+        "document_1": "kriyam_0011_C4.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.439
+    },
+    {
+        "document_1": "kriyam_0006_C0.png",
+        "document_2": "kriyam_0008_C4.png",
+        "similarity_score": 0.4389
+    },
+    {
+        "document_1": "kriyam_0015_C0.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.4387
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0005_C0.png",
+        "similarity_score": 0.4386
+    },
+    {
+        "document_1": "kriyam_0011_C2.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.4386
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0006_C4.png",
+        "similarity_score": 0.4381
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0006_C2.png",
+        "similarity_score": 0.438
+    },
+    {
+        "document_1": "kriyam_0006_C0.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.4376
+    },
+    {
+        "document_1": "kriyam_0010_C4.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.4374
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0006_C2.png",
+        "similarity_score": 0.4373
+    },
+    {
+        "document_1": "kriyam_0008_C4.png",
+        "document_2": "kriyam_0011_C4.png",
+        "similarity_score": 0.4373
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0005_C0.png",
+        "similarity_score": 0.4372
+    },
+    {
+        "document_1": "kriyam_0006_C2.png",
+        "document_2": "kriyam_0011_C0.png",
+        "similarity_score": 0.4369
+    },
+    {
+        "document_1": "kriyam_0004_C0.png",
+        "document_2": "kriyam_0006_C4.png",
+        "similarity_score": 0.4368
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0007_C4.png",
+        "similarity_score": 0.4367
+    },
+    {
+        "document_1": "kriyam_0006_C2.png",
+        "document_2": "kriyam_0007_C0.png",
+        "similarity_score": 0.4367
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0005_C4.png",
+        "similarity_score": 0.4366
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.4366
+    },
+    {
+        "document_1": "kriyam_0005_C0.png",
+        "document_2": "kriyam_0012_C0.png",
+        "similarity_score": 0.4365
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0005_C2.png",
+        "similarity_score": 0.4364
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0012_C2.png",
+        "similarity_score": 0.4359
+    },
+    {
+        "document_1": "kriyam_0005_C2.png",
+        "document_2": "kriyam_0010_C4.png",
+        "similarity_score": 0.4358
+    },
+    {
+        "document_1": "kriyam_0009_C2.png",
+        "document_2": "kriyam_0011_C0.png",
+        "similarity_score": 0.4357
+    },
+    {
+        "document_1": "kriyam_0004_C0.png",
+        "document_2": "kriyam_0013_C4.png",
+        "similarity_score": 0.4356
+    },
+    {
+        "document_1": "kriyam_0004_C4.png",
+        "document_2": "kriyam_0006_C2.png",
+        "similarity_score": 0.4356
+    },
+    {
+        "document_1": "kriyam_0009_C0.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.4353
+    },
+    {
+        "document_1": "kriyam_0010_C4.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.4353
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0007_C0.png",
+        "similarity_score": 0.4351
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0006_C4.png",
+        "similarity_score": 0.4343
+    },
+    {
+        "document_1": "kriyam_0004_C4.png",
+        "document_2": "kriyam_0006_C4.png",
+        "similarity_score": 0.4341
+    },
+    {
+        "document_1": "kriyam_0007_C2.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.4341
+    },
+    {
+        "document_1": "kriyam_0008_C4.png",
+        "document_2": "kriyam_0011_C0.png",
+        "similarity_score": 0.4341
+    },
+    {
+        "document_1": "kriyam_0013_C0.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.434
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0006_C4.png",
+        "similarity_score": 0.4337
+    },
+    {
+        "document_1": "kriyam_0005_C0.png",
+        "document_2": "kriyam_0008_C2.png",
+        "similarity_score": 0.4336
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.4335
+    },
+    {
+        "document_1": "kriyam_0010_C0.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.4333
+    },
+    {
+        "document_1": "kriyam_0011_C4.png",
+        "document_2": "kriyam_0013_C2.png",
+        "similarity_score": 0.4329
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0005_C4.png",
+        "similarity_score": 0.4324
+    },
+    {
+        "document_1": "kriyam_0005_C0.png",
+        "document_2": "kriyam_0012_C2.png",
+        "similarity_score": 0.4321
+    },
+    {
+        "document_1": "kriyam_0009_C2.png",
+        "document_2": "kriyam_0011_C4.png",
+        "similarity_score": 0.4321
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0006_C4.png",
+        "similarity_score": 0.432
+    },
+    {
+        "document_1": "kriyam_0010_C4.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.4319
+    },
+    {
+        "document_1": "kriyam_0006_C0.png",
+        "document_2": "kriyam_0011_C4.png",
+        "similarity_score": 0.4311
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.4309
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.4309
+    },
+    {
+        "document_1": "kriyam_0004_C2.png",
+        "document_2": "kriyam_0008_C4.png",
+        "similarity_score": 0.4305
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.4295
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.4294
+    },
+    {
+        "document_1": "kriyam_0015_C0.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.4292
+    },
+    {
+        "document_1": "kriyam_0005_C0.png",
+        "document_2": "kriyam_0008_C4.png",
+        "similarity_score": 0.4291
+    },
+    {
+        "document_1": "kriyam_0006_C4.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.4288
+    },
+    {
+        "document_1": "kriyam_0006_C0.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.4287
+    },
+    {
+        "document_1": "kriyam_0012_C2.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.4284
+    },
+    {
+        "document_1": "kriyam_0005_C0.png",
+        "document_2": "kriyam_0010_C4.png",
+        "similarity_score": 0.428
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0007_C0.png",
+        "similarity_score": 0.4278
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0005_C0.png",
+        "similarity_score": 0.4276
+    },
+    {
+        "document_1": "kriyam_0012_C4.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.4274
+    },
+    {
+        "document_1": "kriyam_0011_C0.png",
+        "document_2": "kriyam_0012_C4.png",
+        "similarity_score": 0.4273
+    },
+    {
+        "document_1": "kriyam_0010_C4.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.4267
+    },
+    {
+        "document_1": "kriyam_0006_C4.png",
+        "document_2": "kriyam_0007_C4.png",
+        "similarity_score": 0.4266
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.4262
+    },
+    {
+        "document_1": "kriyam_0008_C4.png",
+        "document_2": "kriyam_0011_C2.png",
+        "similarity_score": 0.4262
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0005_C2.png",
+        "similarity_score": 0.4261
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0006_C2.png",
+        "similarity_score": 0.426
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0006_C2.png",
+        "similarity_score": 0.4259
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0012_C4.png",
+        "similarity_score": 0.4259
+    },
+    {
+        "document_1": "kriyam_0004_C4.png",
+        "document_2": "kriyam_0007_C0.png",
+        "similarity_score": 0.4258
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0005_C2.png",
+        "similarity_score": 0.4255
+    },
+    {
+        "document_1": "kriyam_0011_C2.png",
+        "document_2": "kriyam_0012_C4.png",
+        "similarity_score": 0.4255
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0005_C2.png",
+        "similarity_score": 0.4254
+    },
+    {
+        "document_1": "kriyam_0008_C2.png",
+        "document_2": "kriyam_0011_C2.png",
+        "similarity_score": 0.4254
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.4253
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0010_C2.png",
+        "similarity_score": 0.4253
+    },
+    {
+        "document_1": "kriyam_0010_C0.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.4253
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0006_C2.png",
+        "similarity_score": 0.4252
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.4251
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0005_C0.png",
+        "similarity_score": 0.4251
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0005_C4.png",
+        "similarity_score": 0.4247
+    },
+    {
+        "document_1": "kriyam_0011_C2.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.4247
+    },
+    {
+        "document_1": "kriyam_0004_C4.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.4246
+    },
+    {
+        "document_1": "kriyam_0012_C0.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.4242
+    },
+    {
+        "document_1": "kriyam_0009_C0.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.4239
+    },
+    {
+        "document_1": "kriyam_0005_C2.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.4219
+    },
+    {
+        "document_1": "kriyam_0010_C2.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.4217
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0006_C4.png",
+        "similarity_score": 0.4213
+    },
+    {
+        "document_1": "kriyam_0005_C2.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.4211
+    },
+    {
+        "document_1": "kriyam_0009_C4.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.4211
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.4208
+    },
+    {
+        "document_1": "kriyam_0011_C2.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.4208
+    },
+    {
+        "document_1": "kriyam_0007_C0.png",
+        "document_2": "kriyam_0013_C2.png",
+        "similarity_score": 0.4206
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0006_C0.png",
+        "similarity_score": 0.42
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0010_C0.png",
+        "similarity_score": 0.4199
+    },
+    {
+        "document_1": "kriyam_0011_C2.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.4194
+    },
+    {
+        "document_1": "kriyam_0006_C2.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.4193
+    },
+    {
+        "document_1": "kriyam_0007_C2.png",
+        "document_2": "kriyam_0017_C0.png",
+        "similarity_score": 0.4192
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.419
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.4189
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0012_C0.png",
+        "similarity_score": 0.4185
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0005_C4.png",
+        "similarity_score": 0.4185
+    },
+    {
+        "document_1": "kriyam_0010_C2.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.4185
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0012_C2.png",
+        "similarity_score": 0.4182
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0006_C0.png",
+        "similarity_score": 0.4181
+    },
+    {
+        "document_1": "kriyam_0010_C2.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.4181
+    },
+    {
+        "document_1": "kriyam_0014_C2.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.418
+    },
+    {
+        "document_1": "kriyam_0004_C4.png",
+        "document_2": "kriyam_0011_C4.png",
+        "similarity_score": 0.4178
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0010_C4.png",
+        "similarity_score": 0.4175
+    },
+    {
+        "document_1": "kriyam_0005_C2.png",
+        "document_2": "kriyam_0010_C2.png",
+        "similarity_score": 0.4175
+    },
+    {
+        "document_1": "kriyam_0011_C0.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.4175
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.4168
+    },
+    {
+        "document_1": "kriyam_0005_C2.png",
+        "document_2": "kriyam_0008_C0.png",
+        "similarity_score": 0.4166
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0005_C4.png",
+        "similarity_score": 0.4164
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.4164
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0010_C0.png",
+        "similarity_score": 0.4161
+    },
+    {
+        "document_1": "kriyam_0009_C4.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.416
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.4158
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0007_C0.png",
+        "similarity_score": 0.4151
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.4147
+    },
+    {
+        "document_1": "kriyam_0004_C2.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.4147
+    },
+    {
+        "document_1": "kriyam_0006_C0.png",
+        "document_2": "kriyam_0011_C0.png",
+        "similarity_score": 0.4146
+    },
+    {
+        "document_1": "kriyam_0004_C2.png",
+        "document_2": "kriyam_0013_C4.png",
+        "similarity_score": 0.4144
+    },
+    {
+        "document_1": "kriyam_0006_C2.png",
+        "document_2": "kriyam_0011_C2.png",
+        "similarity_score": 0.4142
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.4139
+    },
+    {
+        "document_1": "kriyam_0011_C4.png",
+        "document_2": "kriyam_0012_C4.png",
+        "similarity_score": 0.4136
+    },
+    {
+        "document_1": "kriyam_0011_C0.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.4135
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.4131
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0010_C2.png",
+        "similarity_score": 0.4131
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0005_C2.png",
+        "similarity_score": 0.4127
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0005_C0.png",
+        "similarity_score": 0.4127
+    },
+    {
+        "document_1": "kriyam_0009_C2.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.4119
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0012_C4.png",
+        "similarity_score": 0.4113
+    },
+    {
+        "document_1": "kriyam_0004_C2.png",
+        "document_2": "kriyam_0007_C0.png",
+        "similarity_score": 0.4112
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0004_C2.png",
+        "similarity_score": 0.4109
+    },
+    {
+        "document_1": "kriyam_0010_C4.png",
+        "document_2": "kriyam_0013_C4.png",
+        "similarity_score": 0.4104
+    },
+    {
+        "document_1": "kriyam_0004_C0.png",
+        "document_2": "kriyam_0006_C2.png",
+        "similarity_score": 0.4103
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0005_C4.png",
+        "similarity_score": 0.41
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.41
+    },
+    {
+        "document_1": "kriyam_0007_C0.png",
+        "document_2": "kriyam_0013_C0.png",
+        "similarity_score": 0.4099
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0005_C2.png",
+        "similarity_score": 0.4098
+    },
+    {
+        "document_1": "kriyam_0006_C0.png",
+        "document_2": "kriyam_0007_C0.png",
+        "similarity_score": 0.4097
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0010_C4.png",
+        "similarity_score": 0.4095
+    },
+    {
+        "document_1": "kriyam_0014_C4.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.4094
+    },
+    {
+        "document_1": "kriyam_0004_C4.png",
+        "document_2": "kriyam_0011_C0.png",
+        "similarity_score": 0.4089
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.4088
+    },
+    {
+        "document_1": "kriyam_0011_C4.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.4087
+    },
+    {
+        "document_1": "kriyam_0009_C2.png",
+        "document_2": "kriyam_0011_C2.png",
+        "similarity_score": 0.4084
+    },
+    {
+        "document_1": "kriyam_0010_C2.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.4083
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.4082
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.4076
+    },
+    {
+        "document_1": "kriyam_0004_C4.png",
+        "document_2": "kriyam_0007_C2.png",
+        "similarity_score": 0.4072
+    },
+    {
+        "document_1": "kriyam_0011_C0.png",
+        "document_2": "kriyam_0012_C0.png",
+        "similarity_score": 0.4071
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0007_C4.png",
+        "similarity_score": 0.4065
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0004_C4.png",
+        "similarity_score": 0.4064
+    },
+    {
+        "document_1": "kriyam_0009_C4.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.4064
+    },
+    {
+        "document_1": "kriyam_0011_C4.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.4059
+    },
+    {
+        "document_1": "kriyam_0011_C0.png",
+        "document_2": "kriyam_0012_C2.png",
+        "similarity_score": 0.4054
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.4047
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0004_C0.png",
+        "similarity_score": 0.4046
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0007_C4.png",
+        "similarity_score": 0.4037
+    },
+    {
+        "document_1": "kriyam_0013_C0.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.4033
+    },
+    {
+        "document_1": "kriyam_0014_C0.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.403
+    },
+    {
+        "document_1": "kriyam_0006_C2.png",
+        "document_2": "kriyam_0007_C4.png",
+        "similarity_score": 0.4028
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0012_C0.png",
+        "similarity_score": 0.4024
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0012_C2.png",
+        "similarity_score": 0.4022
+    },
+    {
+        "document_1": "kriyam_0011_C0.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.4021
+    },
+    {
+        "document_1": "kriyam_0011_C2.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.4021
+    },
+    {
+        "document_1": "kriyam_0004_C0.png",
+        "document_2": "kriyam_0010_C2.png",
+        "similarity_score": 0.4019
+    },
+    {
+        "document_1": "kriyam_0004_C0.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.4018
+    },
+    {
+        "document_1": "kriyam_0005_C0.png",
+        "document_2": "kriyam_0010_C2.png",
+        "similarity_score": 0.4017
+    },
+    {
+        "document_1": "kriyam_0014_C0.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.4015
+    },
+    {
+        "document_1": "kriyam_0011_C4.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.4013
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0004_C0.png",
+        "similarity_score": 0.4012
+    },
+    {
+        "document_1": "kriyam_0013_C4.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.4012
+    },
+    {
+        "document_1": "kriyam_0007_C0.png",
+        "document_2": "kriyam_0013_C4.png",
+        "similarity_score": 0.401
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0006_C0.png",
+        "similarity_score": 0.4009
+    },
+    {
+        "document_1": "kriyam_0004_C4.png",
+        "document_2": "kriyam_0011_C2.png",
+        "similarity_score": 0.4007
+    },
+    {
+        "document_1": "kriyam_0007_C2.png",
+        "document_2": "kriyam_0012_C4.png",
+        "similarity_score": 0.4007
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0007_C0.png",
+        "similarity_score": 0.4005
+    },
+    {
+        "document_1": "kriyam_0004_C0.png",
+        "document_2": "kriyam_0006_C0.png",
+        "similarity_score": 0.4005
+    },
+    {
+        "document_1": "kriyam_0007_C0.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.4004
+    },
+    {
+        "document_1": "kriyam_0013_C0.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.4004
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0010_C2.png",
+        "similarity_score": 0.4003
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.3997
+    },
+    {
+        "document_1": "kriyam_0009_C2.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.3994
+    },
+    {
+        "document_1": "kriyam_0010_C0.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.3985
+    },
+    {
+        "document_1": "kriyam_0005_C2.png",
+        "document_2": "kriyam_0010_C0.png",
+        "similarity_score": 0.3984
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0010_C4.png",
+        "similarity_score": 0.3983
+    },
+    {
+        "document_1": "kriyam_0011_C0.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.3981
+    },
+    {
+        "document_1": "kriyam_0010_C4.png",
+        "document_2": "kriyam_0013_C2.png",
+        "similarity_score": 0.3979
+    },
+    {
+        "document_1": "kriyam_0011_C2.png",
+        "document_2": "kriyam_0012_C0.png",
+        "similarity_score": 0.3978
+    },
+    {
+        "document_1": "kriyam_0010_C2.png",
+        "document_2": "kriyam_0013_C4.png",
+        "similarity_score": 0.3976
+    },
+    {
+        "document_1": "kriyam_0011_C2.png",
+        "document_2": "kriyam_0012_C2.png",
+        "similarity_score": 0.3976
+    },
+    {
+        "document_1": "kriyam_0014_C2.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.3974
+    },
+    {
+        "document_1": "kriyam_0011_C4.png",
+        "document_2": "kriyam_0012_C0.png",
+        "similarity_score": 0.3972
+    },
+    {
+        "document_1": "kriyam_0007_C2.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.3968
+    },
+    {
+        "document_1": "kriyam_0004_C4.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.3963
+    },
+    {
+        "document_1": "kriyam_0011_C4.png",
+        "document_2": "kriyam_0012_C2.png",
+        "similarity_score": 0.3963
+    },
+    {
+        "document_1": "kriyam_0005_C0.png",
+        "document_2": "kriyam_0011_C0.png",
+        "similarity_score": 0.3961
+    },
+    {
+        "document_1": "kriyam_0013_C4.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.3956
+    },
+    {
+        "document_1": "kriyam_0007_C0.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.395
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.3945
+    },
+    {
+        "document_1": "kriyam_0013_C4.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.3945
+    },
+    {
+        "document_1": "kriyam_0005_C4.png",
+        "document_2": "kriyam_0012_C4.png",
+        "similarity_score": 0.3942
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.3937
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0010_C4.png",
+        "similarity_score": 0.3936
+    },
+    {
+        "document_1": "kriyam_0004_C0.png",
+        "document_2": "kriyam_0010_C0.png",
+        "similarity_score": 0.3932
+    },
+    {
+        "document_1": "kriyam_0005_C2.png",
+        "document_2": "kriyam_0008_C2.png",
+        "similarity_score": 0.3932
+    },
+    {
+        "document_1": "kriyam_0010_C0.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.3928
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0006_C0.png",
+        "similarity_score": 0.3927
+    },
+    {
+        "document_1": "kriyam_0005_C0.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.3927
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0006_C0.png",
+        "similarity_score": 0.3926
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0012_C4.png",
+        "similarity_score": 0.3923
+    },
+    {
+        "document_1": "kriyam_0011_C2.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.3923
+    },
+    {
+        "document_1": "kriyam_0009_C4.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.3921
+    },
+    {
+        "document_1": "kriyam_0013_C2.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.392
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0006_C0.png",
+        "similarity_score": 0.3918
+    },
+    {
+        "document_1": "kriyam_0010_C0.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.3912
+    },
+    {
+        "document_1": "kriyam_0007_C2.png",
+        "document_2": "kriyam_0012_C2.png",
+        "similarity_score": 0.3905
+    },
+    {
+        "document_1": "kriyam_0006_C0.png",
+        "document_2": "kriyam_0011_C2.png",
+        "similarity_score": 0.3904
+    },
+    {
+        "document_1": "kriyam_0011_C0.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.3903
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.3898
+    },
+    {
+        "document_1": "kriyam_0004_C0.png",
+        "document_2": "kriyam_0010_C4.png",
+        "similarity_score": 0.3893
+    },
+    {
+        "document_1": "kriyam_0005_C2.png",
+        "document_2": "kriyam_0008_C4.png",
+        "similarity_score": 0.3888
+    },
+    {
+        "document_1": "kriyam_0006_C2.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.3887
+    },
+    {
+        "document_1": "kriyam_0004_C0.png",
+        "document_2": "kriyam_0011_C4.png",
+        "similarity_score": 0.3885
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0007_C4.png",
+        "similarity_score": 0.3878
+    },
+    {
+        "document_1": "kriyam_0005_C4.png",
+        "document_2": "kriyam_0010_C4.png",
+        "similarity_score": 0.3877
+    },
+    {
+        "document_1": "kriyam_0005_C4.png",
+        "document_2": "kriyam_0012_C0.png",
+        "similarity_score": 0.3875
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0006_C0.png",
+        "similarity_score": 0.3866
+    },
+    {
+        "document_1": "kriyam_0007_C0.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.3866
+    },
+    {
+        "document_1": "kriyam_0005_C0.png",
+        "document_2": "kriyam_0011_C2.png",
+        "similarity_score": 0.3865
+    },
+    {
+        "document_1": "kriyam_0009_C2.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.3864
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.3863
+    },
+    {
+        "document_1": "kriyam_0004_C2.png",
+        "document_2": "kriyam_0013_C2.png",
+        "similarity_score": 0.3863
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.3862
+    },
+    {
+        "document_1": "kriyam_0005_C4.png",
+        "document_2": "kriyam_0012_C2.png",
+        "similarity_score": 0.3862
+    },
+    {
+        "document_1": "kriyam_0007_C4.png",
+        "document_2": "kriyam_0013_C2.png",
+        "similarity_score": 0.3858
+    },
+    {
+        "document_1": "kriyam_0007_C0.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.3855
+    },
+    {
+        "document_1": "kriyam_0005_C0.png",
+        "document_2": "kriyam_0007_C0.png",
+        "similarity_score": 0.3851
+    },
+    {
+        "document_1": "kriyam_0007_C2.png",
+        "document_2": "kriyam_0016_C2.png",
+        "similarity_score": 0.3844
+    },
+    {
+        "document_1": "kriyam_0007_C2.png",
+        "document_2": "kriyam_0017_C2.png",
+        "similarity_score": 0.3843
+    },
+    {
+        "document_1": "kriyam_0011_C4.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.3836
+    },
+    {
+        "document_1": "kriyam_0011_C2.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.3833
+    },
+    {
+        "document_1": "kriyam_0006_C2.png",
+        "document_2": "kriyam_0012_C4.png",
+        "similarity_score": 0.3832
+    },
+    {
+        "document_1": "kriyam_0005_C2.png",
+        "document_2": "kriyam_0007_C4.png",
+        "similarity_score": 0.3828
+    },
+    {
+        "document_1": "kriyam_0005_C4.png",
+        "document_2": "kriyam_0008_C0.png",
+        "similarity_score": 0.3825
+    },
+    {
+        "document_1": "kriyam_0004_C2.png",
+        "document_2": "kriyam_0010_C2.png",
+        "similarity_score": 0.3823
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0007_C2.png",
+        "similarity_score": 0.3819
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0005_C4.png",
+        "similarity_score": 0.3819
+    },
+    {
+        "document_1": "kriyam_0004_C0.png",
+        "document_2": "kriyam_0011_C0.png",
+        "similarity_score": 0.3818
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0012_C0.png",
+        "similarity_score": 0.3816
+    },
+    {
+        "document_1": "kriyam_0006_C0.png",
+        "document_2": "kriyam_0007_C4.png",
+        "similarity_score": 0.3816
+    },
+    {
+        "document_1": "kriyam_0007_C2.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.3813
+    },
+    {
+        "document_1": "kriyam_0004_C4.png",
+        "document_2": "kriyam_0006_C0.png",
+        "similarity_score": 0.3811
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0010_C4.png",
+        "similarity_score": 0.3808
+    },
+    {
+        "document_1": "kriyam_0010_C4.png",
+        "document_2": "kriyam_0013_C0.png",
+        "similarity_score": 0.3804
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0012_C2.png",
+        "similarity_score": 0.3803
+    },
+    {
+        "document_1": "kriyam_0010_C0.png",
+        "document_2": "kriyam_0016_C0.png",
+        "similarity_score": 0.3799
+    },
+    {
+        "document_1": "kriyam_0007_C4.png",
+        "document_2": "kriyam_0013_C0.png",
+        "similarity_score": 0.3798
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0007_C2.png",
+        "similarity_score": 0.3797
+    },
+    {
+        "document_1": "kriyam_0010_C2.png",
+        "document_2": "kriyam_0013_C2.png",
+        "similarity_score": 0.3788
+    },
+    {
+        "document_1": "kriyam_0014_C2.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.3786
+    },
+    {
+        "document_1": "kriyam_0004_C0.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.3785
+    },
+    {
+        "document_1": "kriyam_0007_C2.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.3779
+    },
+    {
+        "document_1": "kriyam_0005_C2.png",
+        "document_2": "kriyam_0007_C0.png",
+        "similarity_score": 0.3775
+    },
+    {
+        "document_1": "kriyam_0005_C0.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.3772
+    },
+    {
+        "document_1": "kriyam_0005_C4.png",
+        "document_2": "kriyam_0011_C0.png",
+        "similarity_score": 0.3769
+    },
+    {
+        "document_1": "kriyam_0013_C2.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.3769
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.3764
+    },
+    {
+        "document_1": "kriyam_0006_C2.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.3763
+    },
+    {
+        "document_1": "kriyam_0011_C4.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.3763
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0010_C2.png",
+        "similarity_score": 0.3761
+    },
+    {
+        "document_1": "kriyam_0004_C0.png",
+        "document_2": "kriyam_0011_C2.png",
+        "similarity_score": 0.375
+    },
+    {
+        "document_1": "kriyam_0004_C2.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.3744
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0007_C2.png",
+        "similarity_score": 0.3742
+    },
+    {
+        "document_1": "kriyam_0013_C2.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.3739
+    },
+    {
+        "document_1": "kriyam_0005_C0.png",
+        "document_2": "kriyam_0010_C0.png",
+        "similarity_score": 0.3738
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0007_C4.png",
+        "similarity_score": 0.3736
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.3735
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0010_C2.png",
+        "similarity_score": 0.3732
+    },
+    {
+        "document_1": "kriyam_0005_C0.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.3731
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.373
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0007_C2.png",
+        "similarity_score": 0.3719
+    },
+    {
+        "document_1": "kriyam_0007_C4.png",
+        "document_2": "kriyam_0013_C4.png",
+        "similarity_score": 0.3713
+    },
+    {
+        "document_1": "kriyam_0011_C4.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.3713
+    },
+    {
+        "document_1": "kriyam_0007_C2.png",
+        "document_2": "kriyam_0012_C0.png",
+        "similarity_score": 0.371
+    },
+    {
+        "document_1": "kriyam_0004_C4.png",
+        "document_2": "kriyam_0005_C0.png",
+        "similarity_score": 0.3705
+    },
+    {
+        "document_1": "kriyam_0005_C0.png",
+        "document_2": "kriyam_0007_C4.png",
+        "similarity_score": 0.3704
+    },
+    {
+        "document_1": "kriyam_0011_C2.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.3701
+    },
+    {
+        "document_1": "kriyam_0006_C0.png",
+        "document_2": "kriyam_0016_C4.png",
+        "similarity_score": 0.37
+    },
+    {
+        "document_1": "kriyam_0005_C4.png",
+        "document_2": "kriyam_0010_C2.png",
+        "similarity_score": 0.3693
+    },
+    {
+        "document_1": "kriyam_0004_C4.png",
+        "document_2": "kriyam_0010_C2.png",
+        "similarity_score": 0.3691
+    },
+    {
+        "document_1": "kriyam_0014_C0.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.3684
+    },
+    {
+        "document_1": "kriyam_0004_C4.png",
+        "document_2": "kriyam_0010_C4.png",
+        "similarity_score": 0.3683
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0007_C2.png",
+        "similarity_score": 0.368
+    },
+    {
+        "document_1": "kriyam_0006_C4.png",
+        "document_2": "kriyam_0012_C4.png",
+        "similarity_score": 0.3676
+    },
+    {
+        "document_1": "kriyam_0004_C2.png",
+        "document_2": "kriyam_0006_C2.png",
+        "similarity_score": 0.3675
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0010_C4.png",
+        "similarity_score": 0.3674
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0011_C4.png",
+        "similarity_score": 0.3673
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0005_C2.png",
+        "similarity_score": 0.3669
+    },
+    {
+        "document_1": "kriyam_0004_C2.png",
+        "document_2": "kriyam_0010_C4.png",
+        "similarity_score": 0.3667
+    },
+    {
+        "document_1": "kriyam_0004_C2.png",
+        "document_2": "kriyam_0010_C0.png",
+        "similarity_score": 0.3657
+    },
+    {
+        "document_1": "kriyam_0004_C2.png",
+        "document_2": "kriyam_0006_C4.png",
+        "similarity_score": 0.3655
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0007_C0.png",
+        "similarity_score": 0.3654
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0011_C2.png",
+        "similarity_score": 0.3647
+    },
+    {
+        "document_1": "kriyam_0011_C2.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.3645
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0007_C2.png",
+        "similarity_score": 0.3637
+    },
+    {
+        "document_1": "kriyam_0010_C2.png",
+        "document_2": "kriyam_0013_C0.png",
+        "similarity_score": 0.3631
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0004_C2.png",
+        "similarity_score": 0.363
+    },
+    {
+        "document_1": "kriyam_0005_C0.png",
+        "document_2": "kriyam_0011_C4.png",
+        "similarity_score": 0.363
+    },
+    {
+        "document_1": "kriyam_0002_C2.png",
+        "document_2": "kriyam_0010_C0.png",
+        "similarity_score": 0.3629
+    },
+    {
+        "document_1": "kriyam_0007_C0.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.3629
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0011_C4.png",
+        "similarity_score": 0.3627
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.3606
+    },
+    {
+        "document_1": "kriyam_0011_C4.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.3606
+    },
+    {
+        "document_1": "kriyam_0007_C4.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.3605
+    },
+    {
+        "document_1": "kriyam_0005_C4.png",
+        "document_2": "kriyam_0011_C2.png",
+        "similarity_score": 0.3598
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0010_C4.png",
+        "similarity_score": 0.3595
+    },
+    {
+        "document_1": "kriyam_0004_C2.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.3593
+    },
+    {
+        "document_1": "kriyam_0010_C0.png",
+        "document_2": "kriyam_0013_C4.png",
+        "similarity_score": 0.3593
+    },
+    {
+        "document_1": "kriyam_0007_C4.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.3582
+    },
+    {
+        "document_1": "kriyam_0005_C4.png",
+        "document_2": "kriyam_0011_C4.png",
+        "similarity_score": 0.358
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0010_C2.png",
+        "similarity_score": 0.3575
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0004_C2.png",
+        "similarity_score": 0.3572
+    },
+    {
+        "document_1": "kriyam_0005_C4.png",
+        "document_2": "kriyam_0008_C2.png",
+        "similarity_score": 0.357
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0011_C0.png",
+        "similarity_score": 0.3567
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0011_C2.png",
+        "similarity_score": 0.3567
+    },
+    {
+        "document_1": "kriyam_0011_C0.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.3567
+    },
+    {
+        "document_1": "kriyam_0004_C4.png",
+        "document_2": "kriyam_0010_C0.png",
+        "similarity_score": 0.3565
+    },
+    {
+        "document_1": "kriyam_0006_C2.png",
+        "document_2": "kriyam_0012_C0.png",
+        "similarity_score": 0.3565
+    },
+    {
+        "document_1": "kriyam_0005_C4.png",
+        "document_2": "kriyam_0006_C2.png",
+        "similarity_score": 0.3559
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0011_C4.png",
+        "similarity_score": 0.3554
+    },
+    {
+        "document_1": "kriyam_0010_C0.png",
+        "document_2": "kriyam_0013_C2.png",
+        "similarity_score": 0.3552
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0011_C2.png",
+        "similarity_score": 0.3551
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0011_C0.png",
+        "similarity_score": 0.3547
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0010_C2.png",
+        "similarity_score": 0.3544
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0011_C4.png",
+        "similarity_score": 0.3537
+    },
+    {
+        "document_1": "kriyam_0004_C4.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.3528
+    },
+    {
+        "document_1": "kriyam_0004_C0.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.3526
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0010_C2.png",
+        "similarity_score": 0.3524
+    },
+    {
+        "document_1": "kriyam_0006_C2.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.352
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0011_C0.png",
+        "similarity_score": 0.3519
+    },
+    {
+        "document_1": "kriyam_0006_C4.png",
+        "document_2": "kriyam_0012_C2.png",
+        "similarity_score": 0.3517
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0004_C0.png",
+        "similarity_score": 0.3511
+    },
+    {
+        "document_1": "kriyam_0006_C2.png",
+        "document_2": "kriyam_0012_C2.png",
+        "similarity_score": 0.351
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.3509
+    },
+    {
+        "document_1": "kriyam_0006_C4.png",
+        "document_2": "kriyam_0012_C0.png",
+        "similarity_score": 0.3501
+    },
+    {
+        "document_1": "kriyam_0007_C4.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.3498
+    },
+    {
+        "document_1": "kriyam_0004_C4.png",
+        "document_2": "kriyam_0005_C2.png",
+        "similarity_score": 0.3483
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0011_C0.png",
+        "similarity_score": 0.348
+    },
+    {
+        "document_1": "kriyam_0005_C4.png",
+        "document_2": "kriyam_0007_C0.png",
+        "similarity_score": 0.3475
+    },
+    {
+        "document_1": "kriyam_0004_C2.png",
+        "document_2": "kriyam_0011_C4.png",
+        "similarity_score": 0.3455
+    },
+    {
+        "document_1": "kriyam_0005_C4.png",
+        "document_2": "kriyam_0010_C0.png",
+        "similarity_score": 0.3453
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0011_C0.png",
+        "similarity_score": 0.3445
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0011_C4.png",
+        "similarity_score": 0.344
+    },
+    {
+        "document_1": "kriyam_0010_C4.png",
+        "document_2": "kriyam_0011_C0.png",
+        "similarity_score": 0.3439
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0010_C0.png",
+        "similarity_score": 0.3434
+    },
+    {
+        "document_1": "kriyam_0007_C4.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.3423
+    },
+    {
+        "document_1": "kriyam_0001_C0.png",
+        "document_2": "kriyam_0010_C0.png",
+        "similarity_score": 0.342
+    },
+    {
+        "document_1": "kriyam_0007_C0.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.3414
+    },
+    {
+        "document_1": "kriyam_0002_C0.png",
+        "document_2": "kriyam_0010_C0.png",
+        "similarity_score": 0.3398
+    },
+    {
+        "document_1": "kriyam_0004_C2.png",
+        "document_2": "kriyam_0006_C0.png",
+        "similarity_score": 0.3398
+    },
+    {
+        "document_1": "kriyam_0007_C2.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.3391
+    },
+    {
+        "document_1": "kriyam_0004_C4.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.3385
+    },
+    {
+        "document_1": "kriyam_0007_C2.png",
+        "document_2": "kriyam_0013_C0.png",
+        "similarity_score": 0.3365
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0007_C2.png",
+        "similarity_score": 0.3362
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0007_C4.png",
+        "similarity_score": 0.3354
+    },
+    {
+        "document_1": "kriyam_0005_C0.png",
+        "document_2": "kriyam_0006_C2.png",
+        "similarity_score": 0.3352
+    },
+    {
+        "document_1": "kriyam_0006_C0.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.335
+    },
+    {
+        "document_1": "kriyam_0005_C4.png",
+        "document_2": "kriyam_0008_C4.png",
+        "similarity_score": 0.3346
+    },
+    {
+        "document_1": "kriyam_0005_C4.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.3342
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0011_C0.png",
+        "similarity_score": 0.3341
+    },
+    {
+        "document_1": "kriyam_0010_C0.png",
+        "document_2": "kriyam_0013_C0.png",
+        "similarity_score": 0.3335
+    },
+    {
+        "document_1": "kriyam_0001_C2.png",
+        "document_2": "kriyam_0010_C0.png",
+        "similarity_score": 0.3328
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0010_C2.png",
+        "similarity_score": 0.3323
+    },
+    {
+        "document_1": "kriyam_0005_C2.png",
+        "document_2": "kriyam_0011_C0.png",
+        "similarity_score": 0.3322
+    },
+    {
+        "document_1": "kriyam_0010_C4.png",
+        "document_2": "kriyam_0011_C4.png",
+        "similarity_score": 0.3314
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0007_C2.png",
+        "similarity_score": 0.3311
+    },
+    {
+        "document_1": "kriyam_0004_C0.png",
+        "document_2": "kriyam_0005_C0.png",
+        "similarity_score": 0.3308
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0011_C2.png",
+        "similarity_score": 0.3298
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.3289
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0011_C2.png",
+        "similarity_score": 0.3286
+    },
+    {
+        "document_1": "kriyam_0007_C2.png",
+        "document_2": "kriyam_0013_C2.png",
+        "similarity_score": 0.3282
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.3277
+    },
+    {
+        "document_1": "kriyam_0007_C4.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.3277
+    },
+    {
+        "document_1": "kriyam_0006_C4.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.3249
+    },
+    {
+        "document_1": "kriyam_0004_C2.png",
+        "document_2": "kriyam_0011_C2.png",
+        "similarity_score": 0.3245
+    },
+    {
+        "document_1": "kriyam_0004_C0.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.3236
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.3229
+    },
+    {
+        "document_1": "kriyam_0004_C2.png",
+        "document_2": "kriyam_0011_C0.png",
+        "similarity_score": 0.3228
+    },
+    {
+        "document_1": "kriyam_0010_C4.png",
+        "document_2": "kriyam_0011_C2.png",
+        "similarity_score": 0.3225
+    },
+    {
+        "document_1": "kriyam_0005_C4.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.3222
+    },
+    {
+        "document_1": "kriyam_0011_C2.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.3221
+    },
+    {
+        "document_1": "kriyam_0006_C0.png",
+        "document_2": "kriyam_0012_C4.png",
+        "similarity_score": 0.322
+    },
+    {
+        "document_1": "kriyam_0005_C2.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.3219
+    },
+    {
+        "document_1": "kriyam_0005_C4.png",
+        "document_2": "kriyam_0007_C4.png",
+        "similarity_score": 0.3211
+    },
+    {
+        "document_1": "kriyam_0005_C2.png",
+        "document_2": "kriyam_0006_C2.png",
+        "similarity_score": 0.321
+    },
+    {
+        "document_1": "kriyam_0006_C2.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.32
+    },
+    {
+        "document_1": "kriyam_0007_C0.png",
+        "document_2": "kriyam_0011_C4.png",
+        "similarity_score": 0.32
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0011_C2.png",
+        "similarity_score": 0.3193
+    },
+    {
+        "document_1": "kriyam_0007_C2.png",
+        "document_2": "kriyam_0013_C4.png",
+        "similarity_score": 0.3193
+    },
+    {
+        "document_1": "kriyam_0003_C4.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.3184
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.3183
+    },
+    {
+        "document_1": "kriyam_0010_C2.png",
+        "document_2": "kriyam_0011_C0.png",
+        "similarity_score": 0.3183
+    },
+    {
+        "document_1": "kriyam_0004_C0.png",
+        "document_2": "kriyam_0005_C2.png",
+        "similarity_score": 0.3178
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0011_C4.png",
+        "similarity_score": 0.317
+    },
+    {
+        "document_1": "kriyam_0010_C0.png",
+        "document_2": "kriyam_0011_C0.png",
+        "similarity_score": 0.3166
+    },
+    {
+        "document_1": "kriyam_0003_C2.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.3165
+    },
+    {
+        "document_1": "kriyam_0006_C2.png",
+        "document_2": "kriyam_0010_C4.png",
+        "similarity_score": 0.316
+    },
+    {
+        "document_1": "kriyam_0007_C0.png",
+        "document_2": "kriyam_0011_C0.png",
+        "similarity_score": 0.3158
+    },
+    {
+        "document_1": "kriyam_0004_C4.png",
+        "document_2": "kriyam_0005_C4.png",
+        "similarity_score": 0.3156
+    },
+    {
+        "document_1": "kriyam_0005_C2.png",
+        "document_2": "kriyam_0011_C4.png",
+        "similarity_score": 0.3153
+    },
+    {
+        "document_1": "kriyam_0004_C0.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.315
+    },
+    {
+        "document_1": "kriyam_0005_C4.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.3122
+    },
+    {
+        "document_1": "kriyam_0006_C4.png",
+        "document_2": "kriyam_0007_C2.png",
+        "similarity_score": 0.3121
+    },
+    {
+        "document_1": "kriyam_0004_C2.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.3118
+    },
+    {
+        "document_1": "kriyam_0005_C2.png",
+        "document_2": "kriyam_0011_C2.png",
+        "similarity_score": 0.3118
+    },
+    {
+        "document_1": "kriyam_0006_C2.png",
+        "document_2": "kriyam_0010_C2.png",
+        "similarity_score": 0.3107
+    },
+    {
+        "document_1": "kriyam_0005_C4.png",
+        "document_2": "kriyam_0006_C4.png",
+        "similarity_score": 0.3101
+    },
+    {
+        "document_1": "kriyam_0004_C2.png",
+        "document_2": "kriyam_0005_C0.png",
+        "similarity_score": 0.3096
+    },
+    {
+        "document_1": "kriyam_0002_C4.png",
+        "document_2": "kriyam_0010_C0.png",
+        "similarity_score": 0.3091
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0007_C2.png",
+        "similarity_score": 0.3089
+    },
+    {
+        "document_1": "kriyam_0004_C2.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.3085
+    },
+    {
+        "document_1": "kriyam_0006_C2.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.3085
+    },
+    {
+        "document_1": "kriyam_0005_C4.png",
+        "document_2": "kriyam_0006_C0.png",
+        "similarity_score": 0.3074
+    },
+    {
+        "document_1": "kriyam_0006_C4.png",
+        "document_2": "kriyam_0010_C4.png",
+        "similarity_score": 0.3067
+    },
+    {
+        "document_1": "kriyam_0005_C2.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.3046
+    },
+    {
+        "document_1": "kriyam_0006_C4.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.3034
+    },
+    {
+        "document_1": "kriyam_0010_C0.png",
+        "document_2": "kriyam_0011_C4.png",
+        "similarity_score": 0.3026
+    },
+    {
+        "document_1": "kriyam_0010_C2.png",
+        "document_2": "kriyam_0011_C4.png",
+        "similarity_score": 0.3025
+    },
+    {
+        "document_1": "kriyam_0004_C2.png",
+        "document_2": "kriyam_0005_C2.png",
+        "similarity_score": 0.301
+    },
+    {
+        "document_1": "kriyam_0007_C2.png",
+        "document_2": "kriyam_0015_C4.png",
+        "similarity_score": 0.3008
+    },
+    {
+        "document_1": "kriyam_0006_C2.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.2997
+    },
+    {
+        "document_1": "kriyam_0006_C4.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.299
+    },
+    {
+        "document_1": "kriyam_0007_C0.png",
+        "document_2": "kriyam_0011_C2.png",
+        "similarity_score": 0.2985
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0004_C2.png",
+        "similarity_score": 0.2983
+    },
+    {
+        "document_1": "kriyam_0007_C4.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.2981
+    },
+    {
+        "document_1": "kriyam_0006_C4.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.298
+    },
+    {
+        "document_1": "kriyam_0010_C0.png",
+        "document_2": "kriyam_0011_C2.png",
+        "similarity_score": 0.2975
+    },
+    {
+        "document_1": "kriyam_0010_C2.png",
+        "document_2": "kriyam_0011_C2.png",
+        "similarity_score": 0.2975
+    },
+    {
+        "document_1": "kriyam_0005_C2.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.2972
+    },
+    {
+        "document_1": "kriyam_0004_C4.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.2925
+    },
+    {
+        "document_1": "kriyam_0006_C2.png",
+        "document_2": "kriyam_0007_C2.png",
+        "similarity_score": 0.2924
+    },
+    {
+        "document_1": "kriyam_0006_C4.png",
+        "document_2": "kriyam_0010_C2.png",
+        "similarity_score": 0.2915
+    },
+    {
+        "document_1": "kriyam_0006_C2.png",
+        "document_2": "kriyam_0010_C0.png",
+        "similarity_score": 0.2895
+    },
+    {
+        "document_1": "kriyam_0001_C4.png",
+        "document_2": "kriyam_0010_C0.png",
+        "similarity_score": 0.2893
+    },
+    {
+        "document_1": "kriyam_0006_C0.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.2891
+    },
+    {
+        "document_1": "kriyam_0005_C0.png",
+        "document_2": "kriyam_0006_C4.png",
+        "similarity_score": 0.288
+    },
+    {
+        "document_1": "kriyam_0006_C0.png",
+        "document_2": "kriyam_0012_C0.png",
+        "similarity_score": 0.286
+    },
+    {
+        "document_1": "kriyam_0007_C4.png",
+        "document_2": "kriyam_0011_C0.png",
+        "similarity_score": 0.2847
+    },
+    {
+        "document_1": "kriyam_0006_C4.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.2845
+    },
+    {
+        "document_1": "kriyam_0006_C0.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.2829
+    },
+    {
+        "document_1": "kriyam_0005_C2.png",
+        "document_2": "kriyam_0007_C2.png",
+        "similarity_score": 0.2808
+    },
+    {
+        "document_1": "kriyam_0006_C0.png",
+        "document_2": "kriyam_0007_C2.png",
+        "similarity_score": 0.2803
+    },
+    {
+        "document_1": "kriyam_0006_C0.png",
+        "document_2": "kriyam_0012_C2.png",
+        "similarity_score": 0.2798
+    },
+    {
+        "document_1": "kriyam_0004_C0.png",
+        "document_2": "kriyam_0005_C4.png",
+        "similarity_score": 0.2791
+    },
+    {
+        "document_1": "kriyam_0006_C4.png",
+        "document_2": "kriyam_0010_C0.png",
+        "similarity_score": 0.2774
+    },
+    {
+        "document_1": "kriyam_0006_C4.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.2766
+    },
+    {
+        "document_1": "kriyam_0007_C2.png",
+        "document_2": "kriyam_0015_C0.png",
+        "similarity_score": 0.2759
+    },
+    {
+        "document_1": "kriyam_0005_C0.png",
+        "document_2": "kriyam_0007_C2.png",
+        "similarity_score": 0.2717
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.2683
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.2647
+    },
+    {
+        "document_1": "kriyam_0007_C4.png",
+        "document_2": "kriyam_0011_C4.png",
+        "similarity_score": 0.2618
+    },
+    {
+        "document_1": "kriyam_0006_C0.png",
+        "document_2": "kriyam_0014_C4.png",
+        "similarity_score": 0.2607
+    },
+    {
+        "document_1": "kriyam_0005_C0.png",
+        "document_2": "kriyam_0006_C0.png",
+        "similarity_score": 0.2605
+    },
+    {
+        "document_1": "kriyam_0006_C0.png",
+        "document_2": "kriyam_0014_C0.png",
+        "similarity_score": 0.2597
+    },
+    {
+        "document_1": "kriyam_0004_C2.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.2578
+    },
+    {
+        "document_1": "kriyam_0007_C4.png",
+        "document_2": "kriyam_0011_C2.png",
+        "similarity_score": 0.2557
+    },
+    {
+        "document_1": "kriyam_0003_C0.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.2543
+    },
+    {
+        "document_1": "kriyam_0004_C0.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.248
+    },
+    {
+        "document_1": "kriyam_0006_C0.png",
+        "document_2": "kriyam_0010_C4.png",
+        "similarity_score": 0.2465
+    },
+    {
+        "document_1": "kriyam_0004_C2.png",
+        "document_2": "kriyam_0005_C4.png",
+        "similarity_score": 0.2459
+    },
+    {
+        "document_1": "kriyam_0006_C0.png",
+        "document_2": "kriyam_0014_C2.png",
+        "similarity_score": 0.2447
+    },
+    {
+        "document_1": "kriyam_0005_C4.png",
+        "document_2": "kriyam_0007_C2.png",
+        "similarity_score": 0.2409
+    },
+    {
+        "document_1": "kriyam_0007_C2.png",
+        "document_2": "kriyam_0015_C2.png",
+        "similarity_score": 0.2399
+    },
+    {
+        "document_1": "kriyam_0005_C2.png",
+        "document_2": "kriyam_0006_C4.png",
+        "similarity_score": 0.2371
+    },
+    {
+        "document_1": "kriyam_0007_C2.png",
+        "document_2": "kriyam_0011_C4.png",
+        "similarity_score": 0.2354
+    },
+    {
+        "document_1": "kriyam_0006_C0.png",
+        "document_2": "kriyam_0010_C2.png",
+        "similarity_score": 0.2334
+    },
+    {
+        "document_1": "kriyam_0007_C2.png",
+        "document_2": "kriyam_0011_C0.png",
+        "similarity_score": 0.2334
+    },
+    {
+        "document_1": "kriyam_0005_C2.png",
+        "document_2": "kriyam_0006_C0.png",
+        "similarity_score": 0.2304
+    },
+    {
+        "document_1": "kriyam_0007_C2.png",
+        "document_2": "kriyam_0011_C2.png",
+        "similarity_score": 0.2221
+    },
+    {
+        "document_1": "kriyam_0006_C0.png",
+        "document_2": "kriyam_0010_C0.png",
+        "similarity_score": 0.2202
+    }
+]

@@ -1,0 +1,273 @@
+{
+    "report_title": "Agentic AI Document Forensics Investigation Report",
+    "investigation_id": "INV-9E95AC2D",
+    "generated_at": "2026-11-08 15:16:04 UTC",
+    "investigation_status": "Pending Human Investigation",
+    "overall_classification": "Potentially Tampered / High Risk",
+    "executive_summary": {
+        "total_documents": 2,
+        "total_pages": 2,
+        "suspicious_regions_count": 0,
+        "cross_document_mismatches_count": 1,
+        "total_evidence_items": 3,
+        "status": "Pending Human Investigation",
+        "recommendation": "Automated agents flagged one or more visual anomalies, classification thresholds, or cross-document value contradictions. Rigorous manual inspection by a forensic expert is strongly advised before accepting these documents."
+    },
+    "documents": [
+        {
+            "document_id": "DOC-C1CBF772",
+            "document_name": "DOC-C1CBF772_sample_salary_slip.pdf",
+            "page_count": 1,
+            "classification": "Likely Authentic",
+            "tampering_score": 0.1363,
+            "threshold": 0.9000000000000001,
+            "suspicious_regions": [],
+            "annotated_pages": [
+                "D:\\Document-Forensics\\backend\\outputs\\pages\\DOC-C1CBF772\\annotated_p1_DOC-C1CBF772_sample_salary_slip_page_1.png"
+            ]
+        },
+        {
+            "document_id": "DOC-DD2744F7",
+            "document_name": "DOC-DD2744F7_sample_bank_statement.pdf",
+            "page_count": 1,
+            "classification": "Likely Authentic",
+            "tampering_score": 0.0862,
+            "threshold": 0.9000000000000001,
+            "suspicious_regions": [],
+            "annotated_pages": [
+                "D:\\Document-Forensics\\backend\\outputs\\pages\\DOC-DD2744F7\\annotated_p1_DOC-DD2744F7_sample_bank_statement_page_1.png"
+            ]
+        }
+    ],
+    "visual_forensics": {
+        "results": [
+            {
+                "document_id": "DOC-C1CBF772",
+                "document_name": "sample_salary_slip.pdf",
+                "classification": "Likely Authentic",
+                "tampering_score": 0.1363,
+                "threshold": 0.9000000000000001,
+                "is_tampered_candidate": false,
+                "suspicious_regions": [],
+                "page_results": [
+                    {
+                        "page_number": 1,
+                        "image_path": "D:\\Document-Forensics\\backend\\outputs\\pages\\DOC-C1CBF772\\DOC-C1CBF772_sample_salary_slip_page_1.png",
+                        "tampering_score": 0.1363,
+                        "threshold": 0.9000000000000001,
+                        "classification": "Likely Authentic",
+                        "is_tampered_candidate": false,
+                        "suspicious_regions": [],
+                        "annotated_image_path": "D:\\Document-Forensics\\backend\\outputs\\pages\\DOC-C1CBF772\\annotated_p1_DOC-C1CBF772_sample_salary_slip_page_1.png"
+                    }
+                ],
+                "annotated_pages": [
+                    "D:\\Document-Forensics\\backend\\outputs\\pages\\DOC-C1CBF772\\annotated_p1_DOC-C1CBF772_sample_salary_slip_page_1.png"
+                ],
+                "disclaimer": "Automated visual anomaly detection indicates potential statistical inconsistencies and is not proof of fraud. Final determination requires human review."
+            },
+            {
+                "document_id": "DOC-DD2744F7",
+                "document_name": "sample_bank_statement.pdf",
+                "classification": "Likely Authentic",
+                "tampering_score": 0.0862,
+                "threshold": 0.9000000000000001,
+                "is_tampered_candidate": false,
+                "suspicious_regions": [],
+                "page_results": [
+                    {
+                        "page_number": 1,
+                        "image_path": "D:\\Document-Forensics\\backend\\outputs\\pages\\DOC-DD2744F7\\DOC-DD2744F7_sample_bank_statement_page_1.png",
+                        "tampering_score": 0.0862,
+                        "threshold": 0.9000000000000001,
+                        "classification": "Likely Authentic",
+                        "is_tampered_candidate": false,
+                        "suspicious_regions": [],
+                        "annotated_image_path": "D:\\Document-Forensics\\backend\\outputs\\pages\\DOC-DD2744F7\\annotated_p1_DOC-DD2744F7_sample_bank_statement_page_1.png"
+                    }
+                ],
+                "annotated_pages": [
+                    "D:\\Document-Forensics\\backend\\outputs\\pages\\DOC-DD2744F7\\annotated_p1_DOC-DD2744F7_sample_bank_statement_page_1.png"
+                ],
+                "disclaimer": "Automated visual anomaly detection indicates potential statistical inconsistencies and is not proof of fraud. Final determination requires human review."
+            }
+        ],
+        "summary": "Analyzed 2 document(s). Detected 0 visual regions of concern."
+    },
+    "contextual_analysis": {
+        "status": "llm_unavailable_rule_based_analysis",
+        "model_used": "Rule-based Context Engine (Factual Entity Extractor)",
+        "executive_summary": "Contextual analysis processed 2 document(s). Identified 8 factual entities, 0 potential contextual flags, and 0 missing field notices. No facts were hallucinated or assumed.",
+        "entities": [
+            {
+                "type": "Quantitative Measurement / Amount",
+                "value": "40,000",
+                "source_text": "INR 40,000",
+                "document": "DOC-C1CBF772_sample_salary_slip.pdf",
+                "page": 1
+            },
+            {
+                "type": "Quantitative Measurement / Amount",
+                "value": "15,000",
+                "source_text": "INR 15,000",
+                "document": "DOC-C1CBF772_sample_salary_slip.pdf",
+                "page": 1
+            },
+            {
+                "type": "Quantitative Measurement / Amount",
+                "value": "5,000",
+                "source_text": "INR 5,000",
+                "document": "DOC-C1CBF772_sample_salary_slip.pdf",
+                "page": 1
+            },
+            {
+                "type": "Quantitative Measurement / Amount",
+                "value": "50,000",
+                "source_text": "INR 50,000",
+                "document": "DOC-C1CBF772_sample_salary_slip.pdf",
+                "page": 1
+            },
+            {
+                "type": "Quantitative Measurement / Amount",
+                "value": "50,000",
+                "source_text": "INR 50,000",
+                "document": "DOC-C1CBF772_sample_salary_slip.pdf",
+                "page": 1
+            },
+            {
+                "type": "Quantitative Measurement / Amount",
+                "value": "35,000",
+                "source_text": "INR 35,000",
+                "document": "DOC-DD2744F7_sample_bank_statement.pdf",
+                "page": 1
+            },
+            {
+                "type": "Quantitative Measurement / Amount",
+                "value": "82,450",
+                "source_text": "INR 82,450",
+                "document": "DOC-DD2744F7_sample_bank_statement.pdf",
+                "page": 1
+            },
+            {
+                "type": "Quantitative Measurement / Amount",
+                "value": "35,000",
+                "source_text": "INR 35,000",
+                "document": "DOC-DD2744F7_sample_bank_statement.pdf",
+                "page": 1
+            }
+        ],
+        "anomalies": [],
+        "missing_fields": [],
+        "raw_analysis": "### Contextual and Entity Forensic Analysis\n\n#### 1. Identified Key Entities (Grounded in OCR Extracted Text)\n- **Names (0):** None clearly detected\n- **Dates (0):** None clearly detected\n- **Key Measurements / Values (8):** 35,000, 82,450, 50,000, 5,000, 40,000, 15,000\n\n#### 2. Potential Contextual Inconsistencies & Anomalies\n- No internal syntax or typography contradictions flagged in extracted text.\n\n#### 3. Missing Fields\n- All expected standard header fields detected.\n"
+    },
+    "cross_document_comparison": {
+        "total_documents": 2,
+        "total_comparisons": 1,
+        "comparisons": [
+            {
+                "document_1": "DOC-C1CBF772_sample_salary_slip.pdf",
+                "document_2": "DOC-DD2744F7_sample_bank_statement.pdf",
+                "similarity_score": 0.7853,
+                "status": "Strongly Related Document Pair",
+                "key_field_comparisons": [
+                    {
+                        "field": "Subject / Individual Name",
+                        "doc_a_value": "Aarav Kumar",
+                        "doc_b_value": "Aarav Kumar",
+                        "status": "Match"
+                    },
+                    {
+                        "field": "Account Reference",
+                        "doc_a_value": "XXXXXX4821",
+                        "doc_b_value": "XXXXXX4821",
+                        "status": "Match"
+                    },
+                    {
+                        "field": "Payment / Transaction Date",
+                        "doc_a_value": "31 October 2026",
+                        "doc_b_value": "31 October 2026",
+                        "status": "Match"
+                    },
+                    {
+                        "field": "Statement / Pay Period",
+                        "doc_a_value": "October 2026",
+                        "doc_b_value": "01 October 2026 ~ 31 October 2026",
+                        "status": "Match"
+                    },
+                    {
+                        "field": "Net Salary vs Credit Amount",
+                        "doc_a_value": "INR 50,000",
+                        "doc_b_value": "INR 35,000",
+                        "status": "Mismatch"
+                    },
+                    {
+                        "field": "Document ID",
+                        "doc_a_value": "SAMPLE-SAL-2026-001",
+                        "doc_b_value": "SAMPLE-BANK-2026-001",
+                        "status": "Distinct Doc IDs"
+                    },
+                    {
+                        "field": "Employer / Issuing Institution",
+                        "doc_a_value": "Northstar Design Services (Fictional)",
+                        "doc_b_value": "Example Cooperative Bank (Fictional)",
+                        "status": "Cross-Entity Relation"
+                    }
+                ],
+                "contradictions": [
+                    "Discrepancy in Salary / Credit Amount: 'DOC-C1CBF772_sample_salary_slip.pdf' reports 'INR 50,000', while 'DOC-DD2744F7_sample_bank_statement.pdf' reports 'INR 35,000' (variance: 15,000.00)."
+                ]
+            }
+        ],
+        "potential_contradictions": [
+            "Discrepancy in Salary / Credit Amount: 'DOC-C1CBF772_sample_salary_slip.pdf' reports 'INR 50,000', while 'DOC-DD2744F7_sample_bank_statement.pdf' reports 'INR 35,000' (variance: 15,000.00)."
+        ],
+        "disclaimer": "Semantic similarity indicates thematic or textual correspondence. Mismatches highlight variances requiring human investigation, not conclusive proof of tampering."
+    },
+    "evidence_items": [
+        {
+            "evidence_id": "EVIDENCE_1",
+            "document": "sample_salary_slip.pdf",
+            "page": 1,
+            "evidence_type": "Document-level classification",
+            "category": "MobileNetV2 Classifier Finding",
+            "bounding_box": null,
+            "detection_confidence": 0.1363,
+            "related_text": [],
+            "explanation": "MobileNetV2 classification assigned a score of 0.1363 (decision threshold: 0.90), classifying document as 'Likely Authentic'.",
+            "source_level": "model_prediction"
+        },
+        {
+            "evidence_id": "EVIDENCE_2",
+            "document": "sample_bank_statement.pdf",
+            "page": 1,
+            "evidence_type": "Document-level classification",
+            "category": "MobileNetV2 Classifier Finding",
+            "bounding_box": null,
+            "detection_confidence": 0.0862,
+            "related_text": [],
+            "explanation": "MobileNetV2 classification assigned a score of 0.0862 (decision threshold: 0.90), classifying document as 'Likely Authentic'.",
+            "source_level": "model_prediction"
+        },
+        {
+            "evidence_id": "EVIDENCE_3",
+            "document": "DOC-C1CBF772_sample_salary_slip.pdf",
+            "page": 1,
+            "evidence_type": "Cross-Document Discrepancy",
+            "category": "Relational Consistency Warning",
+            "bounding_box": [
+                588.0,
+                1123.0,
+                733.0,
+                1155.0
+            ],
+            "detection_confidence": null,
+            "related_text": [
+                "INR 50,000"
+            ],
+            "explanation": "Discrepancy in Salary / Credit Amount: 'DOC-C1CBF772_sample_salary_slip.pdf' reports 'INR 50,000', while 'DOC-DD2744F7_sample_bank_statement.pdf' reports 'INR 35,000' (variance: 15,000.00).",
+            "source_level": "inferred_concern"
+        }
+    ],
+    "review": null,
+    "disclaimer": "This report was compiled by an agentic AI forensics pipeline. Predictions from MobileNetV2, YOLOv8, and NLP models indicate potential anomalies and do NOT constitute legal proof of fraud. Final decisions must be signed by an authorized human investigator."
+}

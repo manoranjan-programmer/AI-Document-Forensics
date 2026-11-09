@@ -1,0 +1,12 @@
+{
+    "threshold": 0.9000000000000001,
+    "input_size": [
+        224,
+        224
+    ],
+    "labels": {
+        "0": "Authentic",
+        "1": "Tampered"
+    },
+    "model": "MobileNetV2"
+}

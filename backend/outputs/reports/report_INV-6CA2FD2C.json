@@ -1,0 +1,128 @@
+{
+    "report_title": "Agentic AI Document Forensics Investigation Report",
+    "investigation_id": "INV-6CA2FD2C",
+    "generated_at": "2026-11-08 15:44:29 UTC",
+    "investigation_status": "Pending Human Investigation",
+    "overall_classification": "Likely Authentic / Low Anomaly",
+    "executive_summary": {
+        "total_documents": 1,
+        "total_pages": 1,
+        "suspicious_regions_count": 0,
+        "cross_document_mismatches_count": 0,
+        "total_evidence_items": 1,
+        "status": "Pending Human Investigation",
+        "recommendation": "Automated inspection found no high-confidence visual manipulation or internal contradictions. Standard verification procedures apply."
+    },
+    "documents": [
+        {
+            "document_id": "DOC-32147DA4",
+            "document_name": "DOC-32147DA4_sample_salary_slip.pdf",
+            "page_count": 1,
+            "classification": "Likely Authentic",
+            "tampering_score": 0.1363,
+            "threshold": 0.9000000000000001,
+            "suspicious_regions": [],
+            "annotated_pages": [
+                "D:\\Document-Forensics\\backend\\outputs\\pages\\DOC-32147DA4\\annotated_p1_DOC-32147DA4_sample_salary_slip_page_1.png"
+            ]
+        }
+    ],
+    "visual_forensics": {
+        "results": [
+            {
+                "document_id": "DOC-32147DA4",
+                "document_name": "sample_salary_slip.pdf",
+                "classification": "Likely Authentic",
+                "tampering_score": 0.1363,
+                "threshold": 0.9000000000000001,
+                "is_tampered_candidate": false,
+                "suspicious_regions": [],
+                "page_results": [
+                    {
+                        "page_number": 1,
+                        "image_path": "D:\\Document-Forensics\\backend\\outputs\\pages\\DOC-32147DA4\\DOC-32147DA4_sample_salary_slip_page_1.png",
+                        "tampering_score": 0.1363,
+                        "threshold": 0.9000000000000001,
+                        "classification": "Likely Authentic",
+                        "is_tampered_candidate": false,
+                        "suspicious_regions": [],
+                        "annotated_image_path": "D:\\Document-Forensics\\backend\\outputs\\pages\\DOC-32147DA4\\annotated_p1_DOC-32147DA4_sample_salary_slip_page_1.png"
+                    }
+                ],
+                "annotated_pages": [
+                    "D:\\Document-Forensics\\backend\\outputs\\pages\\DOC-32147DA4\\annotated_p1_DOC-32147DA4_sample_salary_slip_page_1.png"
+                ],
+                "disclaimer": "Automated visual anomaly detection indicates potential statistical inconsistencies and is not proof of fraud. Final determination requires human review."
+            }
+        ],
+        "summary": "Analyzed 1 document(s). Detected 0 visual regions of concern."
+    },
+    "contextual_analysis": {
+        "status": "llm_unavailable_rule_based_analysis",
+        "model_used": "Rule-based Context Engine (Factual Entity Extractor)",
+        "executive_summary": "Contextual analysis processed 1 document(s). Identified 5 factual entities, 0 potential contextual flags, and 0 missing field notices. No facts were hallucinated or assumed.",
+        "entities": [
+            {
+                "type": "Quantitative Measurement / Amount",
+                "value": "40,000",
+                "source_text": "INR 40,000",
+                "document": "DOC-32147DA4_sample_salary_slip.pdf",
+                "page": 1
+            },
+            {
+                "type": "Quantitative Measurement / Amount",
+                "value": "15,000",
+                "source_text": "INR 15,000",
+                "document": "DOC-32147DA4_sample_salary_slip.pdf",
+                "page": 1
+            },
+            {
+                "type": "Quantitative Measurement / Amount",
+                "value": "5,000",
+                "source_text": "INR 5,000",
+                "document": "DOC-32147DA4_sample_salary_slip.pdf",
+                "page": 1
+            },
+            {
+                "type": "Quantitative Measurement / Amount",
+                "value": "50,000",
+                "source_text": "INR 50,000",
+                "document": "DOC-32147DA4_sample_salary_slip.pdf",
+                "page": 1
+            },
+            {
+                "type": "Quantitative Measurement / Amount",
+                "value": "50,000",
+                "source_text": "INR 50,000",
+                "document": "DOC-32147DA4_sample_salary_slip.pdf",
+                "page": 1
+            }
+        ],
+        "anomalies": [],
+        "missing_fields": [],
+        "raw_analysis": "### Contextual and Entity Forensic Analysis\n\n#### 1. Identified Key Entities (Grounded in OCR Extracted Text)\n- **Names (0):** None clearly detected\n- **Dates (0):** None clearly detected\n- **Key Measurements / Values (5):** 15,000, 50,000, 40,000, 5,000\n\n#### 2. Potential Contextual Inconsistencies & Anomalies\n- No internal syntax or typography contradictions flagged in extracted text.\n\n#### 3. Missing Fields\n- All expected standard header fields detected.\n"
+    },
+    "cross_document_comparison": {
+        "total_documents": 1,
+        "total_comparisons": 0,
+        "comparisons": [],
+        "potential_contradictions": [],
+        "summary": "Only one document uploaded. Cross-document comparison requires at least two documents."
+    },
+    "evidence_items": [
+        {
+            "evidence_id": "EVIDENCE_1",
+            "document": "sample_salary_slip.pdf",
+            "page": 1,
+            "evidence_type": "Document-level classification",
+            "category": "MobileNetV2 Classifier Finding",
+            "bounding_box": null,
+            "detection_confidence": 0.1363,
+            "related_text": [],
+            "explanation": "MobileNetV2 classification assigned a score of 0.1363 (decision threshold: 0.90), classifying document as 'Likely Authentic'.",
+            "source_level": "model_prediction"
+        }
+    ],
+    "review": null,
+    "disclaimer": "This report was compiled by an agentic AI forensics pipeline. Predictions from MobileNetV2, YOLOv8, and NLP models indicate potential anomalies and do NOT constitute legal proof of fraud. Final decisions must be signed by an authorized human investigator."
+}

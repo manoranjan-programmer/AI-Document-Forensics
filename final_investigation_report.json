@@ -1,0 +1,386 @@
+{
+    "report_title": "Intelligent Document Forensics Investigation Report",
+    "generated_at": "2026-11-07 20:00:45",
+    "document": "kriyam_0218_C2.png",
+    "executive_summary": {
+        "total_evidence_items": 10,
+        "investigation_status": "Requires Human Review",
+        "classification": "Potentially Tampered"
+    },
+    "visual_and_document_evidence": [
+        {
+            "evidence_id": "EVIDENCE_1",
+            "document": "kriyam_0218_C2.png",
+            "page": 1,
+            "evidence_type": "Potentially suspicious visual region",
+            "bounding_box": [
+                730.0272827148438,
+                341.33819580078125,
+                999.7020263671875,
+                493.56207275390625
+            ],
+            "detection_confidence": 0.7994643449783325,
+            "related_text": []
+        },
+        {
+            "evidence_id": "EVIDENCE_2",
+            "document": "kriyam_0218_C2.png",
+            "page": 1,
+            "evidence_type": "Potentially suspicious visual region",
+            "bounding_box": [
+                12.753504753112793,
+                181.865234375,
+                290.5460205078125,
+                216.01937866210938
+            ],
+            "detection_confidence": 0.7416980862617493,
+            "related_text": []
+        },
+        {
+            "evidence_id": "EVIDENCE_3",
+            "document": "kriyam_0218_C2.png",
+            "page": 1,
+            "evidence_type": "Potentially suspicious visual region",
+            "bounding_box": [
+                208.5836181640625,
+                152.30857849121094,
+                467.35711669921875,
+                185.370849609375
+            ],
+            "detection_confidence": 0.7016831636428833,
+            "related_text": []
+        },
+        {
+            "evidence_id": "EVIDENCE_4",
+            "document": "kriyam_0218_C2.png",
+            "page": 1,
+            "evidence_type": "Potentially suspicious visual region",
+            "bounding_box": [
+                767.1060180664062,
+                269.5152893066406,
+                1024.8131103515625,
+                318.64788818359375
+            ],
+            "detection_confidence": 0.6973006129264832,
+            "related_text": []
+        },
+        {
+            "evidence_id": "EVIDENCE_5",
+            "document": "kriyam_0218_C2.png",
+            "page": 1,
+            "evidence_type": "Potentially suspicious visual region",
+            "bounding_box": [
+                170.58441162109375,
+                240.66209411621094,
+                400.2768249511719,
+                268.8269348144531
+            ],
+            "detection_confidence": 0.6548867225646973,
+            "related_text": []
+        },
+        {
+            "evidence_id": "EVIDENCE_6",
+            "document": "kriyam_0218_C2.png",
+            "page": 1,
+            "evidence_type": "Potentially suspicious visual region",
+            "bounding_box": [
+                651.892822265625,
+                210.55372619628906,
+                860.4924926757812,
+                234.2105255126953
+            ],
+            "detection_confidence": 0.5349776744842529,
+            "related_text": []
+        },
+        {
+            "evidence_id": "EVIDENCE_7",
+            "document": "kriyam_0218_C2.png",
+            "page": 1,
+            "evidence_type": "Potentially suspicious visual region",
+            "bounding_box": [
+                225.81622314453125,
+                220.12608337402344,
+                424.8758239746094,
+                241.7852020263672
+            ],
+            "detection_confidence": 0.5065072774887085,
+            "related_text": []
+        },
+        {
+            "evidence_id": "EVIDENCE_8",
+            "document": "kriyam_0218_C2.png",
+            "page": 1,
+            "evidence_type": "Potentially suspicious visual region",
+            "bounding_box": [
+                222.83981323242188,
+                217.20382690429688,
+                444.7638854980469,
+                237.7491912841797
+            ],
+            "detection_confidence": 0.4886716604232788,
+            "related_text": []
+        },
+        {
+            "evidence_id": "EVIDENCE_9",
+            "document": "kriyam_0218_C2.png",
+            "page": 1,
+            "evidence_type": "Potentially suspicious visual region",
+            "bounding_box": [
+                650.0927124023438,
+                213.738525390625,
+                849.2734985351562,
+                239.2941436767578
+            ],
+            "detection_confidence": 0.30663225054740906,
+            "related_text": []
+        },
+        {
+            "evidence_id": "EVIDENCE_10",
+            "document": "kriyam_0218_C2.png",
+            "evidence_type": "Document-level classification",
+            "classification": "Potentially Tampered",
+            "tampering_score": 0.9947,
+            "threshold": 0.9000000000000001
+        }
+    ],
+    "contextual_analysis": "### Structured Analysis:\n\n#### 1. **Important Names, Dates and Amounts**\n- **Name:** Shri/Smt Head of the Hospital\n- **Date:** Not explicitly mentioned but implied as part of the standard declaration form.\n- **Amount:** Not applicable as it is a declaration form rather than an accounting document.\n\n#### 2. **Unusual or Inconsistent Information**\n- **\"Aadhaar Authentication\":** This term is used inconsistently throughout the text. It appears once as \"aadhaar authentication\" and twice as \"aadhaar authentication.\" The first instance seems to be a typo or misspelling, while the second might be intended to convey the same concept.\n  \n- **\"Technical Error\":** This phrase",
+    "cross_document_comparison": {
+        "total_documents": 10,
+        "total_comparisons": 45,
+        "comparisons": [
+            {
+                "document_1": "kriyam_0002_C0.png",
+                "document_2": "kriyam_0002_C2.png",
+                "similarity_score": 0.9702
+            },
+            {
+                "document_1": "kriyam_0001_C0.png",
+                "document_2": "kriyam_0001_C4.png",
+                "similarity_score": 0.9588
+            },
+            {
+                "document_1": "kriyam_0003_C2.png",
+                "document_2": "kriyam_0003_C4.png",
+                "similarity_score": 0.9581
+            },
+            {
+                "document_1": "kriyam_0001_C0.png",
+                "document_2": "kriyam_0001_C2.png",
+                "similarity_score": 0.9573
+            },
+            {
+                "document_1": "kriyam_0001_C2.png",
+                "document_2": "kriyam_0001_C4.png",
+                "similarity_score": 0.9483
+            },
+            {
+                "document_1": "kriyam_0002_C0.png",
+                "document_2": "kriyam_0002_C4.png",
+                "similarity_score": 0.9476
+            },
+            {
+                "document_1": "kriyam_0002_C2.png",
+                "document_2": "kriyam_0002_C4.png",
+                "similarity_score": 0.9275
+            },
+            {
+                "document_1": "kriyam_0003_C0.png",
+                "document_2": "kriyam_0003_C2.png",
+                "similarity_score": 0.8742
+            },
+            {
+                "document_1": "kriyam_0003_C0.png",
+                "document_2": "kriyam_0003_C4.png",
+                "similarity_score": 0.8542
+            },
+            {
+                "document_1": "kriyam_0001_C2.png",
+                "document_2": "kriyam_0002_C2.png",
+                "similarity_score": 0.7069
+            },
+            {
+                "document_1": "kriyam_0001_C4.png",
+                "document_2": "kriyam_0002_C2.png",
+                "similarity_score": 0.6875
+            },
+            {
+                "document_1": "kriyam_0001_C2.png",
+                "document_2": "kriyam_0002_C0.png",
+                "similarity_score": 0.6829
+            },
+            {
+                "document_1": "kriyam_0001_C0.png",
+                "document_2": "kriyam_0002_C2.png",
+                "similarity_score": 0.6802
+            },
+            {
+                "document_1": "kriyam_0001_C0.png",
+                "document_2": "kriyam_0002_C0.png",
+                "similarity_score": 0.6613
+            },
+            {
+                "document_1": "kriyam_0001_C4.png",
+                "document_2": "kriyam_0002_C4.png",
+                "similarity_score": 0.658
+            },
+            {
+                "document_1": "kriyam_0001_C4.png",
+                "document_2": "kriyam_0002_C0.png",
+                "similarity_score": 0.6571
+            },
+            {
+                "document_1": "kriyam_0001_C0.png",
+                "document_2": "kriyam_0002_C4.png",
+                "similarity_score": 0.6561
+            },
+            {
+                "document_1": "kriyam_0001_C2.png",
+                "document_2": "kriyam_0002_C4.png",
+                "similarity_score": 0.6496
+            },
+            {
+                "document_1": "kriyam_0001_C0.png",
+                "document_2": "kriyam_0003_C4.png",
+                "similarity_score": 0.5821
+            },
+            {
+                "document_1": "kriyam_0001_C0.png",
+                "document_2": "kriyam_0003_C2.png",
+                "similarity_score": 0.574
+            },
+            {
+                "document_1": "kriyam_0001_C4.png",
+                "document_2": "kriyam_0003_C2.png",
+                "similarity_score": 0.5669
+            },
+            {
+                "document_1": "kriyam_0001_C4.png",
+                "document_2": "kriyam_0003_C4.png",
+                "similarity_score": 0.5654
+            },
+            {
+                "document_1": "kriyam_0001_C2.png",
+                "document_2": "kriyam_0003_C4.png",
+                "similarity_score": 0.5556
+            },
+            {
+                "document_1": "kriyam_0002_C2.png",
+                "document_2": "kriyam_0004_C0.png",
+                "similarity_score": 0.5556
+            },
+            {
+                "document_1": "kriyam_0002_C0.png",
+                "document_2": "kriyam_0004_C0.png",
+                "similarity_score": 0.5503
+            },
+            {
+                "document_1": "kriyam_0001_C2.png",
+                "document_2": "kriyam_0003_C2.png",
+                "similarity_score": 0.5435
+            },
+            {
+                "document_1": "kriyam_0002_C2.png",
+                "document_2": "kriyam_0003_C4.png",
+                "similarity_score": 0.5144
+            },
+            {
+                "document_1": "kriyam_0002_C4.png",
+                "document_2": "kriyam_0004_C0.png",
+                "similarity_score": 0.5111
+            },
+            {
+                "document_1": "kriyam_0001_C4.png",
+                "document_2": "kriyam_0003_C0.png",
+                "similarity_score": 0.5088
+            },
+            {
+                "document_1": "kriyam_0001_C0.png",
+                "document_2": "kriyam_0003_C0.png",
+                "similarity_score": 0.5039
+            },
+            {
+                "document_1": "kriyam_0002_C2.png",
+                "document_2": "kriyam_0003_C2.png",
+                "similarity_score": 0.5029
+            },
+            {
+                "document_1": "kriyam_0001_C2.png",
+                "document_2": "kriyam_0004_C0.png",
+                "similarity_score": 0.495
+            },
+            {
+                "document_1": "kriyam_0001_C0.png",
+                "document_2": "kriyam_0004_C0.png",
+                "similarity_score": 0.4943
+            },
+            {
+                "document_1": "kriyam_0002_C4.png",
+                "document_2": "kriyam_0003_C4.png",
+                "similarity_score": 0.4902
+            },
+            {
+                "document_1": "kriyam_0001_C2.png",
+                "document_2": "kriyam_0003_C0.png",
+                "similarity_score": 0.4818
+            },
+            {
+                "document_1": "kriyam_0002_C0.png",
+                "document_2": "kriyam_0003_C4.png",
+                "similarity_score": 0.4771
+            },
+            {
+                "document_1": "kriyam_0002_C4.png",
+                "document_2": "kriyam_0003_C2.png",
+                "similarity_score": 0.4744
+            },
+            {
+                "document_1": "kriyam_0002_C2.png",
+                "document_2": "kriyam_0003_C0.png",
+                "similarity_score": 0.4711
+            },
+            {
+                "document_1": "kriyam_0002_C0.png",
+                "document_2": "kriyam_0003_C2.png",
+                "similarity_score": 0.4654
+            },
+            {
+                "document_1": "kriyam_0002_C4.png",
+                "document_2": "kriyam_0003_C0.png",
+                "similarity_score": 0.4493
+            },
+            {
+                "document_1": "kriyam_0001_C4.png",
+                "document_2": "kriyam_0004_C0.png",
+                "similarity_score": 0.4483
+            },
+            {
+                "document_1": "kriyam_0002_C0.png",
+                "document_2": "kriyam_0003_C0.png",
+                "similarity_score": 0.4437
+            },
+            {
+                "document_1": "kriyam_0003_C2.png",
+                "document_2": "kriyam_0004_C0.png",
+                "similarity_score": 0.4046
+            },
+            {
+                "document_1": "kriyam_0003_C4.png",
+                "document_2": "kriyam_0004_C0.png",
+                "similarity_score": 0.4012
+            },
+            {
+                "document_1": "kriyam_0003_C0.png",
+                "document_2": "kriyam_0004_C0.png",
+                "similarity_score": 0.3511
+            }
+        ]
+    },
+    "investigator_recommendations": [
+        "Review all potentially suspicious visual regions.",
+        "Verify extracted names, dates and financial amounts.",
+        "Compare related documents for conflicting information.",
+        "Verify findings against the original document.",
+        "Make the final investigation decision through human review."
+    ],
+    "final_decision": "Pending Human Investigation"
+}

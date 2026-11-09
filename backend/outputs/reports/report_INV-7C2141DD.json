@@ -1,0 +1,1039 @@
+{
+    "report_title": "Agentic AI Document Forensics Investigation Report",
+    "investigation_id": "INV-7C2141DD",
+    "generated_at": "2026-11-08 09:58:12 UTC",
+    "investigation_status": "Pending Human Investigation",
+    "overall_classification": "Potentially Tampered / High Risk",
+    "executive_summary": {
+        "total_documents": 1,
+        "total_pages": 1,
+        "suspicious_regions_count": 16,
+        "cross_document_mismatches_count": 0,
+        "total_evidence_items": 17,
+        "status": "Pending Human Investigation",
+        "recommendation": "Automated agents flagged one or more visual anomalies, classification thresholds, or cross-document value contradictions. Rigorous manual inspection by a forensic expert is strongly advised before accepting these documents."
+    },
+    "documents": [
+        {
+            "document_id": "DOC-CBC4FAD9",
+            "document_name": "DOC-CBC4FAD9_sample_authentic_salary_slip.pdf",
+            "page_count": 1,
+            "classification": "Potentially Tampered",
+            "tampering_score": 0.9879,
+            "threshold": 0.9000000000000001,
+            "suspicious_regions": [
+                {
+                    "box": [
+                        648.22,
+                        539.33,
+                        795.35,
+                        579.63
+                    ],
+                    "confidence": 0.1819,
+                    "label": "Tamper Anomaly (EMP-1042)",
+                    "page_number": 1,
+                    "overlapping_text": [
+                        "EMP-1042"
+                    ]
+                },
+                {
+                    "box": [
+                        908.0,
+                        293.0,
+                        1122.0,
+                        326.0
+                    ],
+                    "confidence": 0.9879,
+                    "label": "Tamper Flagged Value (OCTOBER 2026)",
+                    "page_number": 1,
+                    "overlapping_text": [
+                        "OCTOBER 2026"
+                    ]
+                },
+                {
+                    "box": [
+                        652.0,
+                        702.0,
+                        994.0,
+                        734.0
+                    ],
+                    "confidence": 0.9879,
+                    "label": "Tamper Flagged Value (01 Oct 2026 - 31 Oct 2026)",
+                    "page_number": 1,
+                    "overlapping_text": [
+                        "01 Oct 2026 - 31 Oct 2026"
+                    ]
+                },
+                {
+                    "box": [
+                        652.0,
+                        782.0,
+                        810.0,
+                        814.0
+                    ],
+                    "confidence": 0.9879,
+                    "label": "Tamper Flagged Value (31 Oct 2026)",
+                    "page_number": 1,
+                    "overlapping_text": [
+                        "31 Oct 2026"
+                    ]
+                },
+                {
+                    "box": [
+                        204.0,
+                        960.0,
+                        471.0,
+                        1020.0
+                    ],
+                    "confidence": 0.9879,
+                    "label": "Tamper Flagged Value (Salary details)",
+                    "page_number": 1,
+                    "overlapping_text": [
+                        "Salary details"
+                    ]
+                },
+                {
+                    "box": [
+                        1047.0,
+                        1059.0,
+                        1233.0,
+                        1095.0
+                    ],
+                    "confidence": 0.9879,
+                    "label": "Tamper Flagged Value (Amount (INR))",
+                    "page_number": 1,
+                    "overlapping_text": [
+                        "Amount (INR)"
+                    ]
+                },
+                {
+                    "box": [
+                        219.0,
+                        1143.0,
+                        378.0,
+                        1184.0
+                    ],
+                    "confidence": 0.9879,
+                    "label": "Tamper Flagged Value (Basic salary)",
+                    "page_number": 1,
+                    "overlapping_text": [
+                        "Basic salary"
+                    ]
+                },
+                {
+                    "box": [
+                        1313.0,
+                        1145.0,
+                        1445.0,
+                        1181.0
+                    ],
+                    "confidence": 0.9879,
+                    "label": "Tamper Flagged Value (40,000.00)",
+                    "page_number": 1,
+                    "overlapping_text": [
+                        "40,000.00"
+                    ]
+                },
+                {
+                    "box": [
+                        222.0,
+                        1234.0,
+                        366.0,
+                        1264.0
+                    ],
+                    "confidence": 0.9879,
+                    "label": "Tamper Flagged Value (Allowances)",
+                    "page_number": 1,
+                    "overlapping_text": [
+                        "Allowances"
+                    ]
+                },
+                {
+                    "box": [
+                        1313.0,
+                        1231.0,
+                        1445.0,
+                        1267.0
+                    ],
+                    "confidence": 0.9879,
+                    "label": "Tamper Flagged Value (15,000.00)",
+                    "page_number": 1,
+                    "overlapping_text": [
+                        "15,000.00"
+                    ]
+                },
+                {
+                    "box": [
+                        1314.0,
+                        1320.0,
+                        1444.0,
+                        1352.0
+                    ],
+                    "confidence": 0.9879,
+                    "label": "Tamper Flagged Value (55,000.00)",
+                    "page_number": 1,
+                    "overlapping_text": [
+                        "55,000.00"
+                    ]
+                },
+                {
+                    "box": [
+                        220.0,
+                        1406.0,
+                        366.0,
+                        1438.0
+                    ],
+                    "confidence": 0.9879,
+                    "label": "Tamper Flagged Value (Deductions)",
+                    "page_number": 1,
+                    "overlapping_text": [
+                        "Deductions"
+                    ]
+                },
+                {
+                    "box": [
+                        1330.0,
+                        1405.0,
+                        1443.0,
+                        1438.0
+                    ],
+                    "confidence": 0.9879,
+                    "label": "Tamper Flagged Value (5,000.00)",
+                    "page_number": 1,
+                    "overlapping_text": [
+                        "5,000.00"
+                    ]
+                },
+                {
+                    "box": [
+                        221.0,
+                        1488.0,
+                        427.0,
+                        1530.0
+                    ],
+                    "confidence": 0.9879,
+                    "label": "Tamper Flagged Value (Net salary paid)",
+                    "page_number": 1,
+                    "overlapping_text": [
+                        "Net salary paid"
+                    ]
+                },
+                {
+                    "box": [
+                        1313.0,
+                        1491.0,
+                        1445.0,
+                        1527.0
+                    ],
+                    "confidence": 0.9879,
+                    "label": "Tamper Flagged Value (50,000.00)",
+                    "page_number": 1,
+                    "overlapping_text": [
+                        "50,000.00"
+                    ]
+                },
+                {
+                    "box": [
+                        212.0,
+                        1812.0,
+                        696.0,
+                        1844.0
+                    ],
+                    "confidence": 0.9879,
+                    "label": "Tamper Flagged Value (Bank account reference: XXXXXX4821)",
+                    "page_number": 1,
+                    "overlapping_text": [
+                        "Bank account reference: XXXXXX4821"
+                    ]
+                }
+            ],
+            "annotated_pages": [
+                "D:\\Document-Forensics\\backend\\outputs\\pages\\DOC-CBC4FAD9\\annotated_p1_DOC-CBC4FAD9_sample_authentic_salary_slip_page_1.png"
+            ]
+        }
+    ],
+    "visual_forensics": {
+        "results": [
+            {
+                "document_id": "DOC-CBC4FAD9",
+                "document_name": "sample_authentic_salary_slip.pdf",
+                "classification": "Potentially Tampered",
+                "tampering_score": 0.9879,
+                "threshold": 0.9000000000000001,
+                "is_tampered_candidate": true,
+                "suspicious_regions": [
+                    {
+                        "box": [
+                            648.22,
+                            539.33,
+                            795.35,
+                            579.63
+                        ],
+                        "confidence": 0.1819,
+                        "label": "Tamper Anomaly (EMP-1042)",
+                        "page_number": 1,
+                        "overlapping_text": [
+                            "EMP-1042"
+                        ]
+                    },
+                    {
+                        "box": [
+                            908.0,
+                            293.0,
+                            1122.0,
+                            326.0
+                        ],
+                        "confidence": 0.9879,
+                        "label": "Tamper Flagged Value (OCTOBER 2026)",
+                        "page_number": 1,
+                        "overlapping_text": [
+                            "OCTOBER 2026"
+                        ]
+                    },
+                    {
+                        "box": [
+                            652.0,
+                            702.0,
+                            994.0,
+                            734.0
+                        ],
+                        "confidence": 0.9879,
+                        "label": "Tamper Flagged Value (01 Oct 2026 - 31 Oct 2026)",
+                        "page_number": 1,
+                        "overlapping_text": [
+                            "01 Oct 2026 - 31 Oct 2026"
+                        ]
+                    },
+                    {
+                        "box": [
+                            652.0,
+                            782.0,
+                            810.0,
+                            814.0
+                        ],
+                        "confidence": 0.9879,
+                        "label": "Tamper Flagged Value (31 Oct 2026)",
+                        "page_number": 1,
+                        "overlapping_text": [
+                            "31 Oct 2026"
+                        ]
+                    },
+                    {
+                        "box": [
+                            204.0,
+                            960.0,
+                            471.0,
+                            1020.0
+                        ],
+                        "confidence": 0.9879,
+                        "label": "Tamper Flagged Value (Salary details)",
+                        "page_number": 1,
+                        "overlapping_text": [
+                            "Salary details"
+                        ]
+                    },
+                    {
+                        "box": [
+                            1047.0,
+                            1059.0,
+                            1233.0,
+                            1095.0
+                        ],
+                        "confidence": 0.9879,
+                        "label": "Tamper Flagged Value (Amount (INR))",
+                        "page_number": 1,
+                        "overlapping_text": [
+                            "Amount (INR)"
+                        ]
+                    },
+                    {
+                        "box": [
+                            219.0,
+                            1143.0,
+                            378.0,
+                            1184.0
+                        ],
+                        "confidence": 0.9879,
+                        "label": "Tamper Flagged Value (Basic salary)",
+                        "page_number": 1,
+                        "overlapping_text": [
+                            "Basic salary"
+                        ]
+                    },
+                    {
+                        "box": [
+                            1313.0,
+                            1145.0,
+                            1445.0,
+                            1181.0
+                        ],
+                        "confidence": 0.9879,
+                        "label": "Tamper Flagged Value (40,000.00)",
+                        "page_number": 1,
+                        "overlapping_text": [
+                            "40,000.00"
+                        ]
+                    },
+                    {
+                        "box": [
+                            222.0,
+                            1234.0,
+                            366.0,
+                            1264.0
+                        ],
+                        "confidence": 0.9879,
+                        "label": "Tamper Flagged Value (Allowances)",
+                        "page_number": 1,
+                        "overlapping_text": [
+                            "Allowances"
+                        ]
+                    },
+                    {
+                        "box": [
+                            1313.0,
+                            1231.0,
+                            1445.0,
+                            1267.0
+                        ],
+                        "confidence": 0.9879,
+                        "label": "Tamper Flagged Value (15,000.00)",
+                        "page_number": 1,
+                        "overlapping_text": [
+                            "15,000.00"
+                        ]
+                    },
+                    {
+                        "box": [
+                            1314.0,
+                            1320.0,
+                            1444.0,
+                            1352.0
+                        ],
+                        "confidence": 0.9879,
+                        "label": "Tamper Flagged Value (55,000.00)",
+                        "page_number": 1,
+                        "overlapping_text": [
+                            "55,000.00"
+                        ]
+                    },
+                    {
+                        "box": [
+                            220.0,
+                            1406.0,
+                            366.0,
+                            1438.0
+                        ],
+                        "confidence": 0.9879,
+                        "label": "Tamper Flagged Value (Deductions)",
+                        "page_number": 1,
+                        "overlapping_text": [
+                            "Deductions"
+                        ]
+                    },
+                    {
+                        "box": [
+                            1330.0,
+                            1405.0,
+                            1443.0,
+                            1438.0
+                        ],
+                        "confidence": 0.9879,
+                        "label": "Tamper Flagged Value (5,000.00)",
+                        "page_number": 1,
+                        "overlapping_text": [
+                            "5,000.00"
+                        ]
+                    },
+                    {
+                        "box": [
+                            221.0,
+                            1488.0,
+                            427.0,
+                            1530.0
+                        ],
+                        "confidence": 0.9879,
+                        "label": "Tamper Flagged Value (Net salary paid)",
+                        "page_number": 1,
+                        "overlapping_text": [
+                            "Net salary paid"
+                        ]
+                    },
+                    {
+                        "box": [
+                            1313.0,
+                            1491.0,
+                            1445.0,
+                            1527.0
+                        ],
+                        "confidence": 0.9879,
+                        "label": "Tamper Flagged Value (50,000.00)",
+                        "page_number": 1,
+                        "overlapping_text": [
+                            "50,000.00"
+                        ]
+                    },
+                    {
+                        "box": [
+                            212.0,
+                            1812.0,
+                            696.0,
+                            1844.0
+                        ],
+                        "confidence": 0.9879,
+                        "label": "Tamper Flagged Value (Bank account reference: XXXXXX4821)",
+                        "page_number": 1,
+                        "overlapping_text": [
+                            "Bank account reference: XXXXXX4821"
+                        ]
+                    }
+                ],
+                "page_results": [
+                    {
+                        "page_number": 1,
+                        "tampering_score": 0.9879,
+                        "threshold": 0.9000000000000001,
+                        "classification": "Potentially Tampered",
+                        "is_tampered_candidate": true,
+                        "suspicious_regions": [
+                            {
+                                "box": [
+                                    648.22,
+                                    539.33,
+                                    795.35,
+                                    579.63
+                                ],
+                                "confidence": 0.1819,
+                                "label": "Tamper Anomaly (EMP-1042)",
+                                "page_number": 1,
+                                "overlapping_text": [
+                                    "EMP-1042"
+                                ]
+                            },
+                            {
+                                "box": [
+                                    908.0,
+                                    293.0,
+                                    1122.0,
+                                    326.0
+                                ],
+                                "confidence": 0.9879,
+                                "label": "Tamper Flagged Value (OCTOBER 2026)",
+                                "page_number": 1,
+                                "overlapping_text": [
+                                    "OCTOBER 2026"
+                                ]
+                            },
+                            {
+                                "box": [
+                                    652.0,
+                                    702.0,
+                                    994.0,
+                                    734.0
+                                ],
+                                "confidence": 0.9879,
+                                "label": "Tamper Flagged Value (01 Oct 2026 - 31 Oct 2026)",
+                                "page_number": 1,
+                                "overlapping_text": [
+                                    "01 Oct 2026 - 31 Oct 2026"
+                                ]
+                            },
+                            {
+                                "box": [
+                                    652.0,
+                                    782.0,
+                                    810.0,
+                                    814.0
+                                ],
+                                "confidence": 0.9879,
+                                "label": "Tamper Flagged Value (31 Oct 2026)",
+                                "page_number": 1,
+                                "overlapping_text": [
+                                    "31 Oct 2026"
+                                ]
+                            },
+                            {
+                                "box": [
+                                    204.0,
+                                    960.0,
+                                    471.0,
+                                    1020.0
+                                ],
+                                "confidence": 0.9879,
+                                "label": "Tamper Flagged Value (Salary details)",
+                                "page_number": 1,
+                                "overlapping_text": [
+                                    "Salary details"
+                                ]
+                            },
+                            {
+                                "box": [
+                                    1047.0,
+                                    1059.0,
+                                    1233.0,
+                                    1095.0
+                                ],
+                                "confidence": 0.9879,
+                                "label": "Tamper Flagged Value (Amount (INR))",
+                                "page_number": 1,
+                                "overlapping_text": [
+                                    "Amount (INR)"
+                                ]
+                            },
+                            {
+                                "box": [
+                                    219.0,
+                                    1143.0,
+                                    378.0,
+                                    1184.0
+                                ],
+                                "confidence": 0.9879,
+                                "label": "Tamper Flagged Value (Basic salary)",
+                                "page_number": 1,
+                                "overlapping_text": [
+                                    "Basic salary"
+                                ]
+                            },
+                            {
+                                "box": [
+                                    1313.0,
+                                    1145.0,
+                                    1445.0,
+                                    1181.0
+                                ],
+                                "confidence": 0.9879,
+                                "label": "Tamper Flagged Value (40,000.00)",
+                                "page_number": 1,
+                                "overlapping_text": [
+                                    "40,000.00"
+                                ]
+                            },
+                            {
+                                "box": [
+                                    222.0,
+                                    1234.0,
+                                    366.0,
+                                    1264.0
+                                ],
+                                "confidence": 0.9879,
+                                "label": "Tamper Flagged Value (Allowances)",
+                                "page_number": 1,
+                                "overlapping_text": [
+                                    "Allowances"
+                                ]
+                            },
+                            {
+                                "box": [
+                                    1313.0,
+                                    1231.0,
+                                    1445.0,
+                                    1267.0
+                                ],
+                                "confidence": 0.9879,
+                                "label": "Tamper Flagged Value (15,000.00)",
+                                "page_number": 1,
+                                "overlapping_text": [
+                                    "15,000.00"
+                                ]
+                            },
+                            {
+                                "box": [
+                                    1314.0,
+                                    1320.0,
+                                    1444.0,
+                                    1352.0
+                                ],
+                                "confidence": 0.9879,
+                                "label": "Tamper Flagged Value (55,000.00)",
+                                "page_number": 1,
+                                "overlapping_text": [
+                                    "55,000.00"
+                                ]
+                            },
+                            {
+                                "box": [
+                                    220.0,
+                                    1406.0,
+                                    366.0,
+                                    1438.0
+                                ],
+                                "confidence": 0.9879,
+                                "label": "Tamper Flagged Value (Deductions)",
+                                "page_number": 1,
+                                "overlapping_text": [
+                                    "Deductions"
+                                ]
+                            },
+                            {
+                                "box": [
+                                    1330.0,
+                                    1405.0,
+                                    1443.0,
+                                    1438.0
+                                ],
+                                "confidence": 0.9879,
+                                "label": "Tamper Flagged Value (5,000.00)",
+                                "page_number": 1,
+                                "overlapping_text": [
+                                    "5,000.00"
+                                ]
+                            },
+                            {
+                                "box": [
+                                    221.0,
+                                    1488.0,
+                                    427.0,
+                                    1530.0
+                                ],
+                                "confidence": 0.9879,
+                                "label": "Tamper Flagged Value (Net salary paid)",
+                                "page_number": 1,
+                                "overlapping_text": [
+                                    "Net salary paid"
+                                ]
+                            },
+                            {
+                                "box": [
+                                    1313.0,
+                                    1491.0,
+                                    1445.0,
+                                    1527.0
+                                ],
+                                "confidence": 0.9879,
+                                "label": "Tamper Flagged Value (50,000.00)",
+                                "page_number": 1,
+                                "overlapping_text": [
+                                    "50,000.00"
+                                ]
+                            },
+                            {
+                                "box": [
+                                    212.0,
+                                    1812.0,
+                                    696.0,
+                                    1844.0
+                                ],
+                                "confidence": 0.9879,
+                                "label": "Tamper Flagged Value (Bank account reference: XXXXXX4821)",
+                                "page_number": 1,
+                                "overlapping_text": [
+                                    "Bank account reference: XXXXXX4821"
+                                ]
+                            }
+                        ],
+                        "annotated_image_path": "D:\\Document-Forensics\\backend\\outputs\\pages\\DOC-CBC4FAD9\\annotated_p1_DOC-CBC4FAD9_sample_authentic_salary_slip_page_1.png",
+                        "image_path": "D:\\Document-Forensics\\backend\\outputs\\pages\\DOC-CBC4FAD9\\DOC-CBC4FAD9_sample_authentic_salary_slip_page_1.png"
+                    }
+                ],
+                "annotated_pages": [
+                    "D:\\Document-Forensics\\backend\\outputs\\pages\\DOC-CBC4FAD9\\annotated_p1_DOC-CBC4FAD9_sample_authentic_salary_slip_page_1.png"
+                ],
+                "disclaimer": "Automated visual anomaly detection indicates potential inconsistencies and is not proof of fraud. Final determination requires human review."
+            }
+        ],
+        "summary": "Analyzed 1 document(s). Detected 16 visual regions of concern."
+    },
+    "contextual_analysis": {
+        "status": "llm_unavailable_rule_based_analysis",
+        "model_used": "Rule-based Context Engine (Factual Entity Extractor)",
+        "executive_summary": "Contextual analysis processed 1 document(s). Identified 0 factual entities, 0 potential contextual flags, and 0 missing field notices. No facts were hallucinated or assumed.",
+        "entities": [],
+        "anomalies": [],
+        "missing_fields": [],
+        "raw_analysis": "### Contextual and Entity Forensic Analysis\n\n#### 1. Identified Key Entities (Grounded in OCR Extracted Text)\n- **Names (0):** None clearly detected\n- **Dates (0):** None clearly detected\n- **Key Measurements / Values (0):** None clearly detected\n\n#### 2. Potential Contextual Inconsistencies & Anomalies\n- No internal syntax or typography contradictions flagged in extracted text.\n\n#### 3. Missing Fields\n- All expected standard header fields detected.\n"
+    },
+    "cross_document_comparison": {
+        "total_documents": 1,
+        "total_comparisons": 0,
+        "comparisons": [],
+        "potential_contradictions": [],
+        "summary": "Only one document uploaded. Cross-document comparison requires at least two documents."
+    },
+    "evidence_items": [
+        {
+            "evidence_id": "EVIDENCE_1",
+            "document": "sample_authentic_salary_slip.pdf",
+            "page": 1,
+            "evidence_type": "Potentially suspicious visual region",
+            "category": "Visual Tampering Anomaly",
+            "bounding_box": [
+                648.22,
+                539.33,
+                795.35,
+                579.63
+            ],
+            "detection_confidence": 0.1819,
+            "related_text": [],
+            "explanation": "YOLOv8 detected a localized visual anomaly with 18.2% confidence.",
+            "source_level": "model_prediction"
+        },
+        {
+            "evidence_id": "EVIDENCE_2",
+            "document": "sample_authentic_salary_slip.pdf",
+            "page": 1,
+            "evidence_type": "Potentially suspicious visual region",
+            "category": "Visual Tampering Anomaly",
+            "bounding_box": [
+                908.0,
+                293.0,
+                1122.0,
+                326.0
+            ],
+            "detection_confidence": 0.9879,
+            "related_text": [],
+            "explanation": "YOLOv8 detected a localized visual anomaly with 98.8% confidence.",
+            "source_level": "model_prediction"
+        },
+        {
+            "evidence_id": "EVIDENCE_3",
+            "document": "sample_authentic_salary_slip.pdf",
+            "page": 1,
+            "evidence_type": "Potentially suspicious visual region",
+            "category": "Visual Tampering Anomaly",
+            "bounding_box": [
+                652.0,
+                702.0,
+                994.0,
+                734.0
+            ],
+            "detection_confidence": 0.9879,
+            "related_text": [],
+            "explanation": "YOLOv8 detected a localized visual anomaly with 98.8% confidence.",
+            "source_level": "model_prediction"
+        },
+        {
+            "evidence_id": "EVIDENCE_4",
+            "document": "sample_authentic_salary_slip.pdf",
+            "page": 1,
+            "evidence_type": "Potentially suspicious visual region",
+            "category": "Visual Tampering Anomaly",
+            "bounding_box": [
+                652.0,
+                782.0,
+                810.0,
+                814.0
+            ],
+            "detection_confidence": 0.9879,
+            "related_text": [],
+            "explanation": "YOLOv8 detected a localized visual anomaly with 98.8% confidence.",
+            "source_level": "model_prediction"
+        },
+        {
+            "evidence_id": "EVIDENCE_5",
+            "document": "sample_authentic_salary_slip.pdf",
+            "page": 1,
+            "evidence_type": "Potentially suspicious visual region",
+            "category": "Visual Tampering Anomaly",
+            "bounding_box": [
+                204.0,
+                960.0,
+                471.0,
+                1020.0
+            ],
+            "detection_confidence": 0.9879,
+            "related_text": [],
+            "explanation": "YOLOv8 detected a localized visual anomaly with 98.8% confidence.",
+            "source_level": "model_prediction"
+        },
+        {
+            "evidence_id": "EVIDENCE_6",
+            "document": "sample_authentic_salary_slip.pdf",
+            "page": 1,
+            "evidence_type": "Potentially suspicious visual region",
+            "category": "Visual Tampering Anomaly",
+            "bounding_box": [
+                1047.0,
+                1059.0,
+                1233.0,
+                1095.0
+            ],
+            "detection_confidence": 0.9879,
+            "related_text": [],
+            "explanation": "YOLOv8 detected a localized visual anomaly with 98.8% confidence.",
+            "source_level": "model_prediction"
+        },
+        {
+            "evidence_id": "EVIDENCE_7",
+            "document": "sample_authentic_salary_slip.pdf",
+            "page": 1,
+            "evidence_type": "Potentially suspicious visual region",
+            "category": "Visual Tampering Anomaly",
+            "bounding_box": [
+                219.0,
+                1143.0,
+                378.0,
+                1184.0
+            ],
+            "detection_confidence": 0.9879,
+            "related_text": [],
+            "explanation": "YOLOv8 detected a localized visual anomaly with 98.8% confidence.",
+            "source_level": "model_prediction"
+        },
+        {
+            "evidence_id": "EVIDENCE_8",
+            "document": "sample_authentic_salary_slip.pdf",
+            "page": 1,
+            "evidence_type": "Potentially suspicious visual region",
+            "category": "Visual Tampering Anomaly",
+            "bounding_box": [
+                1313.0,
+                1145.0,
+                1445.0,
+                1181.0
+            ],
+            "detection_confidence": 0.9879,
+            "related_text": [],
+            "explanation": "YOLOv8 detected a localized visual anomaly with 98.8% confidence.",
+            "source_level": "model_prediction"
+        },
+        {
+            "evidence_id": "EVIDENCE_9",
+            "document": "sample_authentic_salary_slip.pdf",
+            "page": 1,
+            "evidence_type": "Potentially suspicious visual region",
+            "category": "Visual Tampering Anomaly",
+            "bounding_box": [
+                222.0,
+                1234.0,
+                366.0,
+                1264.0
+            ],
+            "detection_confidence": 0.9879,
+            "related_text": [],
+            "explanation": "YOLOv8 detected a localized visual anomaly with 98.8% confidence.",
+            "source_level": "model_prediction"
+        },
+        {
+            "evidence_id": "EVIDENCE_10",
+            "document": "sample_authentic_salary_slip.pdf",
+            "page": 1,
+            "evidence_type": "Potentially suspicious visual region",
+            "category": "Visual Tampering Anomaly",
+            "bounding_box": [
+                1313.0,
+                1231.0,
+                1445.0,
+                1267.0
+            ],
+            "detection_confidence": 0.9879,
+            "related_text": [],
+            "explanation": "YOLOv8 detected a localized visual anomaly with 98.8% confidence.",
+            "source_level": "model_prediction"
+        },
+        {
+            "evidence_id": "EVIDENCE_11",
+            "document": "sample_authentic_salary_slip.pdf",
+            "page": 1,
+            "evidence_type": "Potentially suspicious visual region",
+            "category": "Visual Tampering Anomaly",
+            "bounding_box": [
+                1314.0,
+                1320.0,
+                1444.0,
+                1352.0
+            ],
+            "detection_confidence": 0.9879,
+            "related_text": [],
+            "explanation": "YOLOv8 detected a localized visual anomaly with 98.8% confidence.",
+            "source_level": "model_prediction"
+        },
+        {
+            "evidence_id": "EVIDENCE_12",
+            "document": "sample_authentic_salary_slip.pdf",
+            "page": 1,
+            "evidence_type": "Potentially suspicious visual region",
+            "category": "Visual Tampering Anomaly",
+            "bounding_box": [
+                220.0,
+                1406.0,
+                366.0,
+                1438.0
+            ],
+            "detection_confidence": 0.9879,
+            "related_text": [],
+            "explanation": "YOLOv8 detected a localized visual anomaly with 98.8% confidence.",
+            "source_level": "model_prediction"
+        },
+        {
+            "evidence_id": "EVIDENCE_13",
+            "document": "sample_authentic_salary_slip.pdf",
+            "page": 1,
+            "evidence_type": "Potentially suspicious visual region",
+            "category": "Visual Tampering Anomaly",
+            "bounding_box": [
+                1330.0,
+                1405.0,
+                1443.0,
+                1438.0
+            ],
+            "detection_confidence": 0.9879,
+            "related_text": [],
+            "explanation": "YOLOv8 detected a localized visual anomaly with 98.8% confidence.",
+            "source_level": "model_prediction"
+        },
+        {
+            "evidence_id": "EVIDENCE_14",
+            "document": "sample_authentic_salary_slip.pdf",
+            "page": 1,
+            "evidence_type": "Potentially suspicious visual region",
+            "category": "Visual Tampering Anomaly",
+            "bounding_box": [
+                221.0,
+                1488.0,
+                427.0,
+                1530.0
+            ],
+            "detection_confidence": 0.9879,
+            "related_text": [],
+            "explanation": "YOLOv8 detected a localized visual anomaly with 98.8% confidence.",
+            "source_level": "model_prediction"
+        },
+        {
+            "evidence_id": "EVIDENCE_15",
+            "document": "sample_authentic_salary_slip.pdf",
+            "page": 1,
+            "evidence_type": "Potentially suspicious visual region",
+            "category": "Visual Tampering Anomaly",
+            "bounding_box": [
+                1313.0,
+                1491.0,
+                1445.0,
+                1527.0
+            ],
+            "detection_confidence": 0.9879,
+            "related_text": [],
+            "explanation": "YOLOv8 detected a localized visual anomaly with 98.8% confidence.",
+            "source_level": "model_prediction"
+        },
+        {
+            "evidence_id": "EVIDENCE_16",
+            "document": "sample_authentic_salary_slip.pdf",
+            "page": 1,
+            "evidence_type": "Potentially suspicious visual region",
+            "category": "Visual Tampering Anomaly",
+            "bounding_box": [
+                212.0,
+                1812.0,
+                696.0,
+                1844.0
+            ],
+            "detection_confidence": 0.9879,
+            "related_text": [],
+            "explanation": "YOLOv8 detected a localized visual anomaly with 98.8% confidence.",
+            "source_level": "model_prediction"
+        },
+        {
+            "evidence_id": "EVIDENCE_17",
+            "document": "sample_authentic_salary_slip.pdf",
+            "page": 1,
+            "evidence_type": "Document-level classification",
+            "category": "MobileNetV2 Classifier Finding",
+            "bounding_box": null,
+            "detection_confidence": 0.9879,
+            "related_text": [],
+            "explanation": "MobileNetV2 classification assigned a score of 0.9879 (decision threshold: 0.90), classifying document as 'Potentially Tampered'.",
+            "source_level": "model_prediction"
+        }
+    ],
+    "review": null,
+    "disclaimer": "This report was compiled by an agentic AI forensics pipeline. Predictions from MobileNetV2, YOLOv8, and NLP models indicate potential anomalies and do NOT constitute legal proof of fraud. Final decisions must be signed by an authorized human investigator."
+}

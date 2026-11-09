@@ -1,0 +1,92 @@
+{
+    "report_title": "Agentic AI Document Forensics Investigation Report",
+    "investigation_id": "INV-3A7FD8EF",
+    "generated_at": "2026-11-08 10:13:42 UTC",
+    "investigation_status": "Pending Human Investigation",
+    "overall_classification": "Potentially Tampered / High Risk",
+    "executive_summary": {
+        "total_documents": 1,
+        "total_pages": 1,
+        "suspicious_regions_count": 0,
+        "cross_document_mismatches_count": 0,
+        "total_evidence_items": 1,
+        "status": "Pending Human Investigation",
+        "recommendation": "Automated agents flagged one or more visual anomalies, classification thresholds, or cross-document value contradictions. Rigorous manual inspection by a forensic expert is strongly advised before accepting these documents."
+    },
+    "documents": [
+        {
+            "document_id": "DOC-D3268A6B",
+            "document_name": "DOC-D3268A6B_sample_authentic_salary_slip.pdf",
+            "page_count": 1,
+            "classification": "Potentially Tampered",
+            "tampering_score": 0.9577,
+            "threshold": 0.9000000000000001,
+            "suspicious_regions": [],
+            "annotated_pages": [
+                "D:\\Document-Forensics\\backend\\outputs\\pages\\DOC-D3268A6B\\annotated_p1_DOC-D3268A6B_sample_authentic_salary_slip_page_1.png"
+            ]
+        }
+    ],
+    "visual_forensics": {
+        "results": [
+            {
+                "document_id": "DOC-D3268A6B",
+                "document_name": "sample_authentic_salary_slip.pdf",
+                "classification": "Potentially Tampered",
+                "tampering_score": 0.9577,
+                "threshold": 0.9000000000000001,
+                "is_tampered_candidate": true,
+                "suspicious_regions": [],
+                "page_results": [
+                    {
+                        "page_number": 1,
+                        "image_path": "D:\\Document-Forensics\\backend\\outputs\\pages\\DOC-D3268A6B\\DOC-D3268A6B_sample_authentic_salary_slip_page_1.png",
+                        "tampering_score": 0.9577,
+                        "threshold": 0.9000000000000001,
+                        "classification": "Potentially Tampered",
+                        "is_tampered_candidate": true,
+                        "suspicious_regions": [],
+                        "annotated_image_path": "D:\\Document-Forensics\\backend\\outputs\\pages\\DOC-D3268A6B\\annotated_p1_DOC-D3268A6B_sample_authentic_salary_slip_page_1.png"
+                    }
+                ],
+                "annotated_pages": [
+                    "D:\\Document-Forensics\\backend\\outputs\\pages\\DOC-D3268A6B\\annotated_p1_DOC-D3268A6B_sample_authentic_salary_slip_page_1.png"
+                ],
+                "disclaimer": "Automated visual anomaly detection indicates potential statistical inconsistencies and is not proof of fraud. Final determination requires human review."
+            }
+        ],
+        "summary": "Analyzed 1 document(s). Detected 0 visual regions of concern."
+    },
+    "contextual_analysis": {
+        "status": "llm_unavailable_rule_based_analysis",
+        "model_used": "Rule-based Context Engine (Factual Entity Extractor)",
+        "executive_summary": "Contextual analysis processed 1 document(s). Identified 0 factual entities, 0 potential contextual flags, and 0 missing field notices. No facts were hallucinated or assumed.",
+        "entities": [],
+        "anomalies": [],
+        "missing_fields": [],
+        "raw_analysis": "### Contextual and Entity Forensic Analysis\n\n#### 1. Identified Key Entities (Grounded in OCR Extracted Text)\n- **Names (0):** None clearly detected\n- **Dates (0):** None clearly detected\n- **Key Measurements / Values (0):** None clearly detected\n\n#### 2. Potential Contextual Inconsistencies & Anomalies\n- No internal syntax or typography contradictions flagged in extracted text.\n\n#### 3. Missing Fields\n- All expected standard header fields detected.\n"
+    },
+    "cross_document_comparison": {
+        "total_documents": 1,
+        "total_comparisons": 0,
+        "comparisons": [],
+        "potential_contradictions": [],
+        "summary": "Only one document uploaded. Cross-document comparison requires at least two documents."
+    },
+    "evidence_items": [
+        {
+            "evidence_id": "EVIDENCE_1",
+            "document": "sample_authentic_salary_slip.pdf",
+            "page": 1,
+            "evidence_type": "Document-level classification",
+            "category": "MobileNetV2 Classifier Finding",
+            "bounding_box": null,
+            "detection_confidence": 0.9577,
+            "related_text": [],
+            "explanation": "MobileNetV2 classification assigned a score of 0.9577 (decision threshold: 0.90), classifying document as 'Potentially Tampered'.",
+            "source_level": "model_prediction"
+        }
+    ],
+    "review": null,
+    "disclaimer": "This report was compiled by an agentic AI forensics pipeline. Predictions from MobileNetV2, YOLOv8, and NLP models indicate potential anomalies and do NOT constitute legal proof of fraud. Final decisions must be signed by an authorized human investigator."
+}

@@ -1,0 +1,260 @@
+{
+    "report_title": "Agentic AI Document Forensics Investigation Report",
+    "investigation_id": "INV-TEST-001",
+    "generated_at": "2026-11-08 10:19:00 UTC",
+    "investigation_status": "Pending Human Investigation",
+    "overall_classification": "Potentially Tampered / High Risk",
+    "executive_summary": {
+        "total_documents": 2,
+        "total_pages": 2,
+        "suspicious_regions_count": 1,
+        "cross_document_mismatches_count": 0,
+        "total_evidence_items": 4,
+        "status": "Pending Human Investigation",
+        "recommendation": "Automated agents flagged one or more visual anomalies, classification thresholds, or cross-document value contradictions. Rigorous manual inspection by a forensic expert is strongly advised before accepting these documents."
+    },
+    "documents": [
+        {
+            "document_id": "TEST_DOC_1",
+            "document_name": "test_doc_original.png",
+            "page_count": 1,
+            "classification": "Likely Authentic",
+            "tampering_score": 0.0615,
+            "threshold": 0.9000000000000001,
+            "suspicious_regions": [],
+            "annotated_pages": [
+                "D:\\Document-Forensics\\backend\\test_artifacts\\pages\\TEST_DOC_1\\annotated_p1_test_doc_original_page_1.png"
+            ]
+        },
+        {
+            "document_id": "TEST_DOC_2",
+            "document_name": "test_doc_altered.png",
+            "page_count": 1,
+            "classification": "Likely Authentic",
+            "tampering_score": 0.0616,
+            "threshold": 0.9000000000000001,
+            "suspicious_regions": [
+                {
+                    "box": [
+                        219.87,
+                        265.09,
+                        306.59,
+                        288.73
+                    ],
+                    "confidence": 0.4464,
+                    "label": "Visual Anomaly Region (Candidate)",
+                    "page_number": 1,
+                    "overlapping_text": [
+                        "0.45",
+                        "1.50"
+                    ]
+                }
+            ],
+            "annotated_pages": [
+                "D:\\Document-Forensics\\backend\\test_artifacts\\pages\\TEST_DOC_2\\annotated_p1_test_doc_altered_page_1.png"
+            ]
+        }
+    ],
+    "visual_forensics": {
+        "results": [
+            {
+                "document_id": "TEST_DOC_1",
+                "document_name": "test_doc_original.png",
+                "classification": "Likely Authentic",
+                "tampering_score": 0.0615,
+                "threshold": 0.9000000000000001,
+                "is_tampered_candidate": false,
+                "suspicious_regions": [],
+                "page_results": [
+                    {
+                        "page_number": 1,
+                        "image_path": "D:\\Document-Forensics\\backend\\test_artifacts\\pages\\TEST_DOC_1\\test_doc_original_page_1.png",
+                        "tampering_score": 0.0615,
+                        "threshold": 0.9000000000000001,
+                        "classification": "Likely Authentic",
+                        "is_tampered_candidate": false,
+                        "suspicious_regions": [],
+                        "annotated_image_path": "D:\\Document-Forensics\\backend\\test_artifacts\\pages\\TEST_DOC_1\\annotated_p1_test_doc_original_page_1.png"
+                    }
+                ],
+                "annotated_pages": [
+                    "D:\\Document-Forensics\\backend\\test_artifacts\\pages\\TEST_DOC_1\\annotated_p1_test_doc_original_page_1.png"
+                ],
+                "disclaimer": "Automated visual anomaly detection indicates potential statistical inconsistencies and is not proof of fraud. Final determination requires human review."
+            },
+            {
+                "document_id": "TEST_DOC_2",
+                "document_name": "test_doc_altered.png",
+                "classification": "Likely Authentic",
+                "tampering_score": 0.0616,
+                "threshold": 0.9000000000000001,
+                "is_tampered_candidate": false,
+                "suspicious_regions": [
+                    {
+                        "box": [
+                            219.87,
+                            265.09,
+                            306.59,
+                            288.73
+                        ],
+                        "confidence": 0.4464,
+                        "label": "Visual Anomaly Region (Candidate)",
+                        "page_number": 1,
+                        "overlapping_text": [
+                            "0.45",
+                            "1.50"
+                        ]
+                    }
+                ],
+                "page_results": [
+                    {
+                        "page_number": 1,
+                        "image_path": "D:\\Document-Forensics\\backend\\test_artifacts\\pages\\TEST_DOC_2\\test_doc_altered_page_1.png",
+                        "tampering_score": 0.0616,
+                        "threshold": 0.9000000000000001,
+                        "classification": "Likely Authentic",
+                        "is_tampered_candidate": false,
+                        "suspicious_regions": [
+                            {
+                                "box": [
+                                    219.87,
+                                    265.09,
+                                    306.59,
+                                    288.73
+                                ],
+                                "confidence": 0.4464,
+                                "label": "Visual Anomaly Region (Candidate)",
+                                "page_number": 1,
+                                "overlapping_text": [
+                                    "0.45",
+                                    "1.50"
+                                ]
+                            }
+                        ],
+                        "annotated_image_path": "D:\\Document-Forensics\\backend\\test_artifacts\\pages\\TEST_DOC_2\\annotated_p1_test_doc_altered_page_1.png"
+                    }
+                ],
+                "annotated_pages": [
+                    "D:\\Document-Forensics\\backend\\test_artifacts\\pages\\TEST_DOC_2\\annotated_p1_test_doc_altered_page_1.png"
+                ],
+                "disclaimer": "Automated visual anomaly detection indicates potential statistical inconsistencies and is not proof of fraud. Final determination requires human review."
+            }
+        ],
+        "summary": "Analyzed 2 document(s). Detected 1 visual regions of concern."
+    },
+    "contextual_analysis": {
+        "status": "llm_unavailable_rule_based_analysis",
+        "model_used": "Rule-based Context Engine (Factual Entity Extractor)",
+        "executive_summary": "Contextual analysis processed 2 document(s). Identified 2 factual entities, 1 potential contextual flags, and 0 missing field notices. No facts were hallucinated or assumed.",
+        "entities": [
+            {
+                "type": "Date",
+                "value": "1/Jan/2026",
+                "source_text": "1/Jan/2026",
+                "document": "test_doc_original.png",
+                "page": 1
+            },
+            {
+                "type": "Date",
+                "value": "21/Jan/2026",
+                "source_text": "21/Jan/2026",
+                "document": "test_doc_original.png",
+                "page": 1
+            }
+        ],
+        "anomalies": [
+            "Malformatted date token detected in test_doc_altered.png (p.1): possible OCR error or altered date string."
+        ],
+        "missing_fields": [],
+        "raw_analysis": "### Contextual and Entity Forensic Analysis\n\n#### 1. Identified Key Entities (Grounded in OCR Extracted Text)\n- **Names (0):** None clearly detected\n- **Dates (2):** 1/Jan/2026, 21/Jan/2026\n- **Key Measurements / Values (0):** None clearly detected\n\n#### 2. Potential Contextual Inconsistencies & Anomalies\n- Malformatted date token detected in test_doc_altered.png (p.1): possible OCR error or altered date string.\n\n#### 3. Missing Fields\n- All expected standard header fields detected.\n"
+    },
+    "cross_document_comparison": {
+        "total_documents": 2,
+        "total_comparisons": 1,
+        "comparisons": [
+            {
+                "document_1": "test_doc_original.png",
+                "document_2": "test_doc_altered.png",
+                "similarity_score": 0.9785,
+                "status": "Near-Duplicate / Successive Revision",
+                "key_field_comparisons": [
+                    {
+                        "field": "UHID",
+                        "doc_a_value": "OSDOOOOQ15629",
+                        "doc_b_value": "OSDOOOOQ15629",
+                        "status": "Match"
+                    },
+                    {
+                        "field": "Visit ID",
+                        "doc_a_value": "0SD25793",
+                        "doc_b_value": "0SD25793",
+                        "status": "Match"
+                    }
+                ],
+                "contradictions": []
+            }
+        ],
+        "potential_contradictions": [],
+        "disclaimer": "Semantic similarity indicates thematic or textual correspondence. Mismatches highlight variances requiring human investigation, not conclusive proof of tampering."
+    },
+    "evidence_items": [
+        {
+            "evidence_id": "EVIDENCE_1",
+            "document": "test_doc_original.png",
+            "page": 1,
+            "evidence_type": "Document-level classification",
+            "category": "MobileNetV2 Classifier Finding",
+            "bounding_box": null,
+            "detection_confidence": 0.0615,
+            "related_text": [],
+            "explanation": "MobileNetV2 classification assigned a score of 0.0615 (decision threshold: 0.90), classifying document as 'Likely Authentic'.",
+            "source_level": "model_prediction"
+        },
+        {
+            "evidence_id": "EVIDENCE_2",
+            "document": "test_doc_altered.png",
+            "page": 1,
+            "evidence_type": "Potentially suspicious visual region",
+            "category": "Visual Tampering Anomaly",
+            "bounding_box": [
+                219.87,
+                265.09,
+                306.59,
+                288.73
+            ],
+            "detection_confidence": 0.4464,
+            "related_text": [
+                "0.45",
+                "1.50"
+            ],
+            "explanation": "YOLOv8 detected a localized visual anomaly with 44.6% confidence. Corresponds to extracted text: '0.45 1.50'.",
+            "source_level": "model_prediction"
+        },
+        {
+            "evidence_id": "EVIDENCE_3",
+            "document": "test_doc_altered.png",
+            "page": 1,
+            "evidence_type": "Document-level classification",
+            "category": "MobileNetV2 Classifier Finding",
+            "bounding_box": null,
+            "detection_confidence": 0.0616,
+            "related_text": [],
+            "explanation": "MobileNetV2 classification assigned a score of 0.0616 (decision threshold: 0.90), classifying document as 'Likely Authentic'.",
+            "source_level": "model_prediction"
+        },
+        {
+            "evidence_id": "EVIDENCE_4",
+            "document": "Cross-Document Context",
+            "page": 1,
+            "evidence_type": "Contextual Anomaly",
+            "category": "Entity / Grammar Forensic Notice",
+            "bounding_box": null,
+            "detection_confidence": null,
+            "related_text": [],
+            "explanation": "Malformatted date token detected in test_doc_altered.png (p.1): possible OCR error or altered date string.",
+            "source_level": "inferred_concern"
+        }
+    ],
+    "review": null,
+    "disclaimer": "This report was compiled by an agentic AI forensics pipeline. Predictions from MobileNetV2, YOLOv8, and NLP models indicate potential anomalies and do NOT constitute legal proof of fraud. Final decisions must be signed by an authorized human investigator."
+}

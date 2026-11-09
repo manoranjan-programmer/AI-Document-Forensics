@@ -1,0 +1,14 @@
+[
+    {
+        "document_name": "kriyam_0001_C0.png",
+        "analysis": "### Analysis of the Document:\n\n#### 1. **Important Names, Dates, and Amounts**\n\n**Names:**  \n- Mr.:  \n- Patient Name: N/A (Missing)\n\n**Dates:**  \n- Date of Collection: 21/Jan/2026 12:20 AM  \n- Date of Reception: 21/Jan/2026 06:51 AM  \n- Date of Reporting: 21/Jan/2026 07:27 AM  \n\n**Amounts:**  \n- Volume of Sample: 1950 mL  \n- pH Value: 7.054  \n- Sodium Concentration: 135 mmol/L"
+    },
+    {
+        "document_name": "kriyam_0001_C2.png",
+        "analysis": "### Analysis of the Document:\n\n#### 1. **Important Names, Dates, and Amounts**\n\n**Names:**\n- **Patient Name:** Mr.\n- **Client Code:** 85\n- **Visit ID:** QSD25793\n- **Health ID:** 131897\n- **ICU:** Yes (as indicated in the report)\n\n**Dates:**\n- **Date of Collection:** 21/Jan/2026 12:20AM\n- **Date of Receipt:** 21/Jan/2026 06:51AM\n- **Date of Reporting:** 21/Jan/2026 07"
+    },
+    {
+        "document_name": "kriyam_0001_C4.png",
+        "analysis": "### Analysis of the Document:\n\n#### 1. **Important Names, Dates, and Amounts**\n   - **Patient Identification**: \n     - Patient's Full Name: Mr.\n     - Patient's ID Number: 131897\n     - Patient's Blood Gas Value: pH = 7.054\n     - Patient's Body Temperature: 37.0°C\n     - Patient's Gender: Male (Age/Gender: 87 Y)\n\n   - **Dates**:\n     - Collection Date: 2/3/2026\n     - Reporting Date: 21/Jan/2026\n     - Final Report Date: 23/Jan/20"
+    }
+]
