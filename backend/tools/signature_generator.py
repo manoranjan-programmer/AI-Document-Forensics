@@ -22,6 +22,12 @@ def generate_digital_signature_image(
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
     font_candidates = [
+        # Linux standard fonts (Vercel / Debian / Ubuntu / Amazon Linux)
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+        "/usr/share/fonts/dejavu/DejaVuSans-Bold.ttf",
+        "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
+        "/usr/share/fonts/truetype/freefont/FreeSansBold.ttf",
+        # Windows fonts
         r"C:\Windows\Fonts\BRUSHSCI.TTF",
         r"C:\Windows\Fonts\segoesc.ttf",
         r"C:\Windows\Fonts\Inkfree.ttf",

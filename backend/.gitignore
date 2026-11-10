@@ -1,8 +1,8 @@
 .env
-.env.example
-__pycache__
-<<<<<<< HEAD
-.venv
-=======
-.env
->>>>>>> dafc6e32ae5b4a6a1769efa49c49f8309f0b6181
+.env.local
+.env.*.local
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.log

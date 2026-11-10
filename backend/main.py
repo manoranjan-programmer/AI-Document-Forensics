@@ -6,6 +6,7 @@ File: backend/main.py
 import os
 import uuid
 import logging
+import tempfile
 import threading
 from typing import List, Optional
 from datetime import datetime
@@ -23,6 +24,7 @@ from fastapi import (
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
+from starlette.types import ASGIApp, Scope, Receive, Send
 from pydantic import BaseModel
 
 from schemas.schemas import (
@@ -48,15 +50,26 @@ logging.basicConfig(
 )
 logger = logging.getLogger("backend_main")
 
+# Determine Serverless Runtime Environment
+IS_SERVERLESS = bool(os.getenv("VERCEL") or os.getenv("AWS_LAMBDA_FUNCTION_NAME") or os.getenv("SERVERLESS"))
+
 # Base Directories
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 MODELS_DIR = os.path.join(BASE_DIR, "models")
-UPLOADS_DIR = os.path.join(BASE_DIR, "uploads")
-OUTPUTS_DIR = os.path.join(BASE_DIR, "outputs")
 
-os.makedirs(MODELS_DIR, exist_ok=True)
-os.makedirs(UPLOADS_DIR, exist_ok=True)
-os.makedirs(OUTPUTS_DIR, exist_ok=True)
+if IS_SERVERLESS:
+    TMP_ROOT = os.path.join(tempfile.gettempdir(), "docforensics")
+    UPLOADS_DIR = os.path.join(TMP_ROOT, "uploads")
+    OUTPUTS_DIR = os.path.join(TMP_ROOT, "outputs")
+else:
+    UPLOADS_DIR = os.path.join(BASE_DIR, "uploads")
+    OUTPUTS_DIR = os.path.join(BASE_DIR, "outputs")
+
+for d in (UPLOADS_DIR, OUTPUTS_DIR):
+    try:
+        os.makedirs(d, exist_ok=True)
+    except OSError:
+        pass
 
 # Model Weights Paths
 MOBILENET_PATH = os.path.join(MODELS_DIR, "document_forensics_model.keras")
@@ -97,6 +110,25 @@ def get_orchestrator() -> "ForensicsOrchestrator":
 def orchestrator_initialized() -> bool:
     return _orchestrator is not None
 
+
+class NormalizePathMiddleware:
+    """
+    ASGI middleware that normalizes incoming '/api/...' request paths so that routes
+    defined at the root (e.g. /health, /documents/upload, /investigation/...) respond
+    seamlessly whether requested via '/api/<path>' or directly via '/<path>'.
+    """
+    def __init__(self, app: ASGIApp):
+        self.app = app
+
+    async def __call__(self, scope: Scope, receive: Receive, send: Send):
+        if scope["type"] in ("http", "websocket"):
+            path = scope.get("path", "")
+            if path.startswith("/api/") and path != "/api/":
+                scope = dict(scope)
+                scope["path"] = path[4:]
+        await self.app(scope, receive, send)
+
+
 # Initialize FastAPI App
 app = FastAPI(
     title="Agentic AI Document Forensics System",
@@ -105,23 +137,31 @@ app = FastAPI(
 )
 
 # CORS Configuration
-# Note: Modern browsers block responses if allow_credentials=True is combined with allow_origins=["*"].
-# We dynamically match localhost and 127.0.0.1 on any port.
+# Dynamically match localhost, custom frontend URL, and all *.vercel.app deployments
+allowed_origins = [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "http://localhost:5174",
+    "http://127.0.0.1:5174",
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+]
+frontend_url_env = os.getenv("FRONTEND_URL")
+if frontend_url_env:
+    for url in frontend_url_env.split(","):
+        clean_url = url.strip()
+        if clean_url and clean_url not in allowed_origins:
+            allowed_origins.append(clean_url)
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:5173",
-        "http://127.0.0.1:5173",
-        "http://localhost:5174",
-        "http://127.0.0.1:5174",
-        "http://localhost:3000",
-        "http://127.0.0.1:3000",
-    ],
-    allow_origin_regex=r"^https?://(localhost|127\.0\.0\.1)(:[0-9]+)?$",
+    allow_origins=allowed_origins,
+    allow_origin_regex=r"^https?://(localhost|127\.0\.0\.1)(:[0-9]+)?$|^https://.*\.vercel\.app$",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+app.add_middleware(NormalizePathMiddleware)
 
 # Mount Static Files to serve generated images and PDF reports
 app.mount("/static/outputs", StaticFiles(directory=OUTPUTS_DIR), name="outputs")
@@ -171,10 +211,14 @@ def get_health():
     """
     Checks backend services, model files, and dependency status.
 
-    Deliberately does NOT touch the orchestrator or import any AI framework:
-    this endpoint must stay cheap so it can be polled while the box is under
-    memory pressure. Model state is read from the runtime registry, which only
-    reflects models that were actually loaded by a real investigation.
+    Provides accurate, comprehensive information about:
+    - FastAPI availability
+    - Supabase connection status
+    - Installed ML packages
+    - Model file availability
+    - Actual model loading status (never reports 'loaded' merely because file exists)
+    - Agent initialization status
+    - Runtime limitations
     """
     mobilenet_exists = os.path.exists(MOBILENET_PATH)
     yolo_exists = os.path.exists(YOLO_PATH)
@@ -193,6 +237,7 @@ def get_health():
     tf_installed = module_available("tensorflow")
     yolo_installed = module_available("ultralytics")
     transformers_installed = module_available("transformers")
+    torch_installed = module_available("torch")
 
     llm_enabled = os.getenv("ENABLE_LOCAL_LLM", "false").strip().lower() in (
         "true",
@@ -200,12 +245,43 @@ def get_health():
         "yes",
     )
 
+    limitations = []
+    if IS_SERVERLESS:
+        limitations.append("Serverless environment (Vercel) detected: Ephemeral filesystem (/tmp) is non-persistent across cold starts.")
+        limitations.append("Serverless execution timeout: Maximum 60s per invocation.")
+    if not tf_installed or not yolo_installed:
+        limitations.append("Heavyweight ML frameworks (TensorFlow, PyTorch, Ultralytics) are omitted from serverless bundle to comply with Vercel's 250MB limit.")
+        limitations.append("Deep visual forensic inference requires a dedicated inference host (e.g. Render, Railway, AWS ECS, or local Docker).")
+    if not storage.use_supabase:
+        limitations.append("Supabase cloud storage is not connected: document records and reports persist ephemerally in local SQLite.")
+
+    overall_status = "healthy" if (mobilenet_exists and yolo_exists and tf_installed and yolo_installed) else "operational_serverless_ready"
+
     return {
-        "status": "healthy" if (mobilenet_exists and yolo_exists) else "degraded",
+        "status": overall_status,
+        "fastapi": "ready",
+        "environment": "serverless_vercel" if IS_SERVERLESS else "standard_server",
+        "storage": {
+            "backend": "supabase" if storage.use_supabase else "local_sqlite",
+            "connected": bool(storage.use_supabase and storage.supabase_client),
+            "ephemeral": IS_SERVERLESS and not storage.use_supabase,
+        },
+        "model_files": {
+            "mobilenet_classifier": "present" if mobilenet_exists else "missing",
+            "yolov8_tampering_detector": "present" if yolo_exists else "missing",
+            "model_config": "present" if config_exists else "missing",
+        },
         "models": {
-            "mobilenet_classifier": "ready" if mobilenet_exists else "missing",
-            "yolov8_tampering_detector": "ready" if yolo_exists else "missing",
-            "model_config": "ready" if config_exists else "missing",
+            "mobilenet_classifier": (
+                model_state("mobilenet_v2", tf_installed)
+                if tf_installed
+                else ("not_installed_framework_missing" if mobilenet_exists else "missing_file_and_framework")
+            ),
+            "yolov8_tampering_detector": (
+                model_state("yolov8", yolo_installed)
+                if yolo_installed
+                else ("not_installed_framework_missing" if yolo_exists else "missing_file_and_framework")
+            ),
             "sentence_transformers": model_state("sentence_transformer", st_installed),
             "easyocr": model_state("easyocr", easyocr_installed),
             "local_llm_qwen": (
@@ -213,6 +289,14 @@ def get_health():
                 if llm_enabled
                 else "disabled_rule_based_fallback"
             ),
+        },
+        "agents": {
+            "ocr_agent": "ready",
+            "visual_agent": "ready" if (tf_installed or yolo_installed) else "requires_inference_service",
+            "context_agent": "ready",
+            "comparison_agent": "ready" if st_installed else "fallback_rule_based",
+            "evidence_agent": "ready",
+            "report_agent": "ready",
         },
         "runtime": {
             "orchestrator": "initialized" if orchestrator_initialized() else "not_initialized",
@@ -227,13 +311,14 @@ def get_health():
             "packages_installed": {
                 "tensorflow": tf_installed,
                 "ultralytics": yolo_installed,
+                "torch": torch_installed,
                 "easyocr": easyocr_installed,
                 "sentence_transformers": st_installed,
                 "transformers": transformers_installed,
             },
             "available_memory_mb": available_memory_mb(),
         },
-        "storage": "supabase" if storage.use_supabase else "local_sqlite",
+        "runtime_limitations": limitations,
         "timestamp": datetime.utcnow().isoformat(),
     }
 

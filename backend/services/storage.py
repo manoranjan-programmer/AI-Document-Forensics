@@ -11,19 +11,40 @@ import uuid
 from datetime import datetime
 from typing import Dict, Any, List, Optional
 from pathlib import Path
+import tempfile
 from dotenv import load_dotenv
 
 ENV_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".env"))
-load_dotenv(ENV_PATH)
+if os.path.exists(ENV_PATH):
+    load_dotenv(ENV_PATH)
+ROOT_ENV = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".env"))
+if os.path.exists(ROOT_ENV):
+    load_dotenv(ROOT_ENV)
 
 SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_KEY = os.getenv("SUPABASE_KEY")
 
-DATA_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "data"))
-os.makedirs(DATA_DIR, exist_ok=True)
+IS_SERVERLESS = bool(os.getenv("VERCEL") or os.getenv("AWS_LAMBDA_FUNCTION_NAME") or os.getenv("SERVERLESS"))
+
+if IS_SERVERLESS:
+    BASE_STORAGE_DIR = os.path.join(tempfile.gettempdir(), "docforensics")
+    DATA_DIR = os.path.join(BASE_STORAGE_DIR, "data")
+    OUTPUTS_DIR = os.path.join(BASE_STORAGE_DIR, "outputs")
+else:
+    DATA_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "data"))
+    OUTPUTS_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "outputs"))
+
+try:
+    os.makedirs(DATA_DIR, exist_ok=True)
+except OSError:
+    pass
+
+try:
+    os.makedirs(OUTPUTS_DIR, exist_ok=True)
+except OSError:
+    pass
+
 SQLITE_DB_PATH = os.path.join(DATA_DIR, "forensics.db")
-OUTPUTS_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "outputs"))
-os.makedirs(OUTPUTS_DIR, exist_ok=True)
 
 
 class StorageService:

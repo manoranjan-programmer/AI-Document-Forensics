@@ -1,0 +1,18 @@
+# Vercel Serverless Function Python Dependencies
+# Lightweight API requirements for FastAPI backend deployment on Vercel
+# Full inference packages are documented and preserved in backend/requirements.txt
+
+fastapi>=0.115.0
+uvicorn>=0.30.0
+pydantic>=2.7.0
+python-multipart>=0.0.9
+python-dotenv>=1.0.0
+requests>=2.31.0
+pillow>=10.0.0
+numpy>=1.24.0
+pymupdf>=1.24.0
+reportlab>=4.0.0
+supabase>=2.0.0
+langgraph>=0.2.0
+langchain-core>=0.2.0
+
