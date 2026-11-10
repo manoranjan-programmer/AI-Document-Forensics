@@ -1,0 +1,700 @@
+{
+    "report_title": "Agentic AI Document Forensics Investigation Report",
+    "investigation_id": "INV-2EE51BC8",
+    "generated_at": "2026-11-10 16:26:35 UTC",
+    "investigation_status": "Pending Human Investigation",
+    "overall_classification": "Potentially Tampered / High Risk",
+    "executive_summary": {
+        "total_documents": 2,
+        "total_pages": 2,
+        "suspicious_regions_count": 6,
+        "cross_document_mismatches_count": 2,
+        "total_evidence_items": 10,
+        "status": "Pending Human Investigation",
+        "recommendation": "Automated agents flagged one or more visual anomalies, classification thresholds, or cross-document value contradictions. Rigorous manual inspection by a forensic expert is strongly advised before accepting these documents."
+    },
+    "documents": [
+        {
+            "document_id": "DOC-49927AA4",
+            "document_name": "DOC-49927AA4_tampered_bank_statement.pdf",
+            "page_count": 1,
+            "classification": "Potentially Tampered",
+            "tampering_score": 0.9937,
+            "threshold": 0.9000000000000001,
+            "suspicious_regions": [
+                {
+                    "box": [
+                        0.0,
+                        2282.27,
+                        391.41,
+                        2338.54
+                    ],
+                    "confidence": 0.3125,
+                    "label": "Visual Anomaly Region (Candidate)",
+                    "page_number": 1,
+                    "overlapping_text": []
+                },
+                {
+                    "box": [
+                        124.0,
+                        660.0,
+                        308.0,
+                        690.0
+                    ],
+                    "confidence": 0.95,
+                    "label": "Cross-Document Value Discrepancy",
+                    "page_number": 1,
+                    "overlapping_text": [
+                        "03 October 2026"
+                    ],
+                    "explanation": "Discrepancy in Payment / Transaction Date: 'DOC-49927AA4_tampered_bank_statement.pdf' reports '03 October 2026', while 'DOC-3FE5CC27_tampered_salary_slip.pdf' reports '31 October 2026'."
+                },
+                {
+                    "box": [
+                        1224.0,
+                        912.0,
+                        1348.0,
+                        938.0
+                    ],
+                    "confidence": 0.95,
+                    "label": "Cross-Document Value Discrepancy",
+                    "page_number": 1,
+                    "overlapping_text": [
+                        "INR 65,000"
+                    ],
+                    "explanation": "Discrepancy in Net Salary vs Credit Amount: 'DOC-49927AA4_tampered_bank_statement.pdf' reports 'INR 65,000', while 'DOC-3FE5CC27_tampered_salary_slip.pdf' reports 'INR 80,000'."
+                }
+            ],
+            "annotated_pages": [
+                "D:\\Document-Forensics\\backend\\outputs\\pages\\DOC-49927AA4\\annotated_p1_DOC-49927AA4_tampered_bank_statement_page_1.png"
+            ]
+        },
+        {
+            "document_id": "DOC-3FE5CC27",
+            "document_name": "DOC-3FE5CC27_tampered_salary_slip.pdf",
+            "page_count": 1,
+            "classification": "Potentially Tampered",
+            "tampering_score": 0.9649,
+            "threshold": 0.9000000000000001,
+            "suspicious_regions": [
+                {
+                    "box": [
+                        0.0,
+                        2282.26,
+                        391.33,
+                        2338.53
+                    ],
+                    "confidence": 0.3231,
+                    "label": "Visual Anomaly Region (Candidate)",
+                    "page_number": 1,
+                    "overlapping_text": []
+                },
+                {
+                    "box": [
+                        418.0,
+                        452.0,
+                        620.0,
+                        482.0
+                    ],
+                    "confidence": 0.95,
+                    "label": "Cross-Document Value Discrepancy",
+                    "page_number": 1,
+                    "overlapping_text": [
+                        "31 October 2026"
+                    ],
+                    "explanation": "Discrepancy in Payment / Transaction Date: 'DOC-49927AA4_tampered_bank_statement.pdf' reports '03 October 2026', while 'DOC-3FE5CC27_tampered_salary_slip.pdf' reports '31 October 2026'."
+                },
+                {
+                    "box": [
+                        1286.0,
+                        934.0,
+                        1504.0,
+                        984.0
+                    ],
+                    "confidence": 0.95,
+                    "label": "Cross-Document Value Discrepancy",
+                    "page_number": 1,
+                    "overlapping_text": [
+                        "INR 80,000"
+                    ],
+                    "explanation": "Discrepancy in Net Salary vs Credit Amount: 'DOC-49927AA4_tampered_bank_statement.pdf' reports 'INR 65,000', while 'DOC-3FE5CC27_tampered_salary_slip.pdf' reports 'INR 80,000'."
+                }
+            ],
+            "annotated_pages": [
+                "D:\\Document-Forensics\\backend\\outputs\\pages\\DOC-3FE5CC27\\annotated_p1_DOC-3FE5CC27_tampered_salary_slip_page_1.png"
+            ]
+        }
+    ],
+    "visual_forensics": {
+        "results": [
+            {
+                "document_id": "DOC-49927AA4",
+                "document_name": "tampered_bank_statement.pdf",
+                "classification": "Potentially Tampered",
+                "tampering_score": 0.9937,
+                "threshold": 0.9000000000000001,
+                "is_tampered_candidate": true,
+                "suspicious_regions": [
+                    {
+                        "box": [
+                            0.0,
+                            2282.27,
+                            391.41,
+                            2338.54
+                        ],
+                        "confidence": 0.3125,
+                        "label": "Visual Anomaly Region (Candidate)",
+                        "page_number": 1,
+                        "overlapping_text": []
+                    },
+                    {
+                        "box": [
+                            124.0,
+                            660.0,
+                            308.0,
+                            690.0
+                        ],
+                        "confidence": 0.95,
+                        "label": "Cross-Document Value Discrepancy",
+                        "page_number": 1,
+                        "overlapping_text": [
+                            "03 October 2026"
+                        ],
+                        "explanation": "Discrepancy in Payment / Transaction Date: 'DOC-49927AA4_tampered_bank_statement.pdf' reports '03 October 2026', while 'DOC-3FE5CC27_tampered_salary_slip.pdf' reports '31 October 2026'."
+                    },
+                    {
+                        "box": [
+                            1224.0,
+                            912.0,
+                            1348.0,
+                            938.0
+                        ],
+                        "confidence": 0.95,
+                        "label": "Cross-Document Value Discrepancy",
+                        "page_number": 1,
+                        "overlapping_text": [
+                            "INR 65,000"
+                        ],
+                        "explanation": "Discrepancy in Net Salary vs Credit Amount: 'DOC-49927AA4_tampered_bank_statement.pdf' reports 'INR 65,000', while 'DOC-3FE5CC27_tampered_salary_slip.pdf' reports 'INR 80,000'."
+                    }
+                ],
+                "page_results": [
+                    {
+                        "page_number": 1,
+                        "image_path": "D:\\Document-Forensics\\backend\\outputs\\pages\\DOC-49927AA4\\DOC-49927AA4_tampered_bank_statement_page_1.png",
+                        "tampering_score": 0.9937,
+                        "threshold": 0.9000000000000001,
+                        "classification": "Potentially Tampered",
+                        "is_tampered_candidate": true,
+                        "suspicious_regions": [
+                            {
+                                "box": [
+                                    0.0,
+                                    2282.27,
+                                    391.41,
+                                    2338.54
+                                ],
+                                "confidence": 0.3125,
+                                "label": "Visual Anomaly Region (Candidate)",
+                                "page_number": 1,
+                                "overlapping_text": []
+                            },
+                            {
+                                "box": [
+                                    124.0,
+                                    660.0,
+                                    308.0,
+                                    690.0
+                                ],
+                                "confidence": 0.95,
+                                "label": "Cross-Document Value Discrepancy",
+                                "page_number": 1,
+                                "overlapping_text": [
+                                    "03 October 2026"
+                                ],
+                                "explanation": "Discrepancy in Payment / Transaction Date: 'DOC-49927AA4_tampered_bank_statement.pdf' reports '03 October 2026', while 'DOC-3FE5CC27_tampered_salary_slip.pdf' reports '31 October 2026'."
+                            },
+                            {
+                                "box": [
+                                    1224.0,
+                                    912.0,
+                                    1348.0,
+                                    938.0
+                                ],
+                                "confidence": 0.95,
+                                "label": "Cross-Document Value Discrepancy",
+                                "page_number": 1,
+                                "overlapping_text": [
+                                    "INR 65,000"
+                                ],
+                                "explanation": "Discrepancy in Net Salary vs Credit Amount: 'DOC-49927AA4_tampered_bank_statement.pdf' reports 'INR 65,000', while 'DOC-3FE5CC27_tampered_salary_slip.pdf' reports 'INR 80,000'."
+                            }
+                        ],
+                        "annotated_image_path": "D:\\Document-Forensics\\backend\\outputs\\pages\\DOC-49927AA4\\annotated_p1_DOC-49927AA4_tampered_bank_statement_page_1.png"
+                    }
+                ],
+                "annotated_pages": [
+                    "D:\\Document-Forensics\\backend\\outputs\\pages\\DOC-49927AA4\\annotated_p1_DOC-49927AA4_tampered_bank_statement_page_1.png"
+                ],
+                "disclaimer": "Automated visual anomaly detection indicates potential statistical inconsistencies and is not proof of fraud. Final determination requires human review."
+            },
+            {
+                "document_id": "DOC-3FE5CC27",
+                "document_name": "tampered_salary_slip.pdf",
+                "classification": "Potentially Tampered",
+                "tampering_score": 0.9649,
+                "threshold": 0.9000000000000001,
+                "is_tampered_candidate": true,
+                "suspicious_regions": [
+                    {
+                        "box": [
+                            0.0,
+                            2282.26,
+                            391.33,
+                            2338.53
+                        ],
+                        "confidence": 0.3231,
+                        "label": "Visual Anomaly Region (Candidate)",
+                        "page_number": 1,
+                        "overlapping_text": []
+                    },
+                    {
+                        "box": [
+                            418.0,
+                            452.0,
+                            620.0,
+                            482.0
+                        ],
+                        "confidence": 0.95,
+                        "label": "Cross-Document Value Discrepancy",
+                        "page_number": 1,
+                        "overlapping_text": [
+                            "31 October 2026"
+                        ],
+                        "explanation": "Discrepancy in Payment / Transaction Date: 'DOC-49927AA4_tampered_bank_statement.pdf' reports '03 October 2026', while 'DOC-3FE5CC27_tampered_salary_slip.pdf' reports '31 October 2026'."
+                    },
+                    {
+                        "box": [
+                            1286.0,
+                            934.0,
+                            1504.0,
+                            984.0
+                        ],
+                        "confidence": 0.95,
+                        "label": "Cross-Document Value Discrepancy",
+                        "page_number": 1,
+                        "overlapping_text": [
+                            "INR 80,000"
+                        ],
+                        "explanation": "Discrepancy in Net Salary vs Credit Amount: 'DOC-49927AA4_tampered_bank_statement.pdf' reports 'INR 65,000', while 'DOC-3FE5CC27_tampered_salary_slip.pdf' reports 'INR 80,000'."
+                    }
+                ],
+                "page_results": [
+                    {
+                        "page_number": 1,
+                        "image_path": "D:\\Document-Forensics\\backend\\outputs\\pages\\DOC-3FE5CC27\\DOC-3FE5CC27_tampered_salary_slip_page_1.png",
+                        "tampering_score": 0.9649,
+                        "threshold": 0.9000000000000001,
+                        "classification": "Potentially Tampered",
+                        "is_tampered_candidate": true,
+                        "suspicious_regions": [
+                            {
+                                "box": [
+                                    0.0,
+                                    2282.26,
+                                    391.33,
+                                    2338.53
+                                ],
+                                "confidence": 0.3231,
+                                "label": "Visual Anomaly Region (Candidate)",
+                                "page_number": 1,
+                                "overlapping_text": []
+                            },
+                            {
+                                "box": [
+                                    418.0,
+                                    452.0,
+                                    620.0,
+                                    482.0
+                                ],
+                                "confidence": 0.95,
+                                "label": "Cross-Document Value Discrepancy",
+                                "page_number": 1,
+                                "overlapping_text": [
+                                    "31 October 2026"
+                                ],
+                                "explanation": "Discrepancy in Payment / Transaction Date: 'DOC-49927AA4_tampered_bank_statement.pdf' reports '03 October 2026', while 'DOC-3FE5CC27_tampered_salary_slip.pdf' reports '31 October 2026'."
+                            },
+                            {
+                                "box": [
+                                    1286.0,
+                                    934.0,
+                                    1504.0,
+                                    984.0
+                                ],
+                                "confidence": 0.95,
+                                "label": "Cross-Document Value Discrepancy",
+                                "page_number": 1,
+                                "overlapping_text": [
+                                    "INR 80,000"
+                                ],
+                                "explanation": "Discrepancy in Net Salary vs Credit Amount: 'DOC-49927AA4_tampered_bank_statement.pdf' reports 'INR 65,000', while 'DOC-3FE5CC27_tampered_salary_slip.pdf' reports 'INR 80,000'."
+                            }
+                        ],
+                        "annotated_image_path": "D:\\Document-Forensics\\backend\\outputs\\pages\\DOC-3FE5CC27\\annotated_p1_DOC-3FE5CC27_tampered_salary_slip_page_1.png"
+                    }
+                ],
+                "annotated_pages": [
+                    "D:\\Document-Forensics\\backend\\outputs\\pages\\DOC-3FE5CC27\\annotated_p1_DOC-3FE5CC27_tampered_salary_slip_page_1.png"
+                ],
+                "disclaimer": "Automated visual anomaly detection indicates potential statistical inconsistencies and is not proof of fraud. Final determination requires human review."
+            }
+        ],
+        "summary": "Analyzed 2 document(s). Detected 6 visual regions of concern."
+    },
+    "contextual_analysis": {
+        "status": "llm_unavailable_rule_based_analysis",
+        "model_used": "Rule-based Context Engine (Factual Entity Extractor)",
+        "executive_summary": "Contextual analysis processed 2 document(s). Identified 16 factual entities, 0 potential contextual flags, and 0 missing field notices. No facts were hallucinated or assumed.",
+        "entities": [
+            {
+                "type": "Quantitative Measurement / Amount",
+                "value": "18,250",
+                "source_text": "INR 18,250",
+                "document": "DOC-49927AA4_tampered_bank_statement.pdf",
+                "page": 1
+            },
+            {
+                "type": "Quantitative Measurement / Amount",
+                "value": "44,830",
+                "source_text": "INR 44,830",
+                "document": "DOC-49927AA4_tampered_bank_statement.pdf",
+                "page": 1
+            },
+            {
+                "type": "Quantitative Measurement / Amount",
+                "value": "1,240",
+                "source_text": "INR 1,240",
+                "document": "DOC-49927AA4_tampered_bank_statement.pdf",
+                "page": 1
+            },
+            {
+                "type": "Quantitative Measurement / Amount",
+                "value": "17,010",
+                "source_text": "INR 17,010",
+                "document": "DOC-49927AA4_tampered_bank_statement.pdf",
+                "page": 1
+            },
+            {
+                "type": "Quantitative Measurement / Amount",
+                "value": "2,180",
+                "source_text": "INR 2,180",
+                "document": "DOC-49927AA4_tampered_bank_statement.pdf",
+                "page": 1
+            },
+            {
+                "type": "Quantitative Measurement / Amount",
+                "value": "14,830",
+                "source_text": "INR 14,830",
+                "document": "DOC-49927AA4_tampered_bank_statement.pdf",
+                "page": 1
+            },
+            {
+                "type": "Quantitative Measurement / Amount",
+                "value": "5,000",
+                "source_text": "INR 5,000",
+                "document": "DOC-49927AA4_tampered_bank_statement.pdf",
+                "page": 1
+            },
+            {
+                "type": "Quantitative Measurement / Amount",
+                "value": "9,830",
+                "source_text": "INR 9,830",
+                "document": "DOC-49927AA4_tampered_bank_statement.pdf",
+                "page": 1
+            },
+            {
+                "type": "Quantitative Measurement / Amount",
+                "value": "65,000",
+                "source_text": "INR 65,000",
+                "document": "DOC-49927AA4_tampered_bank_statement.pdf",
+                "page": 1
+            },
+            {
+                "type": "Quantitative Measurement / Amount",
+                "value": "44,830",
+                "source_text": "INR 44,830",
+                "document": "DOC-49927AA4_tampered_bank_statement.pdf",
+                "page": 1
+            },
+            {
+                "type": "Quantitative Measurement / Amount",
+                "value": "40,000",
+                "source_text": "INR 40,000",
+                "document": "DOC-3FE5CC27_tampered_salary_slip.pdf",
+                "page": 1
+            },
+            {
+                "type": "Quantitative Measurement / Amount",
+                "value": "5,000",
+                "source_text": "INR 5,000",
+                "document": "DOC-3FE5CC27_tampered_salary_slip.pdf",
+                "page": 1
+            },
+            {
+                "type": "Quantitative Measurement / Amount",
+                "value": "15,000",
+                "source_text": "INR 15,000",
+                "document": "DOC-3FE5CC27_tampered_salary_slip.pdf",
+                "page": 1
+            },
+            {
+                "type": "Quantitative Measurement / Amount",
+                "value": "55,000",
+                "source_text": "INR 55,000",
+                "document": "DOC-3FE5CC27_tampered_salary_slip.pdf",
+                "page": 1
+            },
+            {
+                "type": "Quantitative Measurement / Amount",
+                "value": "5,000",
+                "source_text": "INR 5,000",
+                "document": "DOC-3FE5CC27_tampered_salary_slip.pdf",
+                "page": 1
+            },
+            {
+                "type": "Quantitative Measurement / Amount",
+                "value": "80,000",
+                "source_text": "INR 80,000",
+                "document": "DOC-3FE5CC27_tampered_salary_slip.pdf",
+                "page": 1
+            }
+        ],
+        "anomalies": [],
+        "missing_fields": [],
+        "raw_analysis": "### Contextual and Entity Forensic Analysis\n\n#### 1. Identified Key Entities (Grounded in OCR Extracted Text)\n- **Names (0):** None clearly detected\n- **Dates (0):** None clearly detected\n- **Key Measurements / Values (16):** 17,010, 18,250, 5,000, 2,180, 44,830, 9,830, 1,240, 14,830\n\n#### 2. Potential Contextual Inconsistencies & Anomalies\n- No internal syntax or typography contradictions flagged in extracted text.\n\n#### 3. Missing Fields\n- All expected standard header fields detected.\n"
+    },
+    "cross_document_comparison": {
+        "total_documents": 2,
+        "total_comparisons": 1,
+        "comparisons": [
+            {
+                "document_1": "DOC-49927AA4_tampered_bank_statement.pdf",
+                "document_2": "DOC-3FE5CC27_tampered_salary_slip.pdf",
+                "similarity_score": 0.8251,
+                "status": "Strongly Related Document Pair",
+                "key_field_comparisons": [
+                    {
+                        "field": "Subject / Individual Name",
+                        "doc_a_value": "Aarav Kumar",
+                        "doc_b_value": "Aarav Kumar",
+                        "status": "Match"
+                    },
+                    {
+                        "field": "Payment / Transaction Date",
+                        "doc_a_value": "03 October 2026",
+                        "doc_b_value": "31 October 2026",
+                        "status": "Mismatch"
+                    },
+                    {
+                        "field": "Statement / Pay Period",
+                        "doc_a_value": "October 2026",
+                        "doc_b_value": "October 2026",
+                        "status": "Match"
+                    },
+                    {
+                        "field": "Net Salary vs Credit Amount",
+                        "doc_a_value": "INR 65,000",
+                        "doc_b_value": "INR 80,000",
+                        "status": "Mismatch"
+                    }
+                ],
+                "contradictions": [
+                    "Discrepancy in Payment / Transaction Date: 'DOC-49927AA4_tampered_bank_statement.pdf' reports '03 October 2026', while 'DOC-3FE5CC27_tampered_salary_slip.pdf' reports '31 October 2026'.",
+                    "Discrepancy in Salary / Credit Amount: 'DOC-49927AA4_tampered_bank_statement.pdf' reports 'INR 65,000', while 'DOC-3FE5CC27_tampered_salary_slip.pdf' reports 'INR 80,000' (variance: 15,000.00)."
+                ]
+            }
+        ],
+        "potential_contradictions": [
+            "Discrepancy in Payment / Transaction Date: 'DOC-49927AA4_tampered_bank_statement.pdf' reports '03 October 2026', while 'DOC-3FE5CC27_tampered_salary_slip.pdf' reports '31 October 2026'.",
+            "Discrepancy in Salary / Credit Amount: 'DOC-49927AA4_tampered_bank_statement.pdf' reports 'INR 65,000', while 'DOC-3FE5CC27_tampered_salary_slip.pdf' reports 'INR 80,000' (variance: 15,000.00)."
+        ],
+        "disclaimer": "Semantic similarity indicates thematic or textual correspondence. Mismatches highlight variances requiring human investigation, not conclusive proof of tampering."
+    },
+    "evidence_items": [
+        {
+            "evidence_id": "EVIDENCE_1",
+            "document": "tampered_bank_statement.pdf",
+            "page": 1,
+            "evidence_type": "Potentially suspicious visual region",
+            "category": "Visual Tampering Anomaly",
+            "bounding_box": [
+                0.0,
+                2282.27,
+                391.41,
+                2338.54
+            ],
+            "detection_confidence": 0.3125,
+            "related_text": [],
+            "explanation": "YOLOv8 detected a localized visual anomaly with 31.2% confidence.",
+            "source_level": "model_prediction"
+        },
+        {
+            "evidence_id": "EVIDENCE_2",
+            "document": "tampered_bank_statement.pdf",
+            "page": 1,
+            "evidence_type": "Document-level classification",
+            "category": "MobileNetV2 Classifier Finding",
+            "bounding_box": null,
+            "detection_confidence": 0.9937,
+            "related_text": [],
+            "explanation": "MobileNetV2 classification assigned a score of 0.9937 (decision threshold: 0.90), classifying document as 'Potentially Tampered'.",
+            "source_level": "model_prediction"
+        },
+        {
+            "evidence_id": "EVIDENCE_3",
+            "document": "tampered_salary_slip.pdf",
+            "page": 1,
+            "evidence_type": "Potentially suspicious visual region",
+            "category": "Visual Tampering Anomaly",
+            "bounding_box": [
+                0.0,
+                2282.26,
+                391.33,
+                2338.53
+            ],
+            "detection_confidence": 0.3231,
+            "related_text": [],
+            "explanation": "YOLOv8 detected a localized visual anomaly with 32.3% confidence.",
+            "source_level": "model_prediction"
+        },
+        {
+            "evidence_id": "EVIDENCE_4",
+            "document": "tampered_salary_slip.pdf",
+            "page": 1,
+            "evidence_type": "Document-level classification",
+            "category": "MobileNetV2 Classifier Finding",
+            "bounding_box": null,
+            "detection_confidence": 0.9649,
+            "related_text": [],
+            "explanation": "MobileNetV2 classification assigned a score of 0.9649 (decision threshold: 0.90), classifying document as 'Potentially Tampered'.",
+            "source_level": "model_prediction"
+        },
+        {
+            "evidence_id": "EVIDENCE_5",
+            "document": "DOC-49927AA4_tampered_bank_statement.pdf",
+            "page": 1,
+            "evidence_type": "Cross-Document Value Discrepancy",
+            "category": "Relational Consistency Warning",
+            "bounding_box": [
+                124.0,
+                660.0,
+                308.0,
+                690.0
+            ],
+            "detection_confidence": 0.95,
+            "related_text": [
+                "03 October 2026"
+            ],
+            "explanation": "Discrepancy in Payment / Transaction Date: 'DOC-49927AA4_tampered_bank_statement.pdf' reports '03 October 2026', while 'DOC-3FE5CC27_tampered_salary_slip.pdf' reports '31 October 2026'.",
+            "source_level": "inferred_concern"
+        },
+        {
+            "evidence_id": "EVIDENCE_6",
+            "document": "DOC-3FE5CC27_tampered_salary_slip.pdf",
+            "page": 1,
+            "evidence_type": "Cross-Document Value Discrepancy",
+            "category": "Relational Consistency Warning",
+            "bounding_box": [
+                418.0,
+                452.0,
+                620.0,
+                482.0
+            ],
+            "detection_confidence": 0.95,
+            "related_text": [
+                "31 October 2026"
+            ],
+            "explanation": "Discrepancy in Payment / Transaction Date: 'DOC-49927AA4_tampered_bank_statement.pdf' reports '03 October 2026', while 'DOC-3FE5CC27_tampered_salary_slip.pdf' reports '31 October 2026'.",
+            "source_level": "inferred_concern"
+        },
+        {
+            "evidence_id": "EVIDENCE_7",
+            "document": "DOC-49927AA4_tampered_bank_statement.pdf",
+            "page": 1,
+            "evidence_type": "Cross-Document Value Discrepancy",
+            "category": "Relational Consistency Warning",
+            "bounding_box": [
+                1224.0,
+                912.0,
+                1348.0,
+                938.0
+            ],
+            "detection_confidence": 0.95,
+            "related_text": [
+                "INR 65,000"
+            ],
+            "explanation": "Discrepancy in Net Salary vs Credit Amount: 'DOC-49927AA4_tampered_bank_statement.pdf' reports 'INR 65,000', while 'DOC-3FE5CC27_tampered_salary_slip.pdf' reports 'INR 80,000'.",
+            "source_level": "inferred_concern"
+        },
+        {
+            "evidence_id": "EVIDENCE_8",
+            "document": "DOC-3FE5CC27_tampered_salary_slip.pdf",
+            "page": 1,
+            "evidence_type": "Cross-Document Value Discrepancy",
+            "category": "Relational Consistency Warning",
+            "bounding_box": [
+                1286.0,
+                934.0,
+                1504.0,
+                984.0
+            ],
+            "detection_confidence": 0.95,
+            "related_text": [
+                "INR 80,000"
+            ],
+            "explanation": "Discrepancy in Net Salary vs Credit Amount: 'DOC-49927AA4_tampered_bank_statement.pdf' reports 'INR 65,000', while 'DOC-3FE5CC27_tampered_salary_slip.pdf' reports 'INR 80,000'.",
+            "source_level": "inferred_concern"
+        },
+        {
+            "evidence_id": "EVIDENCE_9",
+            "document": "DOC-49927AA4_tampered_bank_statement.pdf",
+            "page": 1,
+            "evidence_type": "Cross-Document Value Discrepancy",
+            "category": "Relational Consistency Warning",
+            "bounding_box": [
+                1224.0,
+                912.0,
+                1348.0,
+                938.0
+            ],
+            "detection_confidence": 0.95,
+            "related_text": [
+                "INR 65,000"
+            ],
+            "explanation": "Discrepancy in Salary / Credit Amount: 'DOC-49927AA4_tampered_bank_statement.pdf' reports 'INR 65,000', while 'DOC-3FE5CC27_tampered_salary_slip.pdf' reports 'INR 80,000' (variance: 15,000.00).",
+            "source_level": "inferred_concern"
+        },
+        {
+            "evidence_id": "EVIDENCE_10",
+            "document": "DOC-3FE5CC27_tampered_salary_slip.pdf",
+            "page": 1,
+            "evidence_type": "Cross-Document Value Discrepancy",
+            "category": "Relational Consistency Warning",
+            "bounding_box": [
+                1286.0,
+                934.0,
+                1504.0,
+                984.0
+            ],
+            "detection_confidence": 0.95,
+            "related_text": [
+                "INR 80,000"
+            ],
+            "explanation": "Discrepancy in Salary / Credit Amount: 'DOC-49927AA4_tampered_bank_statement.pdf' reports 'INR 65,000', while 'DOC-3FE5CC27_tampered_salary_slip.pdf' reports 'INR 80,000' (variance: 15,000.00).",
+            "source_level": "inferred_concern"
+        }
+    ],
+    "review": null,
+    "disclaimer": "This report was compiled by an agentic AI forensics pipeline. Predictions from MobileNetV2, YOLOv8, and NLP models indicate potential anomalies and do NOT constitute legal proof of fraud. Final decisions must be signed by an authorized human investigator."
+}

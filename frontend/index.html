@@ -5,8 +5,26 @@
     <link rel="icon" type="image/png" href="/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DocForensics AI - Forensic Document Authenticity</title>
+    <script>
+      window.addEventListener('error', function (e) {
+        var root = document.getElementById('root');
+        if (root && root.children.length === 0) {
+          root.innerHTML =
+            '<div style="min-height:100vh;background:#0b0f19;color:#f8fafc;display:flex;align-items:center;justify-content:center;padding:24px;font-family:sans-serif;">' +
+            '<div style="max-width:540px;background:#111827;border:1px solid #1e293b;border-radius:16px;padding:32px;text-align:center;">' +
+            '<div style="font-size:32px;margin-bottom:12px;">⚠️</div>' +
+            '<h2 style="font-size:18px;margin-bottom:8px;color:#f8fafc;">DocForensics AI Initialization</h2>' +
+            '<p style="font-size:12px;color:#94a3b8;margin-bottom:16px;">An early script exception occurred before React mounted:</p>' +
+            '<div style="background:#0b0f19;border:1px solid #1e293b;padding:12px;border-radius:8px;color:#f87171;font-family:monospace;font-size:11px;text-align:left;overflow-x:auto;margin-bottom:20px;">' +
+            (e.message || String(e)) +
+            '</div>' +
+            '<button onclick="localStorage.clear();sessionStorage.clear();window.location.reload();" style="background:#2563eb;color:#fff;border:none;border-radius:8px;padding:10px 20px;font-size:12px;cursor:pointer;font-weight:bold;">Clear Cache & Reload</button>' +
+            '</div></div>';
+        }
+      });
+    </script>
   </head>
-  <body>
+  <body class="bg-slate-50 text-slate-900">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
