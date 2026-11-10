@@ -8,7 +8,6 @@ import os
 from typing import List, Dict, Any, Tuple, Optional
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
-import tensorflow as tf
 
 
 def load_image_for_mobilenet(
@@ -25,6 +24,7 @@ def load_image_for_mobilenet(
        that occurs when A4 (1:1.41) documents are squeezed into 1:1 squares, which triggers
        geometric tampering false positives.
     """
+    import tensorflow as tf
     img = tf.keras.utils.load_img(image_path, target_size=target_size, keep_aspect_ratio=True)
     img_array = tf.keras.utils.img_to_array(img)  # Shape (224, 224, 3), float32, range [0, 255]
     return np.expand_dims(img_array, axis=0)  # Shape (1, 224, 224, 3)

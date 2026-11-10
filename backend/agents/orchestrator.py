@@ -9,16 +9,12 @@ Document Validation -> OCR Extraction -> Visual Forensics -> Contextual Analysis
 
 import os
 import logging
+import threading
 from typing import TypedDict, List, Dict, Any, Optional
 from langgraph.graph import StateGraph, START, END
 
-from agents.ocr_agent import OCRAgent
-from agents.visual_agent import VisualForensicAgent
-from agents.context_agent import ContextualAnalysisAgent
-from agents.comparison_agent import CrossDocumentComparisonAgent
-from agents.evidence_agent import EvidenceInvestigationAgent
-from agents.report_agent import InvestigationReportAgent
 from services.storage import storage
+from tools.runtime_guard import release_memory
 
 logger = logging.getLogger("orchestrator")
 logging.basicConfig(level=logging.INFO)
@@ -44,6 +40,7 @@ class InvestigationState(TypedDict):
     current_step: str
     status: str
     errors: List[str]
+    agent_status: Dict[str, str]
 
 
 class ForensicsOrchestrator:
@@ -63,21 +60,78 @@ class ForensicsOrchestrator:
         os.makedirs(self.output_pages_dir, exist_ok=True)
         os.makedirs(self.output_reports_dir, exist_ok=True)
 
-        # Initialize Agents
-        logger.info("Initializing forensics agents...")
-        self.ocr_agent = OCRAgent()
-        self.visual_agent = VisualForensicAgent(
-            mobilenet_path=mobilenet_path,
-            yolo_path=yolo_path,
-            config_path=config_path,
-        )
-        self.context_agent = ContextualAnalysisAgent()
-        self.comparison_agent = CrossDocumentComparisonAgent()
-        self.evidence_agent = EvidenceInvestigationAgent()
-        self.report_agent = InvestigationReportAgent(output_dir=self.output_reports_dir)
+        # Model paths are recorded, not loaded. Every agent is constructed on
+        # first use, so creating the orchestrator costs no model memory.
+        self.mobilenet_path = mobilenet_path
+        self.yolo_path = yolo_path
+        self.config_path = config_path
 
-        # Build Graph
+        self._agents: Dict[str, Any] = {}
+        self._agent_lock = threading.Lock()
+
+        # Build Graph (binds node methods only; loads nothing)
         self.graph = self._build_graph()
+
+    # --- Lazy agent accessors ---
+
+    def _get_agent(self, key: str, factory):
+        """
+        Builds an agent once and reuses it. The lock prevents two concurrent
+        investigations from constructing duplicate copies of the same model.
+        """
+        agent = self._agents.get(key)
+        if agent is None:
+            with self._agent_lock:
+                agent = self._agents.get(key)
+                if agent is None:
+                    logger.info(f"Initializing {key} (lazy)...")
+                    agent = factory()
+                    self._agents[key] = agent
+        return agent
+
+    @property
+    def ocr_agent(self):
+        from agents.ocr_agent import OCRAgent
+        return self._get_agent("ocr_agent", OCRAgent)
+
+    @property
+    def visual_agent(self):
+        from agents.visual_agent import VisualForensicAgent
+        return self._get_agent(
+            "visual_agent",
+            lambda: VisualForensicAgent(
+                mobilenet_path=self.mobilenet_path,
+                yolo_path=self.yolo_path,
+                config_path=self.config_path,
+            ),
+        )
+
+    @property
+    def context_agent(self):
+        from agents.context_agent import ContextualAnalysisAgent
+        return self._get_agent("context_agent", ContextualAnalysisAgent)
+
+    @property
+    def comparison_agent(self):
+        from agents.comparison_agent import CrossDocumentComparisonAgent
+        return self._get_agent("comparison_agent", CrossDocumentComparisonAgent)
+
+    @property
+    def evidence_agent(self):
+        from agents.evidence_agent import EvidenceInvestigationAgent
+        return self._get_agent("evidence_agent", EvidenceInvestigationAgent)
+
+    @property
+    def report_agent(self):
+        from agents.report_agent import InvestigationReportAgent
+        return self._get_agent(
+            "report_agent",
+            lambda: InvestigationReportAgent(output_dir=self.output_reports_dir),
+        )
+
+    def loaded_agents(self) -> List[str]:
+        """Names of agents constructed so far. Used for diagnostics."""
+        return sorted(self._agents.keys())
 
     def _build_graph(self):
         workflow = StateGraph(InvestigationState)
@@ -110,8 +164,10 @@ class ForensicsOrchestrator:
 
         ocr_results = []
         errors = list(state.get("errors", []))
+        node_errors: List[str] = []
+        documents = state.get("document_records", [])
 
-        for doc in state.get("document_records", []):
+        for doc in documents:
             try:
                 res = self.ocr_agent.process_document(
                     document_id=doc["id"],
@@ -123,11 +179,28 @@ class ForensicsOrchestrator:
                 err_msg = f"OCR failed for {doc.get('original_filename')}: {e}"
                 logger.error(err_msg)
                 errors.append(err_msg)
+                node_errors.append(err_msg)
 
-        storage.save_agent_result(inv_id, "ocr_agent", {"documents": ocr_results})
+        # An agent that produced nothing is reported as failed, never as success.
+        if not ocr_results:
+            ocr_status = "failed"
+        elif len(ocr_results) < len(documents):
+            ocr_status = "partial"
+        else:
+            ocr_status = "success"
+
+        storage.save_agent_result(
+            inv_id,
+            "ocr_agent",
+            {"documents": ocr_results, "agent_status": ocr_status},
+            status=ocr_status,
+            error="; ".join(node_errors) if node_errors else None,
+        )
+        release_memory()
         return {
             "ocr_results": ocr_results,
             "errors": errors,
+            "agent_status": {**state.get("agent_status", {}), "ocr_agent": ocr_status},
             "progress": 30.0,
             "current_step": "Visual Forensics Inspection",
         }
@@ -139,9 +212,11 @@ class ForensicsOrchestrator:
 
         visual_results = []
         errors = list(state.get("errors", []))
+        node_errors: List[str] = []
         ocr_by_id = {d["document_id"]: d for d in state.get("ocr_results", [])}
+        documents = state.get("document_records", [])
 
-        for doc in state.get("document_records", []):
+        for doc in documents:
             doc_id = doc["id"]
             ocr_res = ocr_by_id.get(doc_id, {"pages": []})
             try:
@@ -156,11 +231,27 @@ class ForensicsOrchestrator:
                 err_msg = f"Visual forensics failed for {doc.get('original_filename')}: {e}"
                 logger.error(err_msg)
                 errors.append(err_msg)
+                node_errors.append(err_msg)
 
-        storage.save_agent_result(inv_id, "visual_agent", {"documents": visual_results})
+        if not visual_results:
+            visual_status = "failed"
+        elif len(visual_results) < len(documents):
+            visual_status = "partial"
+        else:
+            visual_status = "success"
+
+        storage.save_agent_result(
+            inv_id,
+            "visual_agent",
+            {"documents": visual_results, "agent_status": visual_status},
+            status=visual_status,
+            error="; ".join(node_errors) if node_errors else None,
+        )
+        release_memory()
         return {
             "visual_results": visual_results,
             "errors": errors,
+            "agent_status": {**state.get("agent_status", {}), "visual_agent": visual_status},
             "progress": 50.0,
             "current_step": "Contextual Analysis",
         }
@@ -171,12 +262,15 @@ class ForensicsOrchestrator:
         storage.update_investigation_progress(inv_id, "processing", 50.0, "Contextual Analysis")
 
         errors = list(state.get("errors", []))
+        node_errors: List[str] = []
+        ocr_results = state.get("ocr_results", [])
         try:
-            res = self.context_agent.analyze_documents(state.get("ocr_results", []))
+            res = self.context_agent.analyze_documents(ocr_results)
         except Exception as e:
             err_msg = f"Contextual analysis encountered an error: {e}"
             logger.error(err_msg)
             errors.append(err_msg)
+            node_errors.append(err_msg)
             res = {
                 "status": "error",
                 "executive_summary": "Error during contextual evaluation.",
@@ -185,10 +279,29 @@ class ForensicsOrchestrator:
                 "missing_fields": [],
             }
 
-        storage.save_agent_result(inv_id, "context_agent", res)
+        # The agent always runs, but it may run on the deterministic rule engine
+        # instead of the local LLM. That distinction is reported, not hidden.
+        if res.get("status") == "error":
+            context_status = "failed"
+        elif not ocr_results:
+            context_status = "no_input"
+        elif res.get("status") == "llm_unavailable_rule_based_analysis":
+            context_status = "fallback"
+        else:
+            context_status = "success"
+
+        storage.save_agent_result(
+            inv_id,
+            "context_agent",
+            {**res, "agent_status": context_status},
+            status=context_status,
+            error="; ".join(node_errors) if node_errors else None,
+        )
+        release_memory()
         return {
             "context_results": res,
             "errors": errors,
+            "agent_status": {**state.get("agent_status", {}), "context_agent": context_status},
             "progress": 65.0,
             "current_step": "Cross-Document Comparison",
         }
@@ -199,26 +312,44 @@ class ForensicsOrchestrator:
         storage.update_investigation_progress(inv_id, "processing", 65.0, "Cross-Document Comparison")
 
         errors = list(state.get("errors", []))
+        node_errors: List[str] = []
+        ocr_results = state.get("ocr_results", [])
         try:
             res = self.comparison_agent.compare_documents(
-                ocr_results=state.get("ocr_results", []),
+                ocr_results=ocr_results,
                 context_results=state.get("context_results"),
             )
         except Exception as e:
             err_msg = f"Cross-document comparison error: {e}"
             logger.error(err_msg)
             errors.append(err_msg)
+            node_errors.append(err_msg)
             res = {
-                "total_documents": len(state.get("ocr_results", [])),
+                "total_documents": len(ocr_results),
                 "total_comparisons": 0,
                 "comparisons": [],
                 "potential_contradictions": [],
             }
 
-        storage.save_agent_result(inv_id, "comparison_agent", res)
+        if node_errors:
+            comparison_status = "failed"
+        elif len(ocr_results) < 2:
+            comparison_status = "no_input"
+        else:
+            comparison_status = "success"
+
+        storage.save_agent_result(
+            inv_id,
+            "comparison_agent",
+            {**res, "agent_status": comparison_status},
+            status=comparison_status,
+            error="; ".join(node_errors) if node_errors else None,
+        )
+        release_memory()
         return {
             "comparison_results": res,
             "errors": errors,
+            "agent_status": {**state.get("agent_status", {}), "comparison_agent": comparison_status},
             "progress": 80.0,
             "current_step": "Evidence Mapping",
         }
