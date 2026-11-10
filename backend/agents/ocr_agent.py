@@ -14,7 +14,6 @@ import os
 import logging
 from typing import List, Dict, Any, Optional
 from pathlib import Path
-import easyocr
 from tools.pdf_processor import extract_pages_from_document, is_supported_file
 
 logger = logging.getLogger("ocr_agent")
@@ -24,9 +23,10 @@ logging.basicConfig(level=logging.INFO)
 _EASYOCR_READER = None
 
 
-def get_ocr_reader() -> easyocr.Reader:
+def get_ocr_reader():
     global _EASYOCR_READER
     if _EASYOCR_READER is None:
+        import easyocr
         logger.info("Initializing EasyOCR reader (en)...")
         # EasyOCR reader on CPU or GPU if available
         import torch

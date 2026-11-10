@@ -6,6 +6,7 @@ File: backend/main.py
 import os
 import uuid
 import logging
+import threading
 from typing import List, Optional
 from datetime import datetime
 from pathlib import Path
@@ -33,7 +34,12 @@ from schemas.schemas import (
 )
 from services.storage import storage
 from tools.pdf_processor import is_supported_file, extract_pages_from_document
-from agents.orchestrator import ForensicsOrchestrator
+
+from tools.runtime_guard import (
+    available_memory_mb,
+    get_model_status,
+    module_available,
+)
 
 # Setup Logging
 logging.basicConfig(
@@ -57,14 +63,39 @@ MOBILENET_PATH = os.path.join(MODELS_DIR, "document_forensics_model.keras")
 YOLO_PATH = os.path.join(MODELS_DIR, "best.pt")
 CONFIG_PATH = os.path.join(MODELS_DIR, "model_config.json")
 
-# Initialize Orchestrator Singleton
-orchestrator = ForensicsOrchestrator(
-    mobilenet_path=MOBILENET_PATH,
-    yolo_path=YOLO_PATH,
-    config_path=CONFIG_PATH,
-    uploads_dir=UPLOADS_DIR,
-    outputs_dir=OUTPUTS_DIR,
-)
+# Orchestrator is created lazily on the first investigation.
+# Importing this module (and therefore serving /, /health and /docs) must never
+# load EasyOCR, TensorFlow, YOLO, PyTorch or Sentence-Transformers.
+_orchestrator: Optional["ForensicsOrchestrator"] = None
+_orchestrator_lock = threading.Lock()
+
+
+def get_orchestrator() -> "ForensicsOrchestrator":
+    from agents.orchestrator import ForensicsOrchestrator
+    """
+    Returns the process-wide orchestrator, building it on first use.
+
+    The double-checked lock keeps concurrent investigations from constructing
+    two orchestrators (and therefore two copies of every model).
+    """
+    global _orchestrator
+    if _orchestrator is None:
+        with _orchestrator_lock:
+            if _orchestrator is None:
+                logger.info("Initializing forensics orchestrator (lazy, first investigation)...")
+                _orchestrator = ForensicsOrchestrator(
+                    mobilenet_path=MOBILENET_PATH,
+                    yolo_path=YOLO_PATH,
+                    config_path=CONFIG_PATH,
+                    uploads_dir=UPLOADS_DIR,
+                    outputs_dir=OUTPUTS_DIR,
+                )
+                logger.info("Forensics orchestrator ready.")
+    return _orchestrator
+
+
+def orchestrator_initialized() -> bool:
+    return _orchestrator is not None
 
 # Initialize FastAPI App
 app = FastAPI(
@@ -101,7 +132,7 @@ app.mount("/static/uploads", StaticFiles(directory=UPLOADS_DIR), name="uploads")
 def run_investigation_task(investigation_id: str, document_records: List[dict]):
     try:
         logger.info(f"Background task starting for {investigation_id}")
-        orchestrator.run_investigation(investigation_id, document_records)
+        get_orchestrator().run_investigation(investigation_id, document_records)
         logger.info(f"Background task completed for {investigation_id}")
     except Exception as e:
         logger.error(f"Background task error for {investigation_id}: {e}", exc_info=True)
@@ -137,10 +168,37 @@ def get_root():
 
 @app.get("/health")
 def get_health():
-    """Checks backend services, model files, and dependency status."""
+    """
+    Checks backend services, model files, and dependency status.
+
+    Deliberately does NOT touch the orchestrator or import any AI framework:
+    this endpoint must stay cheap so it can be polled while the box is under
+    memory pressure. Model state is read from the runtime registry, which only
+    reflects models that were actually loaded by a real investigation.
+    """
     mobilenet_exists = os.path.exists(MOBILENET_PATH)
     yolo_exists = os.path.exists(YOLO_PATH)
     config_exists = os.path.exists(CONFIG_PATH)
+
+    loaded = get_model_status()
+
+    def model_state(registry_key: str, installed: bool) -> str:
+        entry = loaded.get(registry_key)
+        if entry:
+            return entry["state"]
+        return "not_loaded" if installed else "not_installed"
+
+    easyocr_installed = module_available("easyocr")
+    st_installed = module_available("sentence_transformers")
+    tf_installed = module_available("tensorflow")
+    yolo_installed = module_available("ultralytics")
+    transformers_installed = module_available("transformers")
+
+    llm_enabled = os.getenv("ENABLE_LOCAL_LLM", "false").strip().lower() in (
+        "true",
+        "1",
+        "yes",
+    )
 
     return {
         "status": "healthy" if (mobilenet_exists and yolo_exists) else "degraded",
@@ -148,9 +206,32 @@ def get_health():
             "mobilenet_classifier": "ready" if mobilenet_exists else "missing",
             "yolov8_tampering_detector": "ready" if yolo_exists else "missing",
             "model_config": "ready" if config_exists else "missing",
-            "sentence_transformers": "ready",
-            "easyocr": "ready",
-            "local_llm_qwen": "ready" if orchestrator.context_agent.llm_available else "rule_based_fallback",
+            "sentence_transformers": model_state("sentence_transformer", st_installed),
+            "easyocr": model_state("easyocr", easyocr_installed),
+            "local_llm_qwen": (
+                model_state("qwen_llm", transformers_installed)
+                if llm_enabled
+                else "disabled_rule_based_fallback"
+            ),
+        },
+        "runtime": {
+            "orchestrator": "initialized" if orchestrator_initialized() else "not_initialized",
+            "loaded_models": sorted(
+                name for name, entry in loaded.items() if entry["state"] == "loaded"
+            ),
+            "failed_models": {
+                name: entry["error"]
+                for name, entry in loaded.items()
+                if entry["state"] == "failed"
+            },
+            "packages_installed": {
+                "tensorflow": tf_installed,
+                "ultralytics": yolo_installed,
+                "easyocr": easyocr_installed,
+                "sentence_transformers": st_installed,
+                "transformers": transformers_installed,
+            },
+            "available_memory_mb": available_memory_mb(),
         },
         "storage": "supabase" if storage.use_supabase else "local_sqlite",
         "timestamp": datetime.utcnow().isoformat(),

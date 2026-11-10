@@ -16,7 +16,6 @@ import re
 import logging
 from typing import List, Dict, Any, Tuple, Optional
 import numpy as np
-from sentence_transformers import SentenceTransformer
 
 logger = logging.getLogger("comparison_agent")
 logging.basicConfig(level=logging.INFO)
@@ -24,9 +23,10 @@ logging.basicConfig(level=logging.INFO)
 _EMBEDDING_MODEL = None
 
 
-def get_embedding_model() -> SentenceTransformer:
+def get_embedding_model():
     global _EMBEDDING_MODEL
     if _EMBEDDING_MODEL is None:
+        from sentence_transformers import SentenceTransformer
         logger.info("Loading SentenceTransformer all-MiniLM-L6-v2...")
         _EMBEDDING_MODEL = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
         logger.info("SentenceTransformer loaded.")

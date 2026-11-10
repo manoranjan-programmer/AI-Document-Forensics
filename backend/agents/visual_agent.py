@@ -18,9 +18,6 @@ import logging
 from typing import List, Dict, Any, Optional
 import numpy as np
 from PIL import Image
-from ultralytics import YOLO
-import keras
-import tensorflow as tf
 
 from tools.image_processor import (
     load_image_for_mobilenet,
@@ -57,6 +54,8 @@ def get_model_config(config_path: str) -> Dict[str, Any]:
 def get_mobilenet_model(model_path: str):
     global _MOBILENET_MODEL
     if _MOBILENET_MODEL is None:
+        import keras
+        import tensorflow as tf
         logger.info(f"Loading MobileNetV2 model from {model_path}...")
 
         def preprocess_input(x):
@@ -73,6 +72,7 @@ def get_mobilenet_model(model_path: str):
 def get_yolo_model(model_path: str):
     global _YOLO_MODEL
     if _YOLO_MODEL is None:
+        from ultralytics import YOLO
         logger.info(f"Loading YOLOv8 tampering detection model from {model_path}...")
         _YOLO_MODEL = YOLO(model_path)
         logger.info("YOLOv8 model loaded successfully.")
