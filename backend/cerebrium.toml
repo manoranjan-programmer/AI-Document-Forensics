@@ -1,0 +1,25 @@
+[cerebrium.deployment]
+name = "document-forensics-api"
+python_version = "3.11"
+disable_auth = true          # remove later if you want token auth
+include = ["*"]
+exclude = [".*"]
+
+[cerebrium.runtime.custom]
+port = 5000
+entrypoint = ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "5000"]
+healthcheck_endpoint = "/health"
+
+[cerebrium.hardware]
+cpu = 2
+memory = 8.0
+compute = "CPU"
+
+[cerebrium.scaling]
+min_replicas = 0
+max_replicas = 1
+
+[cerebrium.dependencies.pip]
+fastapi = "latest"
+uvicorn = "latest"
+# add your other packages here (torch, transformers, etc.)

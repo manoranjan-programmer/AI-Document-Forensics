@@ -1,0 +1,25 @@
+name: Cerebrium Deployment
+on:
+  push:
+    branches:
+      - master        # change to main if that's your branch
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: prod
+    env:
+      CEREBRIUM_SERVICE_ACCOUNT_TOKEN: ${{ secrets.CEREBRIUM_SERVICE_ACCOUNT_TOKEN }}
+      CEREBRIUM_PROJECT_ID: ${{ secrets.CEREBRIUM_PROJECT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+      - name: Install Cerebrium
+        run: pip install cerebrium
+      - name: Set Cerebrium Project ID
+        run: cerebrium project set ${{ secrets.CEREBRIUM_PROJECT_ID }}
+      - name: Deploy App
+        run: cerebrium deploy
