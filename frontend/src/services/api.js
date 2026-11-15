@@ -3,7 +3,7 @@
  */
 
 // Uses Vite proxy '/api' by default to eliminate CORS, or explicit VITE_API_URL if provided
-const API_BASE_URL = import.meta.env.VITE_API_URL || "/api";
+const API_BASE_URL = (import.meta.env.VITE_API_URL || "/api").replace(/\/+$/, "");
 
 export const api = {
   getBaseUrl() {
@@ -18,11 +18,11 @@ export const api = {
     const normalized = relativePath.replace(/\\/g, "/");
     if (normalized.includes("outputs/")) {
       const sub = normalized.split("outputs/")[1];
-      return `/static/outputs/${sub}`;
+      return `${API_BASE_URL}/static/outputs/${sub}`;
     }
     if (normalized.includes("uploads/")) {
       const sub = normalized.split("uploads/")[1];
-      return `/static/uploads/${sub}`;
+      return `${API_BASE_URL}/static/uploads/${sub}`;
     }
     return `${API_BASE_URL}/${normalized}`;
   },
